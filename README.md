@@ -1,22 +1,17 @@
 # Web portal to build Organic Farming Volunteering Community in Sri Lanka
 Project for SCS2108 Programming IV. 
 
-
- 
-# Web portal to build Organic Farming Volunteering Community in Sri Lanka
-(Project for SCS2108 Programming IV)
-
 **Group Details** 
 
 Group Number: 29 
 
 Group Members: 
 
-Member 	Index Number 	Registration Number 
-K.M.K.B. RANASINGHE (Leader) 	15001105 	2015/CS/110 
-M.N. THATHSARANI 	15001334 	2015/CS/133 
-D.P.W. JAYASURIYA 	15000631 	2015/CS/063 
-T.G.K. DHARMAWARDHANA 	15000321 	2015/CS/032 
+ |  Member  | 	Index Number  | 	Registration Number  |
+ |  K.M.K.B. RANASINGHE (Leader)  | 	15001105  | 	2015/CS/110  |
+ | M.N. THATHSARANI  | 	15001334  | 	2015/CS/133  | 
+ | D.P.W. JAYASURIYA |	15000631  | 	2015/CS/063  |
+ | T.G.K. DHARMAWARDHANA  |	 15000321  |	2015/CS/032 | 
 
 
 **Table of Content**
