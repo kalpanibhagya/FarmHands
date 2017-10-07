@@ -51,8 +51,8 @@
             <img class="first-slide" src="<?php echo base_url(); ?>assets/images/2.jpg" alt="First slide">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1>Example headline.</h1>
-                    <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+                    <h1 style="font-size: 500%">Farm_Hands</h1>
+                    <p style="font-size: 170%">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
                     <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
                 </div>
             </div>
@@ -61,9 +61,9 @@
             <img class="second-slide" src="<?php echo base_url(); ?>assets/images/3.jpg" alt="Second slide">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1>Another example headline.</h1>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                    <h1 style="font-size: 500%">Farm_Hands</h1>
+                    <p style="font-size: 170%">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
                 </div>
             </div>
         </div>
@@ -71,9 +71,9 @@
             <img class="third-slide" src="<?php echo base_url(); ?>assets/images/4.jpg" alt="Third slide">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1>One more for good measure.</h1>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                    <h1 style="font-size: 500%">Farm_Hands</h1>
+                    <p style="font-size: 170%">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
                 </div>
             </div>
         </div>
@@ -87,6 +87,12 @@
         <span class="sr-only">Next</span>
     </a>
 </div><!-- /.carousel -->
+<div class="container">
+    <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+</div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
