@@ -10,16 +10,12 @@
     <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
-        .peopleCarouselImg img {
-            width: 1349px;
-            height: 600px;
-            max-height: 600px;
+        .carousel-inner .item{
+            height:550px;
+            background-size:cover;
+            background-position: center center;
         }
-        
-        .carousel {
-            width: 1349px;
-            height: 600px;
-        }
+
     </style>
 
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -29,25 +25,37 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-default navbar navbar-inverse">
-        <div>
+<header>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <a class="navbar-brand" href="<?php echo base_url(); ?>">Farm_Hands</a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" style="font-size: xx-large;font-weight: bolder" href="<?php echo base_url(); ?>" >Farm_Hands</a>
             </div>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav" style="font-size: large">
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Farms</a></li>
-                    <li><a href="<?php echo base_url(); ?>About">About us</a></li>
+                    <li><a href="<?php echo base_url(); ?>about">About us</a></li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="<?php echo base_url(); ?>main">Sign up</a></li>
-                    <li><a href="<?php echo base_url(); ?>main/login">Login</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+                <form class="navbar-form navbar-right">
+                    <input type="text" style="height: 30px" class="form-control" placeholder="Username">
+                    <input type="text" style="height: 30px" class="form-control" placeholder="Password">
+                    <a class="btn btn-primary" style="height: 30px" href="<?php echo base_url(); ?>main/login" role="button">Login</a><br />
+                    <a href="forget.php">Forgot password?</a>
+                </form>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+</header>
+
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -57,8 +65,7 @@
         <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
-        <div class="item peopleCarouselImg active">
-            <img class="first-slide peopleCarouselImg" src="<?php echo base_url(); ?>assets/images/2.jpg" alt="First slide">
+        <div class="item active" style="background-image: url('<?php echo base_url(); ?>assets/images/farm.jpg')">
             <div class="container">
                 <div class="carousel-caption">
                     <h1 style="font-size: 500%">Farm_Hands</h1>
@@ -67,8 +74,7 @@
                 </div>
             </div>
         </div>
-        <div class="item peopleCarouselImg">
-            <img class="second-slide peopleCarouselImg" src="<?php echo base_url(); ?>assets/images/rice.jpg" alt="Second slide">
+        <div class="item" style="background-image: url('<?php echo base_url(); ?>assets/images/4.jpg')">
             <div class="container">
                 <div class="carousel-caption">
                     <h1 style="font-size: 500%">Farm_Hands</h1>
@@ -77,8 +83,7 @@
                 </div>
             </div>
         </div>
-        <div class="item peopleCarouselImg">
-            <img class="third-slide peopleCarouselImg" src="<?php echo base_url(); ?>assets/images/4.jpg" alt="Third slide">
+        <div class="item" style="background-image: url('<?php echo base_url(); ?>assets/images/rice.jpg')">
             <div class="container">
                 <div class="carousel-caption">
                     <h1 style="font-size: 500%">Farm_Hands</h1>
@@ -87,8 +92,7 @@
                 </div>
             </div>
         </div>
-        <div class="item peopleCarouselImg">
-            <img class="fourth-slide peopleCarouselImg" src="<?php echo base_url(); ?>assets/images/3.jpg" alt="Fourth slide">
+        <div class="item" style="background-image: url('<?php echo base_url(); ?>assets/images/3.jpg')">
             <div class="container">
                 <div class="carousel-caption">
                     <h1 style="font-size: 500%">Farm_Hands</h1>
