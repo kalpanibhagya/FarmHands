@@ -11,9 +11,14 @@
 
     <style>
         .peopleCarouselImg img {
-            width: 1366px;
-            height: 617px;
-            max-height: 617px;
+            width: 1349px;
+            height: 600px;
+            max-height: 600px;
+        }
+        
+        .carousel {
+            width: 1349px;
+            height: 600px;
         }
     </style>
 
