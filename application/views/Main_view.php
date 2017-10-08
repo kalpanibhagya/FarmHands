@@ -25,7 +25,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Farms</a></li>
-                <li><a href="#">About us</a></li>
+                <li><a href="<?php echo base_url(); ?>About">About us</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="<?php echo base_url(); ?>main/login">Login</a></li>
@@ -39,7 +39,7 @@
             <div class="col-md-4 col-md-offset-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title text-center">Register as a Member</h3>
+                        <h3 class="panel-title text-center" style="font-weight: bolder">New to Farm_Hands? Sign up</h3>
                     </div>
                     <div class="panel-body">
                         <form method="post" action="<?php echo base_url()?>main/form_validation">
@@ -66,7 +66,7 @@
                             <div class="form-group text-center">
                                 <input type="submit" class="btn btn-info" name="Submit" value="Submit">
                                 <br/>
-                                <a href="login.php">Already have an account?</a>
+                                <a href="<?php echo base_url(); ?>main/login">Already have an account?</a>
                             </div>
                         </form>
                     </div>

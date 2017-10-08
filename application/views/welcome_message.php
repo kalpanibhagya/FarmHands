@@ -39,7 +39,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Farms</a></li>
-                    <li><a href="#">About us</a></li>
+                    <li><a href="<?php echo base_url(); ?>About">About us</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="<?php echo base_url(); ?>main">Sign up</a></li>
