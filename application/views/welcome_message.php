@@ -15,6 +15,10 @@
             background-size:cover;
             background-position: center center;
         }
+        .bg-4 {
+            background-color: #2f2f2f; /* Black Gray */
+            color: #fff;
+        }
 
     </style>
 
@@ -47,8 +51,8 @@
                     <li><a href="<?php echo base_url(); ?>about">About us</a></li>
                 </ul>
                 <form class="navbar-form navbar-right" action="<?php echo base_url()?>main/login_validation" method="post">
-                    <input type="text" style="height: 30px" class="form-control" placeholder="Username">
-                    <input type="text" style="height: 30px" class="form-control" placeholder="Password">
+                    <div class="form-group"><input type="text" style="height: 30px" class="form-control" name="username" placeholder="Username"></div>
+                    <div class="form-group"><input type="password" style="height: 30px" class="form-control" name="password" placeholder="Password"></div>
                     <input type="submit" class="btn btn-primary" name="Login" value="Login" style="height: 30px"><br />
                     <a href="forget.php">Forgot password?</a><?php echo $this->session->flashdata('error'); ?><span class="text-danger"><?php echo form_error('username')?></span><span class="text-danger"><?php echo form_error('password')?></span>
                 </form>
@@ -111,12 +115,10 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-<div class="container">
-    <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    </footer>
-</div>
+<footer class="container-fluid bg-4 text-center">
+    <p class="pull-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+</footer>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

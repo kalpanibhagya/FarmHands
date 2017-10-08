@@ -43,7 +43,7 @@ class Main extends CI_Controller {
     }
 
     function login(){
-        $this->load->view('login');
+        $this->load->view('welcome_message');
     }
 
     function login_validation(){
