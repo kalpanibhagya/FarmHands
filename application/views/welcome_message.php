@@ -54,7 +54,7 @@
                     <div class="form-group"><input type="text" style="height: 30px" class="form-control" name="username" placeholder="Username"></div>
                     <div class="form-group"><input type="password" style="height: 30px" class="form-control" name="password" placeholder="Password"></div>
                     <input type="submit" class="btn btn-primary" name="Login" value="Login" style="height: 30px"><br />
-                    <a href="forget.php">Forgot password?</a><?php echo $this->session->flashdata('error'); ?><span class="text-danger"><?php echo form_error('username')?></span><span class="text-danger"><?php echo form_error('password')?></span>
+                    <a href="#">Forgot password?</a><?php echo $this->session->flashdata('error'); ?><span class="text-danger"><?php echo form_error('username')?></span><span class="text-danger"><?php echo form_error('password')?></span>
                 </form>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -72,8 +72,8 @@
         <div class="item active" style="background-image: url('<?php echo base_url(); ?>assets/images/farm.jpg')">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 style="font-size: 500%">Farm_Hands</h1>
-                    <p style="font-size: 170%">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
+                    <h1 style="font-size: 200%">Farm_Hands</h1>
+                    <p style="font-size: 100%">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
                     <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up today</a></p>
                 </div>
             </div>
@@ -81,8 +81,8 @@
         <div class="item" style="background-image: url('<?php echo base_url(); ?>assets/images/4.jpg')">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 style="font-size: 500%">Farm_Hands</h1>
-                    <p style="font-size: 170%">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
+                    <h1 style="font-size: 200%">Farm_Hands</h1>
+                    <p style="font-size: 100%">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
                     <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up today</a></p>
                 </div>
             </div>
@@ -90,8 +90,8 @@
         <div class="item" style="background-image: url('<?php echo base_url(); ?>assets/images/rice.jpg')">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 style="font-size: 500%">Farm_Hands</h1>
-                    <p style="font-size: 170%">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
+                    <h1 style="font-size: 200%">Farm_Hands</h1>
+                    <p style="font-size: 100%">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
                     <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up today</a></p>
                 </div>
             </div>
@@ -99,8 +99,8 @@
         <div class="item" style="background-image: url('<?php echo base_url(); ?>assets/images/3.jpg')">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 style="font-size: 500%">Farm_Hands</h1>
-                    <p style="font-size: 170%">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
+                    <h1 style="font-size: 200%">Farm_Hands</h1>
+                    <p style="font-size: 100%">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
                     <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up today</a></p>
                 </div>
             </div>
