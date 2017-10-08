@@ -27,7 +27,7 @@
                 <li><a href="#">About us</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Sign up</a></li>
+                <li><a href="<?php echo base_url(); ?>main">Sign up</a></li>
                 <li><a href="<?php echo base_url(); ?>main/login">Login</a></li>
             </ul>
         </div>
@@ -47,7 +47,7 @@
                 <div class="carousel-caption">
                     <h1 style="font-size: 500%">Farm_Hands</h1>
                     <p style="font-size: 170%">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up today</a></p>
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@
                 <div class="carousel-caption">
                     <h1 style="font-size: 500%">Farm_Hands</h1>
                     <p style="font-size: 170%">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up today</a></p>
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@
                 <div class="carousel-caption">
                     <h1 style="font-size: 500%">Farm_Hands</h1>
                     <p style="font-size: 170%">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up today</a></p>
                 </div>
             </div>
         </div>
