@@ -52,7 +52,7 @@
             </div>
         </div>
         <div class="item">
-            <img class="second-slide" src="<?php echo base_url(); ?>assets/images/3.jpg" alt="Second slide">
+            <img class="second-slide" src="<?php echo base_url(); ?>assets/images/rice.jpg" alt="Second slide">
             <div class="container">
                 <div class="carousel-caption">
                     <h1 style="font-size: 500%">Farm_Hands</h1>
