@@ -29,25 +29,25 @@
 
 </head>
 <body>
-<nav class="navbar navbar-default navbar navbar-inverse">
-    <div>
-        <div class="navbar-header">
-            <a class="navbar-brand" href="<?php echo base_url(); ?>">Farm_Hands</a>
-        </div>
+    <nav class="navbar navbar-default navbar navbar-inverse">
+        <div>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="<?php echo base_url(); ?>">Farm_Hands</a>
+            </div>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Farms</a></li>
-                <li><a href="#">About us</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="<?php echo base_url(); ?>main">Sign up</a></li>
-                <li><a href="<?php echo base_url(); ?>main/login">Login</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Farms</a></li>
+                    <li><a href="#">About us</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="<?php echo base_url(); ?>main">Sign up</a></li>
+                    <li><a href="<?php echo base_url(); ?>main/login">Login</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -106,7 +106,7 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
-</div><!-- /.carousel -->
+</div>
 <div class="container">
     <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
