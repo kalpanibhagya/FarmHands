@@ -65,7 +65,7 @@ class Main extends CI_Controller {
                 $this->session->set_userdata($session_data);
                 redirect(base_url().'main/enter');
             }else {
-                $this->session->set_flashdata('error', '<div class="alert alert-danger" role="alert">Invalid username or password!</div>');
+                $this->session->set_flashdata('error', 'Invalid username or password!');
                 redirect(base_url().'main/login');
             }
 

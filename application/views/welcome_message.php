@@ -46,11 +46,11 @@
                     <li><a href="#">Farms</a></li>
                     <li><a href="<?php echo base_url(); ?>about">About us</a></li>
                 </ul>
-                <form class="navbar-form navbar-right">
+                <form class="navbar-form navbar-right" action="<?php echo base_url()?>main/login_validation" method="post">
                     <input type="text" style="height: 30px" class="form-control" placeholder="Username">
                     <input type="text" style="height: 30px" class="form-control" placeholder="Password">
-                    <a class="btn btn-primary" style="height: 30px" href="<?php echo base_url(); ?>main/login" role="button">Login</a><br />
-                    <a href="forget.php">Forgot password?</a>
+                    <input type="submit" class="btn btn-primary" name="Login" value="Login" style="height: 30px"><br />
+                    <a href="forget.php">Forgot password?</a><?php echo $this->session->flashdata('error'); ?><span class="text-danger"><?php echo form_error('username')?></span><span class="text-danger"><?php echo form_error('password')?></span>
                 </form>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
