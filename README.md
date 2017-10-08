@@ -7,12 +7,10 @@ Group Number: 29
 
 Group Members: 
 
-| Member                            | Index Number  | Registration Number  |
-| ----------------------------------|:-------------:| --------------------:|
-| K.M.K.B. RANASINGHE (Leader)      | 15001105      |   2015/CS/110        |
-| M.N. THATHSARANI                  | 15001334      |   2015/CS/133        |
-| D.P.W. JAYASURIYA                 | 15000631      |   2015/CS/063        |
-| T.G.K. DHARMAWARDHANA             | 15000321      |   2015/CS/032        |
+* K.M.K.B. RANASINGHE (Leader)
+* M.N. THATHSARANI            
+* D.P.W. JAYASURIYA           
+* T.G.K. DHARMAWARDHANA       
 
 
 **Table of Content**
