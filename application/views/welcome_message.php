@@ -51,8 +51,8 @@
                     <input type="submit" class="btn btn-primary" name="Login" value="Login">
                     <a href="#">Forgot password?</a><?php echo $this->session->flashdata('error'); ?><span class="text-danger"><?php echo form_error('username')?></span><span class="text-danger"><?php echo form_error('password')?></span>
                 </form>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+            </div>
+        </div>
 </header>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
