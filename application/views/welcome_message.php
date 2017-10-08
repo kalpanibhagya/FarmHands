@@ -9,8 +9,18 @@
 
     <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
 
+    <style>
+        .peopleCarouselImg img {
+            width: 1366px;
+            height: 617px;
+            max-height: 617px;
+        }
+    </style>
+
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+
 
 </head>
 <body>
@@ -39,10 +49,11 @@
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <img class="first-slide" src="<?php echo base_url(); ?>assets/images/2.jpg" alt="First slide">
+        <div class="item peopleCarouselImg active">
+            <img class="first-slide peopleCarouselImg" src="<?php echo base_url(); ?>assets/images/2.jpg" alt="First slide">
             <div class="container">
                 <div class="carousel-caption">
                     <h1 style="font-size: 500%">Farm_Hands</h1>
@@ -51,8 +62,8 @@
                 </div>
             </div>
         </div>
-        <div class="item">
-            <img class="second-slide" src="<?php echo base_url(); ?>assets/images/rice.jpg" alt="Second slide">
+        <div class="item peopleCarouselImg">
+            <img class="second-slide peopleCarouselImg" src="<?php echo base_url(); ?>assets/images/rice.jpg" alt="Second slide">
             <div class="container">
                 <div class="carousel-caption">
                     <h1 style="font-size: 500%">Farm_Hands</h1>
@@ -61,8 +72,18 @@
                 </div>
             </div>
         </div>
-        <div class="item">
-            <img class="third-slide" src="<?php echo base_url(); ?>assets/images/4.jpg" alt="Third slide">
+        <div class="item peopleCarouselImg">
+            <img class="third-slide peopleCarouselImg" src="<?php echo base_url(); ?>assets/images/4.jpg" alt="Third slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1 style="font-size: 500%">Farm_Hands</h1>
+                    <p style="font-size: 170%">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
+                    <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up today</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item peopleCarouselImg">
+            <img class="fourth-slide peopleCarouselImg" src="<?php echo base_url(); ?>assets/images/3.jpg" alt="Fourth slide">
             <div class="container">
                 <div class="carousel-caption">
                     <h1 style="font-size: 500%">Farm_Hands</h1>
