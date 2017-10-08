@@ -45,11 +45,6 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav" style="font-size: large">
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Farms</a></li>
-                    <li><a href="<?php echo base_url(); ?>about">About us</a></li>
-                </ul>
                 <form class="navbar-form navbar-right" action="<?php echo base_url()?>main/login_validation" method="post">
                     <div class="form-group"><input type="text" style="height: 30px" class="form-control" name="username" placeholder="Username"></div>
                     <div class="form-group"><input type="password" style="height: 30px" class="form-control" name="password" placeholder="Password"></div>
