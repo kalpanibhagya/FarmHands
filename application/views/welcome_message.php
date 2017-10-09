@@ -115,6 +115,25 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+
+<div class="media">
+    <div class="media-left media-top">
+        <a href="#">
+            <img class="media-object" src="..." alt="...">
+        </a>
+    </div>
+    <div class="media-body">
+        <h4 class="media-heading">About FARM_HANDS</h4>
+        Want to live and learn on organic farms worldwide? Want to share your life with other like-minded people?
+
+        WWOOF is a worldwide movement linking volunteers with organic farmers and growers to promote cultural and educational experiences based on trust and non-monetary exchange, thereby helping to build a sustainable, global community.
+
+        As a volunteer (or WWOOFer as we call them) you will live alongside your host helping with daily tasks and experiencing life as a farmer.
+
+        As a host farm you will open your home to receive visitors from your own country or abroad who want to connect with the land and support the organic movement.
+    </div>
+</div>
+
 <footer class="container-fluid bg-4 text-center">
     <p class="pull-right"><a href="#">Back to top</a></p>
     <p>&copy; 2017 Farm_Hands. &middot; <a href="#">Privacy Policy</a> &middot; <a href="#">Terms</a></p>
