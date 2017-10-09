@@ -119,7 +119,7 @@
 <div class="media">
     <div class="media-left media-top">
         <a href="#">
-            <img class="media-object" src="..." alt="...">
+            <img class="media-object" src="<?php echo base_url();?>assets/images/about_farm_hands.jpg" alt="...">
         </a>
     </div>
     <div class="media-body">
