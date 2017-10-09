@@ -115,11 +115,11 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-
+<div class="container" style="margin: 30px">
 <div class="media">
     <div class="media-left media-top">
         <a href="#">
-            <img class="media-object" src="<?php echo base_url();?>assets/images/about_farm_hands.jpg" alt="...">
+            <img class="media-object" src="<?php echo base_url();?>assets/images/about_farm_hands.jpg" style="height: 100px; width: 100px" alt="...">
         </a>
     </div>
     <div class="media-body">
@@ -132,6 +132,7 @@
 
         As a host farm you will open your home to receive visitors from your own country or abroad who want to connect with the land and support the organic movement.
     </div>
+</div>
 </div>
 
 <footer class="container-fluid bg-4 text-center">
