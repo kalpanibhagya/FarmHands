@@ -29,6 +29,12 @@
             left: 0;
             z-index: -1;
         }
+
+        footer {
+            background-color: #555;
+            color: white;
+            padding: 15px;
+        }
     </style>
 
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>

@@ -46,6 +46,12 @@
             letter-spacing: -1px;
         }
 
+        footer {
+            background-color: #555;
+            color: white;
+            padding: 15px;
+        }
+
 
     </style>
 
