@@ -79,7 +79,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title text-center" style="font-weight: bolder">New to Farm_Hands? Sign up</h3>
+                        <h3 class="panel-title text-center" style="font-weight: bolder">New to Farm_Hands? Join Now</h3>
                     </div>
                     <div class="panel-body">
                         <form method="post" action="<?php echo base_url()?>main/form_validation">
@@ -130,7 +130,7 @@
                                 <span class="text-danger"><?php echo form_error('telephone')?></span>
                             </div>
                             <div class="form-group text-center">
-                                <input type="submit" class="btn btn-info" name="Sign up" value="Sign up">
+                                <input type="submit" class="btn btn-info" name="Join Now" value="Join now">
                                 <br/>
                                 <a href="<?php echo base_url(); ?>main/login">Already have an account?</a>
                             </div>
@@ -143,7 +143,6 @@
 </section>
 
 <div class="page-bg">
-
 </div>
 
 <footer class="container-fluid bg-4 text-center">
