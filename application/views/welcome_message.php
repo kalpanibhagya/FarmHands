@@ -225,6 +225,9 @@
 </section>
 
 <footer class="container-fluid bg-4 text-center">
+    <a class="up-arrow" href="#" data-toggle="tooltip" title="TO TOP">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </a><br/>
     <div id="contact" class="container-fluid">
         <h2 class="text-center">CONTACT</h2>
         <div class="row">
@@ -252,7 +255,6 @@
             </div>
         </div>
     </div>
-    <p class="pull-right"><a href="#">Back to top</a></p>
     <p>&copy; 2017 Farm_Hands.  &middot; <a href="#">About</a> &middot; <a href="#">Blog</a> &middot; <a href="#">Farms</a> &middot; <a href="#">Privacy Policy</a> &middot; <a href="#">Terms</a></p>
 </footer>
 
