@@ -123,7 +123,7 @@
         </a>
     </div>
     <div class="media-body">
-        <h4 class="media-heading">About FARM_HANDS</h4>
+        <h4 class="media-heading" style="color: #3c763d">About FARM_HANDS</h4>
         Want to live and learn on organic farms worldwide? Want to share your life with other like-minded people?
 
         WWOOF is a worldwide movement linking volunteers with organic farmers and growers to promote cultural and educational experiences based on trust and non-monetary exchange, thereby helping to build a sustainable, global community.
