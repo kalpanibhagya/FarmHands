@@ -45,6 +45,11 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Farms</a></li>
+                    <li><a href="<?php echo base_url();?>about">About us</a></li>
+                </ul>
                 <form class="navbar-form navbar-right" action="<?php echo base_url()?>main/login_validation" method="post">
                     <div class="form-group"><input type="text" class="form-control" name="username" placeholder="Username"></div>
                     <div class="form-group"><input type="password" class="form-control" name="password" placeholder="Password"></div>
@@ -112,7 +117,7 @@
 </div>
 <footer class="container-fluid bg-4 text-center">
     <p class="pull-right"><a href="#">Back to top</a></p>
-    <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <p>&copy; 2017 Farm_Hands. &middot; <a href="#">Privacy Policy</a> &middot; <a href="#">Terms</a></p>
 </footer>
 
 
