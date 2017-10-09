@@ -14,13 +14,28 @@
             background-color: #2f2f2f; /* Black Gray */
             color: #fff;
         }
+
+        .page-bg {
+            background-image: url('<?php echo base_url(); ?>assets/images/background.jpg');
+            -webkit-filter: blur(5px);
+            -moz-filter: blur(5px);
+            -o-filter: blur(5px);
+            -ms-filter: blur(5px);
+            filter: blur(5px);
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
     </style>
 
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 </head>
 
-<body style="background-image: url('<?php echo base_url(); ?>assets/images/background.jpg')">
+<body>
 
 <header>
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -55,7 +70,7 @@
 <section style="margin-top: 100px">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-md-offset-4">
+            <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h3 class="panel-title text-center" style="font-weight: bolder">New to Farm_Hands? Sign up</h3>
@@ -67,6 +82,7 @@
                                 echo '<div class="alert alert-success" role="alert">Data Inserted Successfully</div>';
                             }
                             ?>
+
                             <div class="form-group">
                                 <label>Username</label>
                                 <input type="text" class="form-control" name="username">
@@ -119,6 +135,10 @@
         </div>
     </div>
 </section>
+
+<div class="page-bg">
+
+</div>
 
 <footer class="container-fluid bg-4 text-center">
     <p class="pull-right"><a href="#">Back to top</a></p>
