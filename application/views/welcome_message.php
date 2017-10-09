@@ -51,8 +51,11 @@
             color: white;
             padding: 15px;
         }
-
-
+/*
+        .bg-grey {
+            background-color: #f6f6f6;
+        }
+*/
     </style>
 
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -79,9 +82,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-left">
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#getstarted">Get Started</a></li>
                     <li><a href="#">Farms</a></li>
-                    <li><a href="<?php echo base_url();?>about">About us</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 <form class="navbar-form navbar-right" action="<?php echo base_url()?>main/login_validation" method="post">
                     <div class="form-group"><input type="text" class="form-control" name="username" placeholder="Username"></div>
@@ -152,6 +156,7 @@
     <br/>
 
     <div class="container marketing">
+        <div id="about">
         <div class="row featurette" style="margin-top: 30px">
             <div class="col-md-7">
                 <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
@@ -161,10 +166,10 @@
                 <img class="featurette-image img-responsive center-block" src="<?php echo base_url(); ?>assets/images/about_farm_hands.jpg" alt="Generic placeholder image">
             </div>
         </div>
-
+        </div>
         <hr class="featurette-divider">
 
-        <div class="row">
+        <div id="getstarted" class="row">
             <h1 style="color: #3c763d;font-weight: bolder;margin-bottom: 30px" class="text-center">Want to volunteer for the orgranic farms and learn new thing?</h1>
             <div class="col-lg-4">
                 <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
@@ -214,13 +219,41 @@
 
     </div>
 
+    <!-- Container (Contact Section) -->
 
 
 </section>
 
 <footer class="container-fluid bg-4 text-center">
+    <div id="contact" class="container-fluid">
+        <h2 class="text-center">CONTACT</h2>
+        <div class="row">
+            <div class="col-sm-5">
+                <p>Contact us and we'll get back to you within 24 hours.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+            </div>
+            <div class="col-sm-7 slideanim">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <p class="pull-right"><a href="#">Back to top</a></p>
-    <p>&copy; 2017 Farm_Hands. &middot; <a href="#">Privacy Policy</a> &middot; <a href="#">Terms</a></p>
+    <p>&copy; 2017 Farm_Hands.  &middot; <a href="#">About</a> &middot; <a href="#">Blog</a> &middot; <a href="#">Farms</a> &middot; <a href="#">Privacy Policy</a> &middot; <a href="#">Terms</a></p>
 </footer>
 
 
