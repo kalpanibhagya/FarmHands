@@ -19,6 +19,33 @@
             background-color: #2f2f2f; /* Black Gray */
             color: #fff;
         }
+        .marketing .col-lg-4 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .marketing h2 {
+            font-weight: normal;
+        }
+        .marketing .col-lg-4 p {
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+
+
+        /* Featurettes
+        ------------------------- */
+
+        .featurette-divider {
+            margin: 80px 0; /* Space out the Bootstrap <hr> more */
+        }
+
+        /* Thin out the marketing headings */
+        .featurette-heading {
+            font-weight: 300;
+            line-height: 1;
+            letter-spacing: -1px;
+        }
+
 
     </style>
 
@@ -60,6 +87,7 @@
         </div>
 </header>
 
+<section>
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -72,8 +100,8 @@
         <div class="item active" style="background-image: url('<?php echo base_url(); ?>assets/images/farm.jpg')">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 style="font-size: 200%">Farm_Hands</h1>
-                    <p style="font-size: 100%">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
+                    <h1 style="font-size: xx-large">Farm_Hands</h1>
+                    <p style="font-size: large">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
                     <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up today</a></p>
                 </div>
             </div>
@@ -81,8 +109,8 @@
         <div class="item" style="background-image: url('<?php echo base_url(); ?>assets/images/4.jpg')">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 style="font-size: 200%">Farm_Hands</h1>
-                    <p style="font-size: 100%">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
+                    <h1 style="font-size: xx-large">Farm_Hands</h1>
+                    <p style="font-size: large">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
                     <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up today</a></p>
                 </div>
             </div>
@@ -90,8 +118,8 @@
         <div class="item" style="background-image: url('<?php echo base_url(); ?>assets/images/rice.jpg')">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 style="font-size: 200%">Farm_Hands</h1>
-                    <p style="font-size: 100%">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
+                    <h1 style="font-size: xx-large">Farm_Hands</h1>
+                    <p style="font-size: large">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
                     <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up today</a></p>
                 </div>
             </div>
@@ -99,8 +127,8 @@
         <div class="item" style="background-image: url('<?php echo base_url(); ?>assets/images/3.jpg')">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 style="font-size: 200%">Farm_Hands</h1>
-                    <p style="font-size: 100%">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
+                    <h1 style="font-size: xx-large">Farm_Hands</h1>
+                    <p style="font-size: large">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
                     <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up today</a></p>
                 </div>
             </div>
@@ -115,25 +143,74 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-<div class="container" style="margin: 30px">
-<div class="media">
-    <div class="media-left media-top">
-        <a href="#">
-            <img class="media-object" src="<?php echo base_url();?>assets/images/about_farm_hands.jpg" style="height: 100px; width: 100px" alt="...">
-        </a>
+    <br/>
+
+    <div class="container marketing">
+        <div class="row featurette" style="margin-top: 30px">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive center-block" src="<?php echo base_url(); ?>assets/images/about_farm_hands.jpg" alt="Generic placeholder image">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row">
+            <h1 style="color: #3c763d;font-weight: bolder;margin-bottom: 30px" class="text-center">Want to volunteer for the orgranic farms and learn new thing?</h1>
+            <div class="col-lg-4">
+                <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                <h2>Heading</h2>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                <h2>Heading</h2>
+                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                <h2>Heading</h2>
+                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 col-md-push-5">
+                <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5 col-md-pull-7">
+                <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+        
     </div>
-    <div class="media-body">
-        <h4 class="media-heading" style="color: #3c763d">About FARM_HANDS</h4>
-        Want to live and learn on organic farms worldwide? Want to share your life with other like-minded people?
 
-        WWOOF is a worldwide movement linking volunteers with organic farmers and growers to promote cultural and educational experiences based on trust and non-monetary exchange, thereby helping to build a sustainable, global community.
 
-        As a volunteer (or WWOOFer as we call them) you will live alongside your host helping with daily tasks and experiencing life as a farmer.
 
-        As a host farm you will open your home to receive visitors from your own country or abroad who want to connect with the land and support the organic movement.
-    </div>
-</div>
-</div>
+</section>
 
 <footer class="container-fluid bg-4 text-center">
     <p class="pull-right"><a href="#">Back to top</a></p>
