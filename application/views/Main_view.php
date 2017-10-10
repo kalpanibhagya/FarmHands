@@ -37,8 +37,8 @@
         }
 
         .block{
-            display: inline-flex;
-            width: 100%;
+            display: inline-block;
+            width: 49%;
         }
     </style>
 
@@ -104,8 +104,7 @@
                                     <input type="email" class="form-control" name="confirm_password">
                                     <span class="text-danger"><?php echo form_error('email')?></span>
                                 </div>
-                            </div>
-                            <div class="block">
+
                             <div class="form-group">
                                 <label>Password</label>
                                 <input type="password" class="form-control" name="password">
@@ -128,8 +127,8 @@
                                 <input type="email" class="form-control" name="lname">
                                 <span class="text-danger"><?php echo form_error('last_name')?></span>
                             </div>
-                            </div>
-                            <div class="block">
+
+
                             <div class="form-group">
                                 <label>Address</label>
                                 <input type="text" class="form-control" name="address">
@@ -142,9 +141,9 @@
                             </div>
                             </div>
                             <div class="form-group text-center">
-                                <input type="submit" class="btn btn-info" name="Join Now" value="Join now">
+                                <input style="margin-bottom: 10px" type="submit" class="btn btn-info" name="Join Now" value="Join now">
                                 <br/>
-                                <a href="<?php echo base_url(); ?>main/login">Already have an account?</a>
+                                Already have an account?<a href="<?php echo base_url(); ?>main/login"> Log In</a>
                             </div>
                         </form>
                     </div>
@@ -158,14 +157,10 @@
 </div>
 
 <footer class="container-fluid bg-4 text-center">
-    <a class="up-arrow" href="#myCarousel" data-toggle="tooltip" title="Back to top">
-        <span class="glyphicon glyphicon-chevron-up"></span>
-    </a><br/>
-
     <p>&copy; 2017 Farm_Hands.  &middot; <a href="#">About</a> &middot; <a href="#">Blog</a> &middot; <a href="#">Farms</a> &middot; <a href="#">Privacy Policy</a> &middot; <a href="#">Terms</a></p>
 </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
 </body>
 </html>
