@@ -77,7 +77,6 @@ class Main extends CI_Controller {
 
     function enter(){
         if ($this->session->userdata('username') != ''){
-            echo '<h2>Past Transactions</h2>';
             $this->load->view('dashboard');
             echo '<label><a href = "'.base_url().'main/logout">Logout</a></label>';
         } else {
