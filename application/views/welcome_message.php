@@ -97,7 +97,7 @@
         </div>
 </header>
 
-<section style="margin-top: 51px">
+<section style="margin-top: 51px;background-color: black">
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
