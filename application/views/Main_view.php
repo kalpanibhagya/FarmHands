@@ -35,6 +35,11 @@
             color: white;
             padding: 15px;
         }
+
+        .block{
+            display: inline-flex;
+            width: 100%;
+        }
     </style>
 
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -88,12 +93,19 @@
                                 echo '<div class="alert alert-success" role="alert">Data Inserted Successfully</div>';
                             }
                             ?>
-
-                            <div class="form-group">
-                                <label>Username</label>
-                                <input type="text" class="form-control" name="username">
-                                <span class="text-danger"><?php echo form_error('username')?></span>
+                            <div class="block">
+                                <div class="form-group">
+                                    <label>Username</label>
+                                    <input type="text" class="form-control" name="username">
+                                    <span class="text-danger"><?php echo form_error('username')?></span>
+                                </div>
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="email" class="form-control" name="confirm_password">
+                                    <span class="text-danger"><?php echo form_error('email')?></span>
+                                </div>
                             </div>
+                            <div class="block">
                             <div class="form-group">
                                 <label>Password</label>
                                 <input type="password" class="form-control" name="password">
@@ -104,11 +116,8 @@
                                 <input type="password" class="form-control" name="confirm_password">
                                 <span class="text-danger"><?php echo form_error('confirm_password')?></span>
                             </div>
-                            <div class="form-group">
-                                <label>Email</label>
-                                <input type="email" class="form-control" name="confirm_password">
-                                <span class="text-danger"><?php echo form_error('email')?></span>
                             </div>
+                            <div class="block">
                             <div class="form-group">
                                 <label>First Name</label>
                                 <input type="text" class="form-control" name="fname">
@@ -119,6 +128,8 @@
                                 <input type="email" class="form-control" name="lname">
                                 <span class="text-danger"><?php echo form_error('last_name')?></span>
                             </div>
+                            </div>
+                            <div class="block">
                             <div class="form-group">
                                 <label>Address</label>
                                 <input type="text" class="form-control" name="address">
@@ -128,6 +139,7 @@
                                 <label>Telephone</label>
                                 <input type="text" class="form-control" name="telephone">
                                 <span class="text-danger"><?php echo form_error('telephone')?></span>
+                            </div>
                             </div>
                             <div class="form-group text-center">
                                 <input type="submit" class="btn btn-info" name="Join Now" value="Join now">
@@ -146,10 +158,14 @@
 </div>
 
 <footer class="container-fluid bg-4 text-center">
-    <p class="pull-right"><a href="#">Back to top</a></p>
-    <p>&copy; 2017 Farm_Hands. &middot; <a href="#">Privacy Policy</a> &middot; <a href="#">Terms</a></p>
+    <a class="up-arrow" href="#myCarousel" data-toggle="tooltip" title="Back to top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </a><br/>
+
+    <p>&copy; 2017 Farm_Hands.  &middot; <a href="#">About</a> &middot; <a href="#">Blog</a> &middot; <a href="#">Farms</a> &middot; <a href="#">Privacy Policy</a> &middot; <a href="#">Terms</a></p>
 </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
 </body>
 </html>
