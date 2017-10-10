@@ -79,7 +79,7 @@
             </div>
         </div>
 </header>
-<section style="margin-top: 100px">
+<section id="form" style="margin-top: 100px">
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
@@ -153,6 +153,9 @@
 </div>
 
 <footer class="container-fluid bg-4 text-center">
+    <a class="up-arrow" href="#form" data-toggle="tooltip" title="Back to top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </a><br/>
     <p>&copy; 2017 Farm_Hands.  &middot; <a href="#">About</a> &middot; <a href="#">Blog</a> &middot; <a href="#">Farms</a> &middot; <a href="#">Privacy Policy</a> &middot; <a href="#">Terms</a></p>
 </footer>
 
