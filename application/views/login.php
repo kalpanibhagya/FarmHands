@@ -83,9 +83,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <div class="panel panel-default">
+                <div class="panel panel-primary">
                     <div class="panel-heading" style="height: 50px">
-                        <p class="panel-title text-center" style="font-weight: bolder;font-size: 25px;color: #3c763d">Farm_Hands</p>
+                        <p class="panel-title text-center" style="font-weight: bolder;font-size: 25px">Farm_Hands</p>
                     </div>
                     <div class="panel-body">
                         <?php
