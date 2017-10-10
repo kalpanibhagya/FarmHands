@@ -46,6 +46,10 @@ class Main extends CI_Controller {
         $this->load->view('welcome_message');
     }
 
+    function login2(){
+        $this->load->view('login');
+    }
+
     function login_validation(){
         $this->load->library('form_validation');
         $this->form_validation->set_rules('username', 'Username', 'required');

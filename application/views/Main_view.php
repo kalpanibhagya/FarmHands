@@ -74,7 +74,7 @@
                 </ul>
                 <form class="navbar-form navbar-right" action="<?php echo base_url()?>main/login_validation" method="post">
                     <a class="btn btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign Up</a>
-                    <a class="btn btn-primary" href="<?php echo base_url(); ?>main/login" role="button">Login</a>
+                    <a class="btn btn-primary" href="<?php echo base_url(); ?>main/login2" role="button">Login</a>
                 </form>
             </div>
         </div>
