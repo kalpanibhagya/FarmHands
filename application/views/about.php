@@ -42,10 +42,8 @@
                     <li><a href="<?php echo base_url();?>about">About us</a></li>
                 </ul>
                 <form class="navbar-form navbar-right" action="<?php echo base_url()?>main/login_validation" method="post">
-                    <div class="form-group"><input type="text" class="form-control" name="username" placeholder="Username"></div>
-                    <div class="form-group"><input type="password" class="form-control" name="password" placeholder="Password"></div>
-                    <input type="submit" class="btn btn-primary" name="Login" value="Login">
-                    <a href="#">Forgot password?</a><?php echo $this->session->flashdata('error'); ?><span class="text-danger"><?php echo form_error('username')?></span><span class="text-danger"><?php echo form_error('password')?></span>
+                    <a class="btn btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign Up</a>
+                    <a class="btn btn-primary" href="<?php echo base_url(); ?>main/login2" role="button">Login</a>
                 </form>
             </div>
         </div>
