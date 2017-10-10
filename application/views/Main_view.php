@@ -36,9 +36,12 @@
             padding: 15px;
         }
 
-        .block{
-            display: inline-block;
-            width: 49%;
+        .form-group input {
+            width: 80%;
+        }
+
+        .block {
+            margin: 40px;
         }
     </style>
 
@@ -83,8 +86,8 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title text-center" style="font-weight: bolder">New to Farm_Hands? Join Now</h3>
+                    <div class="panel-heading" style="height: 50px">
+                        <p class="panel-title text-center" style="font-weight: bolder;font-size: 25px;color: #3c763d">New to Farm_Hands? Join Now</p>
                     </div>
                     <div class="panel-body">
                         <form method="post" action="<?php echo base_url()?>main/form_validation">
@@ -93,7 +96,7 @@
                                 echo '<div class="alert alert-success" role="alert">Data Inserted Successfully</div>';
                             }
                             ?>
-                            <div class="block">
+                            <div class="block" align="center" style="margin-top: 10px">
                                 <div class="form-group">
                                     <label>Username</label>
                                     <input type="text" class="form-control" name="username">
@@ -104,41 +107,36 @@
                                     <input type="email" class="form-control" name="confirm_password">
                                     <span class="text-danger"><?php echo form_error('email')?></span>
                                 </div>
-
-                            <div class="form-group">
-                                <label>Password</label>
-                                <input type="password" class="form-control" name="password">
-                                <span class="text-danger"><?php echo form_error('password')?></span>
-                            </div>
-                            <div class="form-group">
-                                <label>Confirm Password</label>
-                                <input type="password" class="form-control" name="confirm_password">
-                                <span class="text-danger"><?php echo form_error('confirm_password')?></span>
-                            </div>
-                            </div>
-                            <div class="block">
-                            <div class="form-group">
-                                <label>First Name</label>
-                                <input type="text" class="form-control" name="fname">
-                                <span class="text-danger"><?php echo form_error('first_name')?></span>
-                            </div>
-                            <div class="form-group">
-                                <label>Last Name</label>
-                                <input type="email" class="form-control" name="lname">
-                                <span class="text-danger"><?php echo form_error('last_name')?></span>
-                            </div>
-
-
-                            <div class="form-group">
-                                <label>Address</label>
-                                <input type="text" class="form-control" name="address">
-                                <span class="text-danger"><?php echo form_error('address')?></span>
-                            </div>
-                            <div class="form-group">
-                                <label>Telephone</label>
-                                <input type="text" class="form-control" name="telephone">
-                                <span class="text-danger"><?php echo form_error('telephone')?></span>
-                            </div>
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input type="password" class="form-control" name="password">
+                                    <span class="text-danger"><?php echo form_error('password')?></span>
+                                </div>
+                                <div class="form-group">
+                                    <label>Confirm Password</label>
+                                    <input type="password" class="form-control" name="confirm_password">
+                                    <span class="text-danger"><?php echo form_error('confirm_password')?></span>
+                                </div>
+                                <div class="form-group">
+                                    <label>First Name</label>
+                                    <input type="text" class="form-control" name="fname">
+                                    <span class="text-danger"><?php echo form_error('first_name')?></span>
+                                </div>
+                                <div class="form-group">
+                                    <label>Last Name</label>
+                                    <input type="email" class="form-control" name="lname">
+                                    <span class="text-danger"><?php echo form_error('last_name')?></span>
+                                </div>
+                                <div class="form-group">
+                                    <label>Address</label>
+                                    <input type="textarea" class="form-control" name="address">
+                                    <span class="text-danger"><?php echo form_error('address')?></span>
+                                </div>
+                                <div class="form-group">
+                                    <label>Telephone</label>
+                                    <input type="text" class="form-control" name="telephone">
+                                    <span class="text-danger"><?php echo form_error('telephone')?></span>
+                                </div>
                             </div>
                             <div class="form-group text-center">
                                 <input style="margin-bottom: 10px" type="submit" class="btn btn-info" name="Join Now" value="Join now">
