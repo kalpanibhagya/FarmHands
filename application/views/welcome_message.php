@@ -83,7 +83,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-left">
                     <li><a href="#about">About</a></li>
-                    <li><a href="#getstarted">Get Started</a></li>
+                    <li><a href="#getstarted">Getting Started</a></li>
                     <li><a href="#">Farms</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -91,7 +91,7 @@
                     <div class="form-group"><input type="text" class="form-control" name="username" placeholder="Username"></div>
                     <div class="form-group"><input type="password" class="form-control" name="password" placeholder="Password"></div>
                     <input type="submit" class="btn btn-primary" name="Login" value="Login">
-                    <a href="#">Forgot password?</a><?php echo $this->session->flashdata('error'); ?><span class="text-danger"><?php echo form_error('username')?></span><span class="text-danger"><?php echo form_error('password')?></span>
+                    <a href="#" style="font-size: small"> Forgot password?</a><?php echo $this->session->flashdata('error'); ?><span class="text-danger"><?php echo form_error('username')?></span><span class="text-danger"><?php echo form_error('password')?></span>
                 </form>
             </div>
         </div>
