@@ -97,7 +97,7 @@
         </div>
 </header>
 
-<section style="margin-top: 51px">
+<section style="margin-top: 51px;background-color: black">
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -170,7 +170,7 @@
         <hr class="featurette-divider">
 
         <div id="getstarted" class="row">
-            <h1 style="color: #3c763d;font-weight: bolder;margin-bottom: 30px" class="text-center">Want to volunteer for the orgranic farms and learn new thing?</h1>
+            <h1 style="color: white;font-weight: bolder;margin-bottom: 30px" class="text-center">Want to volunteer for the orgranic farms and learn new thing?</h1>
             <div class="col-lg-4">
                 <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                 <h2>Heading</h2>
@@ -190,7 +190,7 @@
                 <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
             </div>
 
-            <h1 style="color: #3c763d;font-weight: bolder;margin-bottom: 30px" class="text-center">Want to volunteer for the orgranic farms and learn new thing?</h1>
+            <h1 style="color: white;font-weight: bolder;margin-bottom: 30px" class="text-center">Want to volunteer for the orgranic farms and learn new thing?</h1>
             <div class="col-lg-4">
                 <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                 <h2>Heading</h2>
@@ -250,7 +250,7 @@
             </div>
         </div>
     </div>
-    <p>&copy; 2017 Farm_Hands.  &middot; <a href="#">About</a> &middot; <a href="#">Blog</a> &middot; <a href="#">Farms</a> &middot; <a href="#">Privacy Policy</a> &middot; <a href="#">Terms</a></p>
+    <p>&copy; 2017 Farm_Hands.  &middot; <a href="<?php echo base_url();?>About">About</a> &middot; <a href="#">Blog</a> &middot; <a href="#">Farms</a> &middot; <a href="#">Privacy Policy</a> &middot; <a href="#">Terms</a></p>
 </footer>
 
 

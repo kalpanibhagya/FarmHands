@@ -74,72 +74,40 @@
                 </ul>
                 <form class="navbar-form navbar-right" action="<?php echo base_url()?>main/login_validation" method="post">
                     <a class="btn btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign Up</a>
-                    <a class="btn btn-primary" href="<?php echo base_url(); ?>main/login2" role="button">Login</a>
+                    <a class="btn btn-primary" href="<?php echo base_url(); ?>main/login" role="button">Login</a>
                 </form>
             </div>
         </div>
 </header>
-<section id="form" style="margin-top: 100px">
+<section style="margin-top: 100px">
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-primary">
                     <div class="panel-heading" style="height: 50px">
-                        <p class="panel-title text-center" style="font-weight: bolder;font-size: 25px">New to Farm_Hands? Join Now</p>
+                        <p class="panel-title text-center" style="font-weight: bolder;font-size: 25px">Farm_Hands</p>
                     </div>
                     <div class="panel-body">
-                        <form method="post" action="<?php echo base_url()?>main/form_validation">
-                            <?php
-                            if ($this->uri->segment(2) == 'inserted'){
-                                echo '<div class="alert alert-success" role="alert">Data Inserted Successfully</div>';
-                            }
-                            ?>
+                        <?php
+                        echo $this->session->flashdata('error');
+                        ?>
+                        <form method="post" action="<?php echo base_url()?>main/login_validation">
                             <div class="block" align="center" style="margin-top: 10px">
                                 <div class="form-group">
                                     <label>Username</label>
-                                    <input type="text" class="form-control" name="username">
+                                    <input type="email" class="form-control" name="username">
                                     <span class="text-danger"><?php echo form_error('username')?></span>
-                                </div>
-                                <div class="form-group">
-                                    <label>Email</label>
-                                    <input type="email" class="form-control" name="confirm_password">
-                                    <span class="text-danger"><?php echo form_error('email')?></span>
                                 </div>
                                 <div class="form-group">
                                     <label>Password</label>
                                     <input type="password" class="form-control" name="password">
                                     <span class="text-danger"><?php echo form_error('password')?></span>
                                 </div>
-                                <div class="form-group">
-                                    <label>Confirm Password</label>
-                                    <input type="password" class="form-control" name="confirm_password">
-                                    <span class="text-danger"><?php echo form_error('confirm_password')?></span>
-                                </div>
-                                <div class="form-group">
-                                    <label>First Name</label>
-                                    <input type="text" class="form-control" name="fname">
-                                    <span class="text-danger"><?php echo form_error('first_name')?></span>
-                                </div>
-                                <div class="form-group">
-                                    <label>Last Name</label>
-                                    <input type="email" class="form-control" name="lname">
-                                    <span class="text-danger"><?php echo form_error('last_name')?></span>
-                                </div>
-                                <div class="form-group">
-                                    <label>Address</label>
-                                    <input type="textarea" class="form-control" name="address">
-                                    <span class="text-danger"><?php echo form_error('address')?></span>
-                                </div>
-                                <div class="form-group">
-                                    <label>Telephone</label>
-                                    <input type="text" class="form-control" name="telephone">
-                                    <span class="text-danger"><?php echo form_error('telephone')?></span>
-                                </div>
-                            </div>
                             <div class="form-group text-center">
-                                <input style="margin-bottom: 10px" type="submit" class="btn btn-primary" name="Join Now" value="Join now">
+                                <input style="margin-bottom: 10px" type="submit" class="btn btn-primary" name="Login" value="Login">
                                 <br/>
-                                Already have an account?<a href="<?php echo base_url(); ?>main/login"> Log In</a>
+                                <a href="#">Forgot Password ?</a><br/>
+                                Not a member ?<a href="<?php echo base_url(); ?>main"> Join Now</a>
                             </div>
                         </form>
                     </div>
@@ -153,13 +121,10 @@
 </div>
 
 <footer class="container-fluid bg-4 text-center">
-    <a class="up-arrow" href="#form" data-toggle="tooltip" title="Back to top">
-        <span class="glyphicon glyphicon-chevron-up"></span>
-    </a><br/>
     <p>&copy; 2017 Farm_Hands.  &middot; <a href="#">About</a> &middot; <a href="#">Blog</a> &middot; <a href="#">Farms</a> &middot; <a href="#">Privacy Policy</a> &middot; <a href="#">Terms</a></p>
 </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
 </body>
 </html>
