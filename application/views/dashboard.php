@@ -185,7 +185,15 @@
                         </li>
                     </ul>
                 </li>
-
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Forum</a>
+                </li>
+                <li>
+                    <a href="#">Farms</a>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -203,6 +211,45 @@
                             <i></i> Dashboard
                         </li>
                     </ol>
+                </div>
+                <div class="col-md-8">
+                    <div class="panel panel-green">
+                        <div class="panel-body">
+                            <h2 style="color: #3c763d">Oslo Farm, Anuradhapura</h2>
+                            <p>2 days of volunteering. bla bla bla bla blablablaaa</p>
+                        </div>
+                        <div class="panel-footer" align="right">
+                            <a href="#">like</a>
+                            <a href="#">dislike</a>
+                            <a href="#">comment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="panel panel-green">
+                        <div class="panel-body">
+                            <h2 style="color: #3c763d">Oslo Farm, Anuradhapura</h2>
+                            <p>2 days of volunteering. bla bla bla bla blablablaaa</p>
+                        </div>
+                        <div class="panel-footer" align="right">
+                            <a href="#">like</a>
+                            <a href="#">dislike</a>
+                            <a href="#">comment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="panel panel-green">
+                        <div class="panel-body">
+                            <h2 style="color: #3c763d">Oslo Farm, Anuradhapura</h2>
+                            <p>2 days of volunteering. bla bla bla bla blablablaaa</p>
+                        </div>
+                        <div class="panel-footer" align="right">
+                            <a href="#">like</a>
+                            <a href="#">dislike</a>
+                            <a href="#">comment</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
