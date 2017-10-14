@@ -147,13 +147,13 @@
             </li>
         </ul>
         <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <div class="collapse navbar-collapse navbar-ex1-collapse" style="background-color: black">
             <ul class="nav navbar-nav side-nav">
                 <li class="active">
                     <a href="index.html">Dashboard</a>
                 </li>
                 <li>
-                    <a href="javascript:" data-toggle="collapse" data-target="#demo">Dropdown</a>
+                    <a href="javascript:" data-toggle="collapse" data-target="#demo">Upcoming Events</a>
                     <ul id="demo" class="collapse">
                         <li>
                             <a href="#">Dropdown Item</a>
@@ -164,7 +164,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="javascript:" data-toggle="collapse" data-target="#demo2">Dropdown</a>
+                    <a href="javascript:" data-toggle="collapse" data-target="#demo2">Group Chats</a>
                     <ul id="demo2" class="collapse">
                         <li>
                             <a href="#">Dropdown Item</a>
