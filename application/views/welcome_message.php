@@ -157,35 +157,36 @@
 
     <div class="container marketing">
         <div id="about">
-        <div class="row featurette" style="margin-top: 30px">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            </div>
-            <div class="col-md-5">
-                <img class="featurette-image img-responsive center-block" src="<?php echo base_url(); ?>assets/images/about_farm_hands.jpg" alt="Generic placeholder image">
+            <div class="row featurette" style="margin-top: 30px">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive center-block" src="<?php echo base_url(); ?>assets/images/about_farm_hands.jpg" alt="Generic placeholder image">
+                </div>
             </div>
         </div>
-        </div>
+
         <hr class="featurette-divider">
 
         <div id="getstarted" class="row">
             <h1 style="color: forestgreen;font-weight: bolder;margin-bottom: 30px" class="text-center">Want to volunteer for the orgranic farms and learn new thing?</h1>
             <div class="col-lg-4">
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/volunteer.jpg" alt="Generic placeholder image" width="140" height="140">
-                <h2>Step 1</h2>
+                <h2 style="font-weight: bold">Step 1</h2>
                 <p>Sign up as a Volunteer</p>
                 <p><a class="btn btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/calendar.png" alt="Generic placeholder image" width="140" height="140">
-                <h2>Step 2</h2>
+                <h2 style="font-weight: bold">Step 2</h2>
                 <p>Join an event and find new friends</p>
                 <p><a class="btn btn-primary" href="#" role="button">Events &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/suitcase.png" alt="Generic placeholder image" width="140" height="140">
-                <h2>Step 3</h2>
+                <h2 style="font-weight: bold">Step 3</h2>
                 <p>Find your host, travel and enjoy volunteering!!</p>
                 <p><a class="btn btn-primary" href="#" role="button">Hosts &raquo;</a></p>
             </div>
@@ -194,19 +195,19 @@
             <h1 style="color: forestgreen;font-weight: bolder;margin-bottom: 30px" class="text-center">Want a help for you orgranic farms?</h1>
             <div class="col-lg-4">
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/farmer.png" alt="Generic placeholder image" width="140" height="140">
-                <h2>Step 1</h2>
+                <h2 style="font-weight: bold">Step 1</h2>
                 <p>Sign up as a Farmer</p><br/>
                 <p><a class="btn btn-warning" href="#" role="button">Sign up &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/farm.png" alt="Generic placeholder image" width="140" height="140">
-                <h2>Step 2</h2>
+                <h2 style="font-weight: bold">Step 2</h2>
                 <p>Register your farms in our website</p><br/>
                 <p><a class="btn btn-warning" href="#" role="button">Add a Farm &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/pumpkin.png" alt="Generic placeholder image" width="140" height="140">
-                <h2>Step 3</h2>
+                <h2 style="font-weight: bold">Step 3</h2>
                 <p>Post an event, Gather Volunteers , Work with new friends and Increase your crops</p>
                 <p><a class="btn btn-warning" href="#" role="button">Sign up &raquo;</a></p>
             </div>
@@ -215,25 +216,39 @@
             <h1 style="color: forestgreen;font-weight: bolder;margin-bottom: 30px" class="text-center">Want to share your place with volunteers?</h1>
             <div class="col-lg-4">
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/home.png" alt="Generic placeholder image" width="140" height="140">
-                <h2>Step 1</h2>
+                <h2 style="font-weight: bold">Step 1</h2>
                 <p>Sign up as a Volunteer house</p>
                 <p><a class="btn btn-primary" href="#" role="button">Sign up &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/certificate.png" alt="Generic placeholder image" width="140" height="140">
-                <h2>Step 2</h2>
+                <h2 style="font-weight: bold">Step 2</h2>
                 <p>Get your Farm_Hands Volunteer House License</p>
                 <p><a class="btn btn-primary" href="#" role="button">Get License &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/partnership.png" alt="Generic placeholder image" width="140" height="140">
-                <h2>Step 3</h2>
+                <h2 style="font-weight: bold">Step 3</h2>
                 <p>Receive Farm_Handers</p>
                 <p><a class="btn btn-primary" href="#" role="button">Set status &raquo;</a></p>
             </div>
         </div>
 
         <hr class="featurette-divider">
+
+        <div id="about">
+            <div class="row featurette" style="margin: 30px">
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive center-block" src="<?php echo base_url(); ?>assets/images/Donate.png" alt="Generic placeholder image" height="250px" width="250px">
+                </div>
+                <div class="col-md-7">
+                    <h2 class="featurette-heading" style="color: red">Donate to Farm_Hands</h2>
+                    <p class="lead">We ' re a Non-profit Organization. Your gifts help us connect good people with good causes.</p>
+                    <p><a class="btn btn-success" href="#" role="button">Donate &raquo;</a></p>
+                </div>
+
+            </div>
+        </div>
     </div>
 
     <!-- Container (Contact Section) -->
@@ -274,6 +289,7 @@
                         </div>
                     </div>
                 </div>
+                <br/>
             </div>
             <div class="col-sm-7 slideanim">
                 <div class="row">
@@ -291,6 +307,7 @@
                     </div>
                 </div>
             </div>
+            <br/>
         </div>
     </div>
     <p>&copy; 2017 Farm_Hands.  &middot; <a href="<?php echo base_url();?>About">About</a> &middot; <a href="#">Blog</a> &middot; <a href="#">Farms</a> &middot; <a href="#">Privacy Policy</a> &middot; <a href="#">Terms</a></p>
