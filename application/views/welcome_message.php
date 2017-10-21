@@ -97,7 +97,7 @@
         </div>
 </header>
 
-<section style="margin-top: 51px;background-color: black">
+<section style="margin-top: 51px;background-color: white">
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -170,7 +170,7 @@
         <hr class="featurette-divider">
 
         <div id="getstarted" class="row">
-            <h1 style="color: white;font-weight: bolder;margin-bottom: 30px" class="text-center">Want to volunteer for the orgranic farms and learn new thing?</h1>
+            <h1 style="color: forestgreen;font-weight: bolder;margin-bottom: 30px" class="text-center">Want to volunteer for the orgranic farms and learn new thing?</h1>
             <div class="col-lg-4">
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/volunteer.jpg" alt="Generic placeholder image" width="140" height="140">
                 <h2>Step 1</h2>
@@ -191,7 +191,7 @@
             </div>
 
 
-            <h1 style="color: white;font-weight: bolder;margin-bottom: 30px" class="text-center">Want a help for you orgranic farms?</h1>
+            <h1 style="color: forestgreen;font-weight: bolder;margin-bottom: 30px" class="text-center">Want a help for you orgranic farms?</h1>
             <div class="col-lg-4">
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/farmer.png" alt="Generic placeholder image" width="140" height="140">
                 <h2>Step 1</h2>
@@ -209,6 +209,27 @@
                 <h2>Step 3</h2>
                 <p>Post an event, Gather Volunteers , Work with new friends and Increase your crops</p>
                 <p><a class="btn btn-warning" href="#" role="button">Sign up &raquo;</a></p>
+            </div>
+
+
+            <h1 style="color: forestgreen;font-weight: bolder;margin-bottom: 30px" class="text-center">Want to share your place with volunteers?</h1>
+            <div class="col-lg-4">
+                <img class="img-circle" src="<?php echo base_url(); ?>assets/images/home.png" alt="Generic placeholder image" width="140" height="140">
+                <h2>Step 1</h2>
+                <p>Sign up as a Volunteer house</p><br/>
+                <p><a class="btn btn-primary" href="#" role="button">Sign up &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="img-circle" src="<?php echo base_url(); ?>assets/images/certificate.png" alt="Generic placeholder image" width="140" height="140">
+                <h2>Step 2</h2>
+                <p>Get your Farm_Hands Volunteer House License</p><br/>
+                <p><a class="btn btn-primary" href="#" role="button">Get License &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="img-circle" src="<?php echo base_url(); ?>assets/images/partnership.png" alt="Generic placeholder image" width="140" height="140">
+                <h2>Step 3</h2>
+                <p>Receive Farm_Handers</p>
+                <p><a class="btn btn-primary" href="#" role="button">Set status &raquo;</a></p>
             </div>
         </div>
 
