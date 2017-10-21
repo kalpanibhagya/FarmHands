@@ -216,13 +216,13 @@
             <div class="col-lg-4">
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/home.png" alt="Generic placeholder image" width="140" height="140">
                 <h2>Step 1</h2>
-                <p>Sign up as a Volunteer house</p><br/>
+                <p>Sign up as a Volunteer house</p>
                 <p><a class="btn btn-primary" href="#" role="button">Sign up &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/certificate.png" alt="Generic placeholder image" width="140" height="140">
                 <h2>Step 2</h2>
-                <p>Get your Farm_Hands Volunteer House License</p><br/>
+                <p>Get your Farm_Hands Volunteer House License</p>
                 <p><a class="btn btn-primary" href="#" role="button">Get License &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
@@ -253,6 +253,27 @@
                 <p><span class="glyphicon glyphicon-map-marker"></span> Colombo, Sri Lanka</p>
                 <p><span class="glyphicon glyphicon-phone"></span> 011 1515151</p>
                 <p><span class="glyphicon glyphicon-envelope"></span> farmhands@gmail.com</p>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div>
+                            <a href="https://twitter.com">
+                                <img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter.png" width="35" height="35" />
+                            </a>
+                            <a href="https://pinterest.com">
+                                <img title="Pinterest" alt="Pinterest" src="https://socialmediawidgets.files.wordpress.com/2014/03/13_pinterest.png" width="35" height="35" />
+                            </a>
+                            <a href="https://facebook.com">
+                                <img title="Facebook" alt="Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook.png" width="35" height="35" />
+                            </a>
+                            <a href="https://instagram.com">
+                                <img title="Instagram" alt="Instagram" src="https://socialmediawidgets.files.wordpress.com/2014/03/10_instagram.png" width="35" height="35" />
+                            </a>
+                            <a href="https://google.com">
+                                <img title="Google +" alt="G+" src="<?php echo base_url(); ?>assets/images/google-plus.png" width="35" height="35" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-sm-7 slideanim">
                 <div class="row">
