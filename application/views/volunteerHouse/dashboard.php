@@ -141,7 +141,7 @@
                     </li>
                     <li class="divider"></li>
                     <li>
-                        <a href="<?php echo base_url();?>main/logout"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="<?php echo base_url();?>volunteerHouse/logout"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
                 </ul>
             </li>
