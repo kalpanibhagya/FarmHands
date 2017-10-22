@@ -55,7 +55,10 @@
         .bg-grey {
             background-color: #f6f6f6;
         }
-*/
+
+        section {
+            background: url(http://wwoof.net/wp-content/themes/wwoof/dist/images/bg-pattern.jpg) repeat-x 0px 0px;
+        }*/
     </style>
 
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>

@@ -17,15 +17,26 @@ class Main extends CI_Controller {
         //echo 'OK';
         $this->load->library('form_validation');
         $this->form_validation->set_rules('username', 'Username', 'required');
+        $this->form_validation->set_rules('email', 'Email', 'required');
         $this->form_validation->set_rules('password', 'Password', 'required|min_length[6]');
         $this->form_validation->set_rules('confirm_password', 'Confirm Password', 'required|min_length[6]|matches[password]');
+        $this->form_validation->set_rules('fname', 'First Name', 'required');
+        $this->form_validation->set_rules('lname', 'First Name', 'required');
+        $this->form_validation->set_rules('address', 'Address', 'required');
+        $this->form_validation->set_rules('telephone', 'Telephone', 'required');
+
 
         if($this->form_validation->run()){
             //true
             $this->load->model('main_model');
             $data = array(
                 'username' => $this->input->post('username'),
-                'password' => $this->input->post('password')
+                'password' => $this->input->post('password'),
+                'email' => $this->input->post('email'),
+                'fname' => $this->input->post('fname'),
+                'lname' => $this->input->post('lname'),
+                'address' => $this->input->post('address'),
+                'telephone' => $this->input->post('telephone')
             );
 
             $this->main_model->insert_data($data);

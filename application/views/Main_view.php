@@ -102,7 +102,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Email</label>
-                                    <input type="email" class="form-control" name="confirm_password">
+                                    <input type="email" class="form-control" name="email">
                                     <span class="text-danger"><?php echo form_error('email')?></span>
                                 </div>
                                 <div class="form-group">
@@ -122,12 +122,12 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Last Name</label>
-                                    <input type="email" class="form-control" name="lname">
+                                    <input type="text" class="form-control" name="lname">
                                     <span class="text-danger"><?php echo form_error('last_name')?></span>
                                 </div>
                                 <div class="form-group">
                                     <label>Address</label>
-                                    <input type="textarea" class="form-control" name="address">
+                                    <input type="text" class="form-control" name="address">
                                     <span class="text-danger"><?php echo form_error('address')?></span>
                                 </div>
                                 <div class="form-group">
