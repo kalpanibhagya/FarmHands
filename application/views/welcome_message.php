@@ -159,8 +159,16 @@
         <div id="about">
             <div class="row featurette" style="margin-top: 30px">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <h2 class="featurette-heading" style="color: saddlebrown; font-weight: bold">About Farm_Hands</h2>
+                    <p class="lead" style="font-size: 130%">Want to live and learn on organic farms? Want to share your life with other like-minded people?
+                        <br/><br/>
+                        Farm_Hands is a island wide community linking volunteers with organic farmers and growers to promote cultural and educational experiences based on trust and non-monetary exchange, thereby helping to build a sustainable community.
+                        <br/><br/>
+                        As a volunteer, you will live alongside  a farmer helping with daily tasks and experiencing life as a farmer.
+
+                        As a farmer you will receive visitors from your own district or another who want to connect with the land and support the organic movement.
+                        
+                        As a volunteer house you can share your house with volunteers from all around the country.</p>
                 </div>
                 <div class="col-md-5">
                     <img class="featurette-image img-responsive center-block" src="<?php echo base_url(); ?>assets/images/about_farm_hands.jpg" alt="Generic placeholder image">
