@@ -187,8 +187,8 @@
             <div class="col-lg-4">
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/suitcase.png" alt="Generic placeholder image" width="140" height="140">
                 <h2 style="font-weight: bold">Step 3</h2>
-                <p>Find your host, travel and enjoy volunteering!!</p>
-                <p><a class="btn btn-primary" href="#" role="button">Hosts &raquo;</a></p>
+                <p>Find a Volunteer House, travel and enjoy volunteering!!</p>
+                <p><a class="btn btn-primary" href="#" role="button">Volunteer Houses &raquo;</a></p>
             </div>
 
 
