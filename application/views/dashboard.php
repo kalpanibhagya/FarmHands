@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
     <title>Dashboard</title>
-
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url().'/assets/css/bootstrap.min.css'; ?>" rel="stylesheet">
 
