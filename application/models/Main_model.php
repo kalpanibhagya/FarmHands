@@ -3,7 +3,7 @@
 class Main_model extends CI_Model{
 
     public function insert_data($data){
-        $this->db->insert('user', $data);
+        $this->db->insert('volunteer', $data);
     }
 
     function can_login($username, $password){

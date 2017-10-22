@@ -21,7 +21,7 @@ class Farmer extends CI_Controller {
 
         if($this->form_validation->run()){
             //true
-            $this->load->model('main_model');
+            $this->load->model('Farmer_model');
             $data = array(
                 'username' => $this->input->post('username'),
                 'password' => $this->input->post('password'),
@@ -32,7 +32,7 @@ class Farmer extends CI_Controller {
                 'telephone' => $this->input->post('telephone')
             );
 
-            $this->main_model->insert_data($data);
+            $this->Farmer_model->insert_data($data);
 
             redirect(base_url().'Farmer/inserted');
 
@@ -94,7 +94,7 @@ class Farmer extends CI_Controller {
 
     function logout(){
         $this->session->unset_userdata('username');
-        redirect(base_url().'farmer/login');
+        redirect(base_url().'Farmer/login');
     }
 }
 ?>

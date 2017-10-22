@@ -21,7 +21,7 @@ class volunteerHouse extends CI_Controller {
 
         if($this->form_validation->run()){
             //true
-            $this->load->model('main_model');
+            $this->load->model('volunteerHouse_model');
             $data = array(
                 'username' => $this->input->post('username'),
                 'password' => $this->input->post('password'),
@@ -32,7 +32,7 @@ class volunteerHouse extends CI_Controller {
                 'telephone' => $this->input->post('telephone')
             );
 
-            $this->main_model->insert_data($data);
+            $this->volunteerHouse_model->insert_data($data);
 
             redirect(base_url().'volunteerHouse/inserted');
 

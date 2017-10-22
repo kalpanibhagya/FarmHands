@@ -122,7 +122,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Last Name</label>
-                                    <input type="email" class="form-control" name="lname">
+                                    <input type="texr" class="form-control" name="lname">
                                     <span class="text-danger"><?php echo form_error('last_name')?></span>
                                 </div>
                                 <div class="form-group">
