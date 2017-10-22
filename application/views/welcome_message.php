@@ -218,7 +218,7 @@
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/home.png" alt="Generic placeholder image" width="140" height="140">
                 <h2 style="font-weight: bold">Step 1</h2>
                 <p>Sign up as a Volunteer house</p>
-                <p><a class="btn btn-primary" href="#" role="button">Sign up &raquo;</a></p>
+                <p><a class="btn btn-primary" href="<?php echo base_url(); ?>volunteerHouse" role="button">Sign up &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/certificate.png" alt="Generic placeholder image" width="140" height="140">
