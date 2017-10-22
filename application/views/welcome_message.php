@@ -97,7 +97,7 @@
         </div>
 </header>
 
-<section style="margin-top: 51px;background-color: white">
+<section style="margin-top: 51px;background-color: lightgray">
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -167,7 +167,7 @@
                         As a volunteer, you will live alongside  a farmer helping with daily tasks and experiencing life as a farmer.
 
                         As a farmer you will receive visitors from your own district or another who want to connect with the land and support the organic movement.
-                        
+
                         As a volunteer house you can share your house with volunteers from all around the country.</p>
                 </div>
                 <div class="col-md-5">
