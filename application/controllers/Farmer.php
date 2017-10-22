@@ -47,11 +47,11 @@ class Farmer extends CI_Controller {
     }
 
     function login(){
-        $this->load->view('Farmer/login');
+        $this->load->view('farmer/login');
     }
 
     function login2(){
-        $this->load->view('Farmer/login');
+        $this->load->view('farmer/login');
     }
 
     function login_validation(){
@@ -66,7 +66,7 @@ class Farmer extends CI_Controller {
             $password = $this->input->post('password');
 
             $this->load->model('Farmer_model');
-            if ($this->main_model->can_login($username, $password)){
+            if ($this->Farmer_model->can_login($username, $password)){
                 $session_data = array(
                     'username' => $username
                 );
@@ -94,7 +94,7 @@ class Farmer extends CI_Controller {
 
     function logout(){
         $this->session->unset_userdata('username');
-        redirect(base_url().'main/login');
+        redirect(base_url().'farmer/login');
     }
 }
 ?>
