@@ -183,13 +183,13 @@
             <div class="col-lg-4">
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/volunteer.jpg" alt="Generic placeholder image" width="140" height="140">
                 <h2 style="font-weight: bold">Step 1</h2>
-                <p>Sign up as a Volunteer</p>
+                <p>Sign up as a Volunteer</p><br/>
                 <p><a class="btn btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/calendar.png" alt="Generic placeholder image" width="140" height="140">
                 <h2 style="font-weight: bold">Step 2</h2>
-                <p>Join an event and find new friends</p>
+                <p>Join an event and find new friends</p><br/>
                 <p><a class="btn btn-primary" href="#" role="button">Events &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
@@ -210,7 +210,7 @@
             <div class="col-lg-4">
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/farm.png" alt="Generic placeholder image" width="140" height="140">
                 <h2 style="font-weight: bold">Step 2</h2>
-                <p>Register your farms in our website</p><br/>
+                <p>Register your farms in our website and get the Farm_Hands license.</p>
                 <p><a class="btn btn-warning" href="#" role="button">Add a Farm &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
