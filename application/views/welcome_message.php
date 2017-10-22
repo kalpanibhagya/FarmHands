@@ -113,27 +113,24 @@
         <div class="item active" style="background-image: url('<?php echo base_url(); ?>assets/images/farm.jpg')">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 style="font-size: xx-large">Farm_Hands</h1>
-                    <p style="font-size: large">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
-                    <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up today</a></p>
+                    <h1 style="font-size: xx-large">Web Portal to build an Organic Farming Volunteering Community Sri Lanka</h1>
+                    <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up as a Volunteer</a></p>
                 </div>
             </div>
         </div>
         <div class="item" style="background-image: url('<?php echo base_url(); ?>assets/images/4.jpg')">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 style="font-size: xx-large">Farm_Hands</h1>
-                    <p style="font-size: large">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
-                    <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up today</a></p>
+                    <h1 style="font-size: xx-large">Web Portal to build an Organic Farming Volunteering Community Sri Lanka</h1>
+                    <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up as a Volunteer</a></p>
                 </div>
             </div>
         </div>
         <div class="item" style="background-image: url('<?php echo base_url(); ?>assets/images/rice.jpg')">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 style="font-size: xx-large">Farm_Hands</h1>
-                    <p style="font-size: large">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
-                    <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up today</a></p>
+                    <h1 style="font-size: xx-large">Web Portal to build an Organic Farming Volunteering Community Sri Lanka</h1>
+                    <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up as a Volunteer</a></p>
                 </div>
             </div>
         </div>
