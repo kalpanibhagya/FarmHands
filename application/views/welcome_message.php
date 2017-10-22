@@ -130,7 +130,7 @@
             <div class="container">
                 <div class="carousel-caption">
                     <h1 style="font-size: xx-large">Web Portal to build an Organic Farming Volunteering Community Sri Lanka</h1>
-                    <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up as a Volunteer</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up a Volunteer</a></p>
                 </div>
             </div>
         </div>
