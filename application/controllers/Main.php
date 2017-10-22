@@ -95,12 +95,12 @@ class Main extends CI_Controller {
             $this->load->view('dashboard');
             //echo '<label><a href = "'.base_url().'main/logout">Logout</a></label>';
         } else {
-            redirect(base_url().'main/login');
+            redirect(base_url().'main/login2');
         }
     }
 
     function logout(){
         $this->session->unset_userdata('username');
-        redirect(base_url().'main/login');
+        redirect(base_url().'main/login2');
     }
 }
