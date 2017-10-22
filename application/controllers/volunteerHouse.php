@@ -66,7 +66,7 @@ class volunteerHouse extends CI_Controller {
             $password = $this->input->post('password');
 
             $this->load->model('volunteerHouse_model');
-            if ($this->main_model->can_login($username, $password)){
+            if ($this->volunteerHouse_model->can_login($username, $password)){
                 $session_data = array(
                     'username' => $username
                 );
@@ -94,7 +94,7 @@ class volunteerHouse extends CI_Controller {
 
     function logout(){
         $this->session->unset_userdata('username');
-        redirect(base_url().'main/login');
+        redirect(base_url().'volunteerHouse/login');
     }
 }
 ?>

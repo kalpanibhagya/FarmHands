@@ -139,7 +139,7 @@
                             <div class="form-group text-center">
                                 <input style="margin-bottom: 10px" type="submit" class="btn btn-primary" name="Join Now" value="Join now">
                                 <br/>
-                                Already have an account?<a href="<?php echo base_url(); ?>main/login"> Log In</a>
+                                Already have an account?<a href="<?php echo base_url(); ?>volunteerHouse/login"> Log In</a>
                             </div>
                         </form>
                     </div>
