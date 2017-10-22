@@ -88,7 +88,7 @@
                         <p class="panel-title text-center" style="font-weight: bolder;font-size: 25px">New to Farm_Hands? Join Now</p>
                     </div>
                     <div class="panel-body">
-                        <form method="post" action="<?php echo base_url()?>main/form_validation">
+                        <form method="post" action="<?php echo base_url()?>Farmer/form_validation">
                             <?php
                             if ($this->uri->segment(2) == 'inserted'){
                                 echo '<div class="alert alert-success" role="alert">Data Inserted Successfully</div>';
@@ -102,7 +102,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Email</label>
-                                    <input type="email" class="form-control" name="confirm_password">
+                                    <input type="email" class="form-control" name="email">
                                     <span class="text-danger"><?php echo form_error('email')?></span>
                                 </div>
                                 <div class="form-group">
@@ -139,7 +139,7 @@
                             <div class="form-group text-center">
                                 <input style="margin-bottom: 10px" type="submit" class="btn btn-primary" name="Join Now" value="Join now">
                                 <br/>
-                                Already have an account?<a href="<?php echo base_url(); ?>main/login"> Log In</a>
+                                Already have an account?<a href="<?php echo base_url(); ?>Farmer/login"> Log In</a>
                             </div>
                         </form>
                     </div>
