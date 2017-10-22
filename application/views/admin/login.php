@@ -15,21 +15,6 @@
             color: #fff;
         }
 
-        .page-bg {
-            background-image: url('<?php echo base_url(); ?>assets/images/farm-background.jpg');
-            -webkit-filter: blur(5px);
-            -moz-filter: blur(5px);
-            -o-filter: blur(5px);
-            -ms-filter: blur(5px);
-            filter: blur(5px);
-            position: fixed;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            z-index: -1;
-        }
-
         footer {
             background-color: #555;
             color: white;
@@ -72,10 +57,6 @@
                     <li><a href="#">Farms</a></li>
                     <li><a href="<?php echo base_url();?>about">About us</a></li>
                 </ul>
-                <form class="navbar-form navbar-right" action="<?php echo base_url()?>main/login_validation" method="post">
-                    <a class="btn btn-primary" href="<?php echo base_url(); ?>Farmer" role="button">Sign Up</a>
-                    <a class="btn btn-primary" href="<?php echo base_url(); ?>Farmer/login" role="button">Login</a>
-                </form>
             </div>
         </div>
 </header>
@@ -91,7 +72,7 @@
                         <?php
                         echo $this->session->flashdata('error');
                         ?>
-                        <form method="post" action="<?php echo base_url()?>Farmer/login_validation">
+                        <form method="post" action="<?php echo base_url()?>Admin/login_validation">
                             <div class="block" align="center" style="margin-top: 10px">
                                 <div class="form-group">
                                     <label>Username</label>
@@ -116,8 +97,6 @@
     </div>
 </section>
 
-<div class="page-bg">
-</div>
 
 <footer class="container-fluid bg-4 text-center">
     <a class="up-arrow" href="#myCarousel" data-toggle="tooltip" title="Back to top">

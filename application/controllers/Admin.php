@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Farmer extends CI_Controller {
+class Admin extends CI_Controller {
     public function index()
     {
         $this->load->view('admin/login');
@@ -47,7 +47,7 @@ class Farmer extends CI_Controller {
 
     function logout(){
         $this->session->unset_userdata('username');
-        redirect(base_url().'farmer/login');
+        redirect(base_url().'Admin/login');
     }
 }
 ?>
