@@ -50,59 +50,7 @@
         </div>
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
-                <ul class="dropdown-menu message-dropdown">
-                    <li class="message-preview">
-                        <a href="#">
-                            <div class="media">
-                                    <span class="pull-left">
-                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
-                                    </span>
-                                <div class="media-body">
-                                    <h5 class="media-heading"><strong>John Smith</strong>
-                                    </h5>
-                                    <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="message-preview">
-                        <a href="#">
-                            <div class="media">
-                                    <span class="pull-left">
-                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
-                                    </span>
-                                <div class="media-body">
-                                    <h5 class="media-heading"><strong>Volunteer</strong>
-                                    </h5>
-                                    <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="message-preview">
-                        <a href="#">
-                            <div class="media">
-                                    <span class="pull-left">
-                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
-                                    </span>
-                                <div class="media-body">
-                                    <h5 class="media-heading"><strong>Administrator</strong>
-                                    </h5>
-                                    <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="message-footer">
-                        <a href="#">Read All New Messages</a>
-                    </li>
-                </ul>
-            </li>
+
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
                 <ul class="dropdown-menu alert-dropdown">
@@ -149,41 +97,11 @@
         <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
         <div class="collapse navbar-collapse navbar-ex1-collapse" style="background-color: black">
             <ul class="nav navbar-nav side-nav">
-                <li class="active">
-                    <a href="index.html">Dashboard</a>
+                <li>
+                    <a href="#">Farm Licenses</a>
                 </li>
                 <li>
-                    <a href="javascript:" data-toggle="collapse" data-target="#demo">Upcoming Events</a>
-                    <ul id="demo" class="collapse">
-                        <li>
-                            <a href="#">Dropdown Item</a>
-                        </li>
-                        <li>
-                            <a href="#">Dropdown Item</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="javascript:" data-toggle="collapse" data-target="#demo2">Group Chats</a>
-                    <ul id="demo2" class="collapse">
-                        <li>
-                            <a href="#">Dropdown Item</a>
-                        </li>
-                        <li>
-                            <a href="#">Dropdown Item</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="javascript:" data-toggle="collapse" data-target="#demo3">Dropdown</a>
-                    <ul id="demo3" class="collapse">
-                        <li>
-                            <a href="#">Dropdown Item</a>
-                        </li>
-                        <li>
-                            <a href="#">Dropdown Item</a>
-                        </li>
-                    </ul>
+                    <a href="#">Volunteer House License</a>
                 </li>
                 <li>
                     <a href="#">Blog</a>
@@ -193,6 +111,9 @@
                 </li>
                 <li>
                     <a href="#">Farms</a>
+                </li>
+                <li>
+                    <a href="#">Products</a>
                 </li>
             </ul>
         </div>
@@ -205,14 +126,7 @@
 
             <!-- Page Heading -->
             <div class="row">
-                <div class="col-lg-12">
-                    <ol class="breadcrumb" style="margin-top: 20px">
-                        <li class="active">
-                            <i></i> Dashboard
-                        </li>
-                    </ol>
-                </div>
-                <div class="col-md-8">
+                <div class="col-md-10" style="margin-top: 10px">
                     <div class="panel panel-green">
                         <div class="panel-body">
                             <h2 style="color: #3c763d">Oslo Farm, Anuradhapura</h2>
@@ -225,7 +139,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-10">
                     <div class="panel panel-green">
                         <div class="panel-body">
                             <h2 style="color: #3c763d">Oslo Farm, Anuradhapura</h2>
@@ -238,7 +152,46 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-10">
+                    <div class="panel panel-green">
+                        <div class="panel-body">
+                            <h2 style="color: #3c763d">Oslo Farm, Anuradhapura</h2>
+                            <p>2 days of volunteering. bla bla bla bla blablablaaa</p>
+                        </div>
+                        <div class="panel-footer" align="right">
+                            <a href="#">like</a>
+                            <a href="#">dislike</a>
+                            <a href="#">comment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <div class="panel panel-green">
+                        <div class="panel-body">
+                            <h2 style="color: #3c763d">Oslo Farm, Anuradhapura</h2>
+                            <p>2 days of volunteering. bla bla bla bla blablablaaa</p>
+                        </div>
+                        <div class="panel-footer" align="right">
+                            <a href="#">like</a>
+                            <a href="#">dislike</a>
+                            <a href="#">comment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <div class="panel panel-green">
+                        <div class="panel-body">
+                            <h2 style="color: #3c763d">Oslo Farm, Anuradhapura</h2>
+                            <p>2 days of volunteering. bla bla bla bla blablablaaa</p>
+                        </div>
+                        <div class="panel-footer" align="right">
+                            <a href="#">like</a>
+                            <a href="#">dislike</a>
+                            <a href="#">comment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10">
                     <div class="panel panel-green">
                         <div class="panel-body">
                             <h2 style="color: #3c763d">Oslo Farm, Anuradhapura</h2>
@@ -257,6 +210,7 @@
 
     </div>
     <!-- /#page-wrapper -->
+
 
 </div>
 <!-- /#wrapper -->
