@@ -1,16 +1,10 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Main extends CI_Controller {
-    public function index(){
-        //echo 'test index function ';
-        //$this->test1();
-        //$this->load->model('Main_model');
-        $data['title'] = 'Controllers text';
-        //$data['test1'] = 'other controller text';
-        //$data['model_data'] = $this->Main_model->test_main();
-
-        $this->load->view('Main_view');
+class Farmer extends CI_Controller {
+    public function index()
+    {
+        $this->load->view('farmer/Signup');
     }
 
     public function form_validation(){
@@ -43,11 +37,11 @@ class Main extends CI_Controller {
     }
 
     function login(){
-        $this->load->view('welcome_message');
+        $this->load->view('farmer/login');
     }
 
     function login2(){
-        $this->load->view('login');
+        $this->load->view('farmer/login');
     }
 
     function login_validation(){
@@ -64,7 +58,7 @@ class Main extends CI_Controller {
             $this->load->model('main_model');
             if ($this->main_model->can_login($username, $password)){
                 $session_data = array(
-                  'username' => $username
+                    'username' => $username
                 );
                 $this->session->set_userdata($session_data);
                 redirect(base_url().'main/enter');
@@ -93,3 +87,4 @@ class Main extends CI_Controller {
         redirect(base_url().'main/login');
     }
 }
+?>

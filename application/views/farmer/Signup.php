@@ -16,7 +16,7 @@
         }
 
         .page-bg {
-            background-image: url('<?php echo base_url(); ?>assets/images/background.jpg');
+            background-image: url('<?php echo base_url(); ?>assets/images/farm-background.jpg');
             -webkit-filter: blur(5px);
             -moz-filter: blur(5px);
             -o-filter: blur(5px);
@@ -73,8 +73,8 @@
                     <li><a href="<?php echo base_url();?>about">About us</a></li>
                 </ul>
                 <form class="navbar-form navbar-right" action="<?php echo base_url()?>main/login_validation" method="post">
-                    <a class="btn btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign Up</a>
-                    <a class="btn btn-primary" href="<?php echo base_url(); ?>main/login2" role="button">Login</a>
+                    <a class="btn btn-primary" href="<?php echo base_url(); ?>Farmer" role="button">Sign Up</a>
+                    <a class="btn btn-primary" href="<?php echo base_url(); ?>Farmer/login" role="button">Login</a>
                 </form>
             </div>
         </div>
@@ -209,7 +209,7 @@
     <p>&copy; 2017 Farm_Hands.  &middot; <a href="<?php echo base_url();?>About">About</a> &middot; <a href="#">Blog</a> &middot; <a href="#">Farms</a> &middot; <a href="#">Privacy Policy</a> &middot; <a href="#">Terms</a></p>
 </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
 </body>
 </html>

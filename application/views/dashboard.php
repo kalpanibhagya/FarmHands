@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin - Bootstrap Admin Template</title>
+    <title>Dashboard</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url().'/assets/css/bootstrap.min.css'; ?>" rel="stylesheet">
@@ -137,41 +137,23 @@
                         <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
-                    </li>
-                    <li>
                         <a href="#"><i class="fa fa-fw fa-gear"></i> Settings</a>
                     </li>
                     <li class="divider"></li>
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        <a href="<?php echo base_url();?>main/logout"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                     </li>
                 </ul>
             </li>
         </ul>
         <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <div class="collapse navbar-collapse navbar-ex1-collapse" style="background-color: black">
             <ul class="nav navbar-nav side-nav">
                 <li class="active">
-                    <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                    <a href="index.html">Dashboard</a>
                 </li>
                 <li>
-                    <a href="charts.html"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
-                </li>
-                <li>
-                    <a href="tables.html"><i class="fa fa-fw fa-table"></i> Tables</a>
-                </li>
-                <li>
-                    <a href="forms.html"><i class="fa fa-fw fa-edit"></i> Forms</a>
-                </li>
-                <li>
-                    <a href="bootstrap-elements.html"><i class="fa fa-fw fa-desktop"></i> Bootstrap Elements</a>
-                </li>
-                <li>
-                    <a href="bootstrap-grid.html"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
-                </li>
-                <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>
+                    <a href="javascript:" data-toggle="collapse" data-target="#demo">Upcoming Events</a>
                     <ul id="demo" class="collapse">
                         <li>
                             <a href="#">Dropdown Item</a>
@@ -182,10 +164,35 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="blank-page.html"><i class="fa fa-fw fa-file"></i> Blank Page</a>
+                    <a href="javascript:" data-toggle="collapse" data-target="#demo2">Group Chats</a>
+                    <ul id="demo2" class="collapse">
+                        <li>
+                            <a href="#">Dropdown Item</a>
+                        </li>
+                        <li>
+                            <a href="#">Dropdown Item</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="index-rtl.html"><i class="fa fa-fw fa-dashboard"></i> RTL Dashboard</a>
+                    <a href="javascript:" data-toggle="collapse" data-target="#demo3">Dropdown</a>
+                    <ul id="demo3" class="collapse">
+                        <li>
+                            <a href="#">Dropdown Item</a>
+                        </li>
+                        <li>
+                            <a href="#">Dropdown Item</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Forum</a>
+                </li>
+                <li>
+                    <a href="#">Farms</a>
                 </li>
             </ul>
         </div>
@@ -199,14 +206,50 @@
             <!-- Page Heading -->
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">
-                        Dashboard <small>Statistics Overview</small>
-                    </h1>
-                    <ol class="breadcrumb">
+                    <ol class="breadcrumb" style="margin-top: 20px">
                         <li class="active">
-                            <i class="fa fa-dashboard"></i> Dashboard
+                            <i></i> Dashboard
                         </li>
                     </ol>
+                </div>
+                <div class="col-md-8">
+                    <div class="panel panel-green">
+                        <div class="panel-body">
+                            <h2 style="color: #3c763d">Oslo Farm, Anuradhapura</h2>
+                            <p>2 days of volunteering. bla bla bla bla blablablaaa</p>
+                        </div>
+                        <div class="panel-footer" align="right">
+                            <a href="#">like</a>
+                            <a href="#">dislike</a>
+                            <a href="#">comment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="panel panel-green">
+                        <div class="panel-body">
+                            <h2 style="color: #3c763d">Oslo Farm, Anuradhapura</h2>
+                            <p>2 days of volunteering. bla bla bla bla blablablaaa</p>
+                        </div>
+                        <div class="panel-footer" align="right">
+                            <a href="#">like</a>
+                            <a href="#">dislike</a>
+                            <a href="#">comment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="panel panel-green">
+                        <div class="panel-body">
+                            <h2 style="color: #3c763d">Oslo Farm, Anuradhapura</h2>
+                            <p>2 days of volunteering. bla bla bla bla blablablaaa</p>
+                        </div>
+                        <div class="panel-footer" align="right">
+                            <a href="#">like</a>
+                            <a href="#">dislike</a>
+                            <a href="#">comment</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

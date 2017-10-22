@@ -121,7 +121,60 @@
 </div>
 
 <footer class="container-fluid bg-4 text-center">
-    <p>&copy; 2017 Farm_Hands.  &middot; <a href="#">About</a> &middot; <a href="#">Blog</a> &middot; <a href="#">Farms</a> &middot; <a href="#">Privacy Policy</a> &middot; <a href="#">Terms</a></p>
+    <a class="up-arrow" href="#myCarousel" data-toggle="tooltip" title="Back to top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </a><br/>
+    <div id="contact" class="container-fluid">
+        <h2 class="text-center">CONTACT</h2>
+        <div class="row">
+            <div class="col-sm-5">
+                <p>Contact us and we'll get back to you within 24 hours.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Colombo, Sri Lanka</p>
+                <p><span class="glyphicon glyphicon-phone"></span> 011 1515151</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> farmhands@gmail.com</p>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div>
+                            <a href="https://twitter.com">
+                                <img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter.png" width="35" height="35" />
+                            </a>
+                            <a href="https://pinterest.com">
+                                <img title="Pinterest" alt="Pinterest" src="https://socialmediawidgets.files.wordpress.com/2014/03/13_pinterest.png" width="35" height="35" />
+                            </a>
+                            <a href="https://facebook.com">
+                                <img title="Facebook" alt="Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook.png" width="35" height="35" />
+                            </a>
+                            <a href="https://instagram.com">
+                                <img title="Instagram" alt="Instagram" src="https://socialmediawidgets.files.wordpress.com/2014/03/10_instagram.png" width="35" height="35" />
+                            </a>
+                            <a href="https://google.com">
+                                <img title="Google +" alt="G+" src="<?php echo base_url(); ?>assets/images/google-plus.png" width="35" height="35" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+            </div>
+            <div class="col-sm-7 slideanim">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-primary pull-right" type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+            <br/>
+        </div>
+    </div>
+    <p>&copy; 2017 Farm_Hands.  &middot; <a href="<?php echo base_url();?>About">About</a> &middot; <a href="#">Blog</a> &middot; <a href="#">Farms</a> &middot; <a href="#">Privacy Policy</a> &middot; <a href="#">Terms</a></p>
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

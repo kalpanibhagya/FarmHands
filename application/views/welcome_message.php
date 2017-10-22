@@ -97,7 +97,7 @@
         </div>
 </header>
 
-<section style="margin-top: 51px;background-color: black">
+<section style="margin-top: 51px;background-color: lightgray">
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -157,61 +157,106 @@
 
     <div class="container marketing">
         <div id="about">
-        <div class="row featurette" style="margin-top: 30px">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            </div>
-            <div class="col-md-5">
-                <img class="featurette-image img-responsive center-block" src="<?php echo base_url(); ?>assets/images/about_farm_hands.jpg" alt="Generic placeholder image">
+            <div class="row featurette" style="margin-top: 30px">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading" style="color: saddlebrown; font-weight: bold">About Farm_Hands</h2>
+                    <p class="lead" style="font-size: 130%">Want to live and learn on organic farms? Want to share your life with other like-minded people?
+                        <br/><br/>
+                        Farm_Hands is a island wide community linking volunteers with organic farmers and growers to promote cultural and educational experiences based on trust and non-monetary exchange, thereby helping to build a sustainable community.
+                        <br/><br/>
+                        As a volunteer, you will live alongside  a farmer helping with daily tasks and experiencing life as a farmer.
+
+                        As a farmer you will receive visitors from your own district or another who want to connect with the land and support the organic movement.
+
+                        As a volunteer house you can share your house with volunteers from all around the country.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive center-block" src="<?php echo base_url(); ?>assets/images/about_farm_hands.jpg" alt="Generic placeholder image">
+                </div>
             </div>
         </div>
-        </div>
+
         <hr class="featurette-divider">
 
         <div id="getstarted" class="row">
-            <h1 style="color: white;font-weight: bolder;margin-bottom: 30px" class="text-center">Want to volunteer for the orgranic farms and learn new thing?</h1>
+            <h1 style="color: forestgreen;font-weight: bolder;margin-bottom: 30px" class="text-center">Want to volunteer for the orgranic farms and learn new thing?</h1>
             <div class="col-lg-4">
-                <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                <h2>Heading</h2>
-                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                <img class="img-circle" src="<?php echo base_url(); ?>assets/images/volunteer.jpg" alt="Generic placeholder image" width="140" height="140">
+                <h2 style="font-weight: bold">Step 1</h2>
+                <p>Sign up as a Volunteer</p><br/>
+                <p><a class="btn btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-                <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                <h2>Heading</h2>
-                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                <img class="img-circle" src="<?php echo base_url(); ?>assets/images/calendar.png" alt="Generic placeholder image" width="140" height="140">
+                <h2 style="font-weight: bold">Step 2</h2>
+                <p>Join an event and find new friends</p><br/>
+                <p><a class="btn btn-primary" href="#" role="button">Events &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-                <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                <h2>Heading</h2>
-                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                <img class="img-circle" src="<?php echo base_url(); ?>assets/images/suitcase.png" alt="Generic placeholder image" width="140" height="140">
+                <h2 style="font-weight: bold">Step 3</h2>
+                <p>Find a Volunteer House, travel and enjoy volunteering!!</p>
+                <p><a class="btn btn-primary" href="#" role="button">Volunteer Houses &raquo;</a></p>
             </div>
 
-            <h1 style="color: white;font-weight: bolder;margin-bottom: 30px" class="text-center">Want to volunteer for the orgranic farms and learn new thing?</h1>
+
+            <h1 style="color: forestgreen;font-weight: bolder;margin-bottom: 30px" class="text-center">Want a help for you orgranic farms?</h1>
             <div class="col-lg-4">
-                <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                <h2>Heading</h2>
-                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                <img class="img-circle" src="<?php echo base_url(); ?>assets/images/farmer.png" alt="Generic placeholder image" width="140" height="140">
+                <h2 style="font-weight: bold">Step 1</h2>
+                <p>Sign up as a Farmer</p><br/>
+                <p><a class="btn btn-warning" href="<?php echo base_url(); ?>Farmer" role="button">Sign up &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-                <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                <h2>Heading</h2>
-                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                <img class="img-circle" src="<?php echo base_url(); ?>assets/images/farm.png" alt="Generic placeholder image" width="140" height="140">
+                <h2 style="font-weight: bold">Step 2</h2>
+                <p>Register your farms in our website and get the Farm_Hands license.</p>
+                <p><a class="btn btn-warning" href="#" role="button">Add a Farm &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-                <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                <h2>Heading</h2>
-                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                <img class="img-circle" src="<?php echo base_url(); ?>assets/images/pumpkin.png" alt="Generic placeholder image" width="140" height="140">
+                <h2 style="font-weight: bold">Step 3</h2>
+                <p>Post an event, Gather Volunteers , Work with new friends and Increase your crops</p>
+                <p><a class="btn btn-warning" href="#" role="button">Sign up &raquo;</a></p>
+            </div>
+
+
+            <h1 style="color: forestgreen;font-weight: bolder;margin-bottom: 30px" class="text-center">Want to share your place with volunteers?</h1>
+            <div class="col-lg-4">
+                <img class="img-circle" src="<?php echo base_url(); ?>assets/images/home.png" alt="Generic placeholder image" width="140" height="140">
+                <h2 style="font-weight: bold">Step 1</h2>
+                <p>Sign up as a Volunteer house</p>
+                <p><a class="btn btn-primary" href="<?php echo base_url(); ?>volunteerHouse" role="button">Sign up &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="img-circle" src="<?php echo base_url(); ?>assets/images/certificate.png" alt="Generic placeholder image" width="140" height="140">
+                <h2 style="font-weight: bold">Step 2</h2>
+                <p>Get your Farm_Hands Volunteer House License</p>
+                <p><a class="btn btn-primary" href="#" role="button">Get License &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="img-circle" src="<?php echo base_url(); ?>assets/images/partnership.png" alt="Generic placeholder image" width="140" height="140">
+                <h2 style="font-weight: bold">Step 3</h2>
+                <p>Receive Farm_Handers</p>
+                <p><a class="btn btn-primary" href="#" role="button">Set status &raquo;</a></p>
             </div>
         </div>
 
         <hr class="featurette-divider">
+
+        <div id="about">
+            <div class="row featurette" style="margin: 30px">
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive center-block" src="<?php echo base_url(); ?>assets/images/Donate.png" alt="Generic placeholder image" height="250px" width="250px">
+                </div>
+                <div class="col-md-7">
+                    <h2 class="featurette-heading" style="color: red">Donate to Farm_Hands</h2>
+                    <p class="lead">We ' re a Non-profit Organization. Your gifts help us connect good people with good causes.</p>
+                    <p><a class="btn btn-success" href="#" role="button">Donate &raquo;</a></p>
+                </div>
+
+            </div>
+        </div>
     </div>
 
     <!-- Container (Contact Section) -->
@@ -228,9 +273,31 @@
         <div class="row">
             <div class="col-sm-5">
                 <p>Contact us and we'll get back to you within 24 hours.</p>
-                <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-                <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-                <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Colombo, Sri Lanka</p>
+                <p><span class="glyphicon glyphicon-phone"></span> 011 1515151</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> farmhands@gmail.com</p>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div>
+                            <a href="https://twitter.com">
+                                <img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter.png" width="35" height="35" />
+                            </a>
+                            <a href="https://pinterest.com">
+                                <img title="Pinterest" alt="Pinterest" src="https://socialmediawidgets.files.wordpress.com/2014/03/13_pinterest.png" width="35" height="35" />
+                            </a>
+                            <a href="https://facebook.com">
+                                <img title="Facebook" alt="Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook.png" width="35" height="35" />
+                            </a>
+                            <a href="https://instagram.com">
+                                <img title="Instagram" alt="Instagram" src="https://socialmediawidgets.files.wordpress.com/2014/03/10_instagram.png" width="35" height="35" />
+                            </a>
+                            <a href="https://google.com">
+                                <img title="Google +" alt="G+" src="<?php echo base_url(); ?>assets/images/google-plus.png" width="35" height="35" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <br/>
             </div>
             <div class="col-sm-7 slideanim">
                 <div class="row">
@@ -244,10 +311,11 @@
                 <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
                 <div class="row">
                     <div class="col-sm-12 form-group">
-                        <button class="btn btn-default pull-right" type="submit">Send</button>
+                        <button class="btn btn-primary pull-right" type="submit">Send</button>
                     </div>
                 </div>
             </div>
+            <br/>
         </div>
     </div>
     <p>&copy; 2017 Farm_Hands.  &middot; <a href="<?php echo base_url();?>About">About</a> &middot; <a href="#">Blog</a> &middot; <a href="#">Farms</a> &middot; <a href="#">Privacy Policy</a> &middot; <a href="#">Terms</a></p>
