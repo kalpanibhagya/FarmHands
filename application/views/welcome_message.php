@@ -197,7 +197,7 @@
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/farmer.png" alt="Generic placeholder image" width="140" height="140">
                 <h2 style="font-weight: bold">Step 1</h2>
                 <p>Sign up as a Farmer</p><br/>
-                <p><a class="btn btn-warning" href="#" role="button">Sign up &raquo;</a></p>
+                <p><a class="btn btn-warning" href="<?php echo base_url(); ?>Farmer" role="button">Sign up &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/farm.png" alt="Generic placeholder image" width="140" height="140">
