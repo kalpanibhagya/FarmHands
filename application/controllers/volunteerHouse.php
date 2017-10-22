@@ -85,7 +85,7 @@ class volunteerHouse extends CI_Controller {
 
     function enter(){
         if ($this->session->userdata('username') != ''){
-            $this->load->view('dashboard');
+            $this->load->view('volunteerHouse/dashboard');
             //echo '<label><a href = "'.base_url().'main/logout">Logout</a></label>';
         } else {
             redirect(base_url().'volunteerHouse/login');
