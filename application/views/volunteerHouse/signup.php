@@ -16,7 +16,7 @@
         }
 
         .page-bg {
-            background-image: url('<?php echo base_url(); ?>assets/images/background.jpg');
+            background-image: url('<?php echo base_url(); ?>assets/images/village.jpg');
             -webkit-filter: blur(5px);
             -moz-filter: blur(5px);
             -o-filter: blur(5px);
