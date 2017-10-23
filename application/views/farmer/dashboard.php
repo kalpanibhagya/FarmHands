@@ -131,7 +131,7 @@
                 </ul>
             </li>
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Farmer <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i>  <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li>
                         <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
@@ -150,7 +150,7 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse" style="background-color: black">
             <ul class="nav navbar-nav side-nav">
                 <li class="active">
-                    <a href="<?php echo base_url(); ?>Farmer/enter">Dashboard</a>
+                    <a href="<?php echo base_url(); ?>Farmer/enter">Farmer Dashboard</a>
                 </li>
                 <li>
                     <a href="#">My Events</a>
@@ -176,83 +176,83 @@
 
         <div class="container-fluid">
 
-            <!-- Page Heading -->
+
             <div class="row">
                 <div class="col-md-10" style="margin-top: 10px">
-                    <div class="panel panel-green">
+                    <div class="panel panel-primary">
                         <div class="panel-body">
-                            <h2 style="color: #3c763d">Oslo Farm, Anuradhapura</h2>
-                            <p>2 days of volunteering. bla bla bla bla blablablaaa</p>
+                            <h2 style="color: blue">Organic Farm, Anuradhapura</h2>
+                            <p>Contact 071-3244231</p>
                         </div>
                         <div class="panel-footer" align="right">
-                            <a href="#">like</a>
-                            <a href="#">dislike</a>
-                            <a href="#">comment</a>
+                            <a href="#" style="padding: 10px"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>like</a>
+                            <a href="#" style="padding: 10px"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true">dislike</a>
+                            <a href="#" style="padding: 10px"><span class="glyphicon glyphicon-edit" aria-hidden="true">message</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-10">
-                    <div class="panel panel-green">
+                    <div class="panel panel-primary">
                         <div class="panel-body">
-                            <h2 style="color: #3c763d">Oslo Farm, Anuradhapura</h2>
-                            <p>2 days of volunteering. bla bla bla bla blablablaaa</p>
+                            <h2 style="color: blue">Organic Farm, Nuwara Eliya</h2>
+                            <p>Contact 071-5244230</p>
                         </div>
                         <div class="panel-footer" align="right">
-                            <a href="#">like</a>
-                            <a href="#">dislike</a>
-                            <a href="#">comment</a>
+                            <a href="#" style="padding: 10px"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>like</a>
+                            <a href="#" style="padding: 10px"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true">dislike</a>
+                            <a href="#" style="padding: 10px"><span class="glyphicon glyphicon-edit" aria-hidden="true">message</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-10">
-                    <div class="panel panel-green">
+                    <div class="panel panel-primary">
                         <div class="panel-body">
-                            <h2 style="color: #3c763d">Oslo Farm, Anuradhapura</h2>
-                            <p>2 days of volunteering. bla bla bla bla blablablaaa</p>
+                            <h2 style="color: blue">Organic Farm, Nuwara</h2>
+                            <p>Contact 071-3244239</p>
                         </div>
                         <div class="panel-footer" align="right">
-                            <a href="#">like</a>
-                            <a href="#">dislike</a>
-                            <a href="#">comment</a>
+                            <a href="#" style="padding: 10px"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>like</a>
+                            <a href="#" style="padding: 10px"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true">dislike</a>
+                            <a href="#" style="padding: 10px"><span class="glyphicon glyphicon-edit" aria-hidden="true">message</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-10">
-                    <div class="panel panel-green">
+                    <div class="panel panel-primary">
                         <div class="panel-body">
-                            <h2 style="color: #3c763d">Oslo Farm, Anuradhapura</h2>
-                            <p>2 days of volunteering. bla bla bla bla blablablaaa</p>
+                            <h2 style="color: blue">Organic Farm, Kegalle</h2>
+                            <p>Contact 071-4534231</p>
                         </div>
                         <div class="panel-footer" align="right">
-                            <a href="#">like</a>
-                            <a href="#">dislike</a>
-                            <a href="#">comment</a>
+                            <a href="#" style="padding: 10px"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>like</a>
+                            <a href="#" style="padding: 10px"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true">dislike</a>
+                            <a href="#" style="padding: 10px"><span class="glyphicon glyphicon-edit" aria-hidden="true">message</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-10">
-                    <div class="panel panel-green">
+                    <div class="panel panel-primary">
                         <div class="panel-body">
-                            <h2 style="color: #3c763d">Oslo Farm, Anuradhapura</h2>
-                            <p>2 days of volunteering. bla bla bla bla blablablaaa</p>
+                            <h2 style="color: blue">Organic Farm, Badulla</h2>
+                            <p>Contact 071-3248890</p>
                         </div>
                         <div class="panel-footer" align="right">
-                            <a href="#">like</a>
-                            <a href="#">dislike</a>
-                            <a href="#">comment</a>
+                            <a href="#" style="padding: 10px"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>like</a>
+                            <a href="#" style="padding: 10px"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true">dislike</a>
+                            <a href="#" style="padding: 10px"><span class="glyphicon glyphicon-edit" aria-hidden="true">message</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-10">
-                    <div class="panel panel-green">
+                    <div class="panel panel-primary">
                         <div class="panel-body">
-                            <h2 style="color: #3c763d">Oslo Farm, Anuradhapura</h2>
-                            <p>2 days of volunteering. bla bla bla bla blablablaaa</p>
+                            <h2 style="color: blue">Organic Farm, Polonnaruwa</h2>
+                            <p>Contact 071-3244231</p>
                         </div>
                         <div class="panel-footer" align="right">
-                            <a href="#">like</a>
-                            <a href="#">dislike</a>
-                            <a href="#">comment</a>
+                            <a href="#" style="padding: 10px"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>like</a>
+                            <a href="#" style="padding: 10px"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true">dislike</a>
+                            <a href="#" style="padding: 10px"><span class="glyphicon glyphicon-edit" aria-hidden="true">message</a>
                         </div>
                     </div>
                 </div>
