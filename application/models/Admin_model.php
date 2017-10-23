@@ -1,9 +1,9 @@
 <?php
 
-class Main_model extends CI_Model{
+class Admin_model extends CI_Model{
 
     public function insert_data($data){
-        $this->db->insert('volunteer', $data);
+        $this->db->insert('user', $data);
     }
 
     function can_login($username, $password){

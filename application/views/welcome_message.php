@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Farm_Hands</title>
-
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
     <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
@@ -55,7 +55,10 @@
         .bg-grey {
             background-color: #f6f6f6;
         }
-*/
+
+        section {
+            background: url(http://wwoof.net/wp-content/themes/wwoof/dist/images/bg-pattern.jpg) repeat-x 0px 0px;
+        }*/
     </style>
 
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -110,27 +113,24 @@
         <div class="item active" style="background-image: url('<?php echo base_url(); ?>assets/images/farm.jpg')">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 style="font-size: xx-large">Farm_Hands</h1>
-                    <p style="font-size: large">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
-                    <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up today</a></p>
+                    <h1 style="font-size: xx-large">Web Portal to build an Organic Farming Volunteering Community Sri Lanka</h1>
+                    <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up as a Volunteer</a></p>
                 </div>
             </div>
         </div>
         <div class="item" style="background-image: url('<?php echo base_url(); ?>assets/images/4.jpg')">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 style="font-size: xx-large">Farm_Hands</h1>
-                    <p style="font-size: large">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
-                    <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up today</a></p>
+                    <h1 style="font-size: xx-large">Web Portal to build an Organic Farming Volunteering Community Sri Lanka</h1>
+                    <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up as a Volunteer</a></p>
                 </div>
             </div>
         </div>
         <div class="item" style="background-image: url('<?php echo base_url(); ?>assets/images/rice.jpg')">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 style="font-size: xx-large">Farm_Hands</h1>
-                    <p style="font-size: large">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
-                    <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up today</a></p>
+                    <h1 style="font-size: xx-large">Web Portal to build an Organic Farming Volunteering Community Sri Lanka</h1>
+                    <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign up a Volunteer</a></p>
                 </div>
             </div>
         </div>
@@ -217,7 +217,7 @@
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/pumpkin.png" alt="Generic placeholder image" width="140" height="140">
                 <h2 style="font-weight: bold">Step 3</h2>
                 <p>Post an event, Gather Volunteers , Work with new friends and Increase your crops</p>
-                <p><a class="btn btn-warning" href="#" role="button">Sign up &raquo;</a></p>
+                <p><a class="btn btn-warning" href="#" role="button">My Events &raquo;</a></p>
             </div>
 
 
@@ -237,7 +237,7 @@
             <div class="col-lg-4">
                 <img class="img-circle" src="<?php echo base_url(); ?>assets/images/partnership.png" alt="Generic placeholder image" width="140" height="140">
                 <h2 style="font-weight: bold">Step 3</h2>
-                <p>Receive Farm_Handers</p>
+                <p>Receive Farm Hands</p>
                 <p><a class="btn btn-primary" href="#" role="button">Set status &raquo;</a></p>
             </div>
         </div>

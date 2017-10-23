@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Registration</title>
-
+    <title>Login</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
     <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
@@ -95,7 +95,7 @@
                             <div class="block" align="center" style="margin-top: 10px">
                                 <div class="form-group">
                                     <label>Username</label>
-                                    <input type="email" class="form-control" name="username">
+                                    <input type="text" class="form-control" name="username">
                                     <span class="text-danger"><?php echo form_error('username')?></span>
                                 </div>
                                 <div class="form-group">

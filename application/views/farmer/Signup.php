@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Registration</title>
-
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
     <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
@@ -85,10 +85,10 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-primary">
                     <div class="panel-heading" style="height: 50px">
-                        <p class="panel-title text-center" style="font-weight: bolder;font-size: 25px">New to Farm_Hands? Join Now</p>
+                        <p class="panel-title text-center" style="font-weight: bolder;font-size: 25px">Want to increase crops? Join Now</p>
                     </div>
                     <div class="panel-body">
-                        <form method="post" action="<?php echo base_url()?>main/form_validation">
+                        <form method="post" action="<?php echo base_url()?>Farmer/form_validation">
                             <?php
                             if ($this->uri->segment(2) == 'inserted'){
                                 echo '<div class="alert alert-success" role="alert">Data Inserted Successfully</div>';
@@ -102,7 +102,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Email</label>
-                                    <input type="email" class="form-control" name="confirm_password">
+                                    <input type="email" class="form-control" name="email">
                                     <span class="text-danger"><?php echo form_error('email')?></span>
                                 </div>
                                 <div class="form-group">
@@ -122,7 +122,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Last Name</label>
-                                    <input type="email" class="form-control" name="lname">
+                                    <input type="text" class="form-control" name="lname">
                                     <span class="text-danger"><?php echo form_error('last_name')?></span>
                                 </div>
                                 <div class="form-group">
@@ -139,7 +139,7 @@
                             <div class="form-group text-center">
                                 <input style="margin-bottom: 10px" type="submit" class="btn btn-primary" name="Join Now" value="Join now">
                                 <br/>
-                                Already have an account?<a href="<?php echo base_url(); ?>main/login"> Log In</a>
+                                Already have an account?<a href="<?php echo base_url(); ?>Farmer/login"> Log In</a>
                             </div>
                         </form>
                     </div>
