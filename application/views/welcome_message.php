@@ -87,8 +87,8 @@
                 <ul class="nav navbar-nav navbar-left">
                     <li><a href="#about">About</a></li>
                     <li><a href="#getstarted">Getting Started</a></li>
-                    <li><a href="#">Farms</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="http://localhost/Farms/">Farms</a></li>
+                    <li><a href="http://localhost/products/Farmer/view_products">Products</a></li>
                 </ul>
                 <form class="navbar-form navbar-right" action="<?php echo base_url()?>main/login_validation" method="post">
                     <div class="form-group"><input type="text" class="form-control" name="username" placeholder="Username"></div>
