@@ -6,13 +6,14 @@ class Farmer_model extends CI_Model{
         $this->db->insert('farmer', $data);
     }
 
-    function can_login($username, $password){
-        $this->db->where('username', $username);
+    function can_login($email, $password){
+        $this->db->select('*');
+        $this->db->from('farmer');
+        $this->db->where('email', $email);
         $this->db->where('password', $password);
-        $query = $this->db->get('farmer');
 
-        if ($query -> num_rows() > 0){
-            return true;
+        if ($query = $this->db->get()){
+            return $query->row_array();
         }else {
             return false;
         }

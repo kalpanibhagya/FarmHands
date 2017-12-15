@@ -50,30 +50,26 @@ class Farmer extends CI_Controller {
         $this->load->view('farmer/login');
     }
 
-    function login2(){
-        $this->load->view('farmer/login');
-    }
-
     function login_validation(){
         $this->load->library('form_validation');
-        $this->form_validation->set_rules('username', 'Username', 'required');
+        $this->form_validation->set_rules('email', 'E-mail', 'required');
         $this->form_validation->set_rules('password', 'Password', 'required|min_length[6]');
 
         if($this->form_validation->run()){
             //true
 
-            $username = $this->input->post('username');
+            $email = $this->input->post('email');
             $password = $this->input->post('password');
 
             $this->load->model('Farmer_model');
-            if ($this->Farmer_model->can_login($username, $password)){
+            if ($this->Farmer_model->can_login($email, $password)){
                 $session_data = array(
-                    'username' => $username
+                    'email' => $email
                 );
                 $this->session->set_userdata($session_data);
                 redirect(base_url().'Farmer/enter');
             }else {
-                $this->session->set_flashdata('error', 'Invalid username or password!');
+                $this->session->set_flashdata('error', 'Invalid e-mail or password!');
                 redirect(base_url().'Farmer/login');
             }
 
@@ -84,17 +80,26 @@ class Farmer extends CI_Controller {
     }
 
     function enter(){
-        if ($this->session->userdata('username') != ''){
+        if ($this->session->userdata('email') != ''){
             $this->load->view('farmer/dashboard');
-            //echo '<label><a href = "'.base_url().'main/logout">Logout</a></label>';
         } else {
             redirect(base_url().'Farmer/login');
         }
     }
 
     function logout(){
-        $this->session->unset_userdata('username');
+        $this->session->unset_userdata('email');
         redirect(base_url().'Farmer/login');
     }
+
+    function post_an_event(){
+        $this->load->view('farmer/postEvent');
+    }
+
+    function profile(){
+        $this->load->view('farmer/profile');
+
+    }
+
 }
 ?>

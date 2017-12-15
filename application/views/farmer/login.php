@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Login</title>
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/png">
     <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
@@ -94,9 +94,9 @@
                         <form method="post" action="<?php echo base_url()?>Farmer/login_validation">
                             <div class="block" align="center" style="margin-top: 10px">
                                 <div class="form-group">
-                                    <label>Username</label>
-                                    <input type="text" class="form-control" name="username">
-                                    <span class="text-danger"><?php echo form_error('username')?></span>
+                                    <label>E-mail</label>
+                                    <input type="email" class="form-control" name="email">
+                                    <span class="text-danger"><?php echo form_error('email')?></span>
                                 </div>
                                 <div class="form-group">
                                     <label>Password</label>
