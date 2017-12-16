@@ -34,7 +34,7 @@ body a:hover{
 /*-- banner-body --*/
 .banner-body{
 	padding:6em 0 0;
-	background:url(../assests/images/posts/pattern.jpg) 0px 0px;
+	background:url(../images/posts/pattern.jpg) 0px 0px;
 	min-height:600px;
 }
 /*-- //banner-body --*/
@@ -157,48 +157,48 @@ a.navbar-brand:hover {
 	display:inline-block;
 }
 .header-bottom-top ul li a.g{
-	background: url(../assests/images/posts/img-sp.png) no-repeat -26px -12px;
+	background: url(../images/posts/img-sp.png) no-repeat -26px -12px;
 	display: block;
 	height: 34px;
 	width: 34px;
 }
 .header-bottom-top ul li a.g:hover{
-	background: url(../assests/images/posts/img-sp.png) no-repeat -97px -12px;
+	background: url(../images/posts/img-sp.png) no-repeat -97px -12px;
 	display: block;
 }
 .header-bottom-top ul li a.p{
-	background: url(../assests/images/posts/img-sp.png) no-repeat -26px -57px;
+	background: url(../images/posts/img-sp.png) no-repeat -26px -57px;
 	display: block;
 	height: 34px;
 	width: 34px;
 }
 .header-bottom-top ul li a.p:hover{
-	background: url(../assests/images/posts/img-sp.png) no-repeat -96px -57px;
+	background: url(../images/posts/img-sp.png) no-repeat -96px -57px;
 	display: block;
 }
 .header-bottom-top ul li a.facebook{
-	background: url(../assests/images/posts/img-sp.png) no-repeat -26px -103px;
+	background: url(../images/posts/img-sp.png) no-repeat -26px -103px;
 	display: block;
 	height: 34px;
 	width: 34px;
 }
 .header-bottom-top ul li a.facebook:hover{
-	background: url(../assests/images/posts/img-sp.png) no-repeat -96px -103px;
+	background: url(../images/posts/img-sp.png) no-repeat -96px -103px;
 	display: block;
 }
 .header-bottom-top ul li a.twitter{
-	background: url(../assests/images/posts/img-sp.png) no-repeat -26px -152px;
+	background: url(../images/posts/img-sp.png) no-repeat -26px -152px;
 	display: block;
 	height: 34px;
 	width: 34px;
 }
 .header-bottom-top ul li a.twitter:hover{
-	background: url(../assests/images/posts/img-sp.png) no-repeat -96px -152px;
+	background: url(../images/posts/img-sp.png) no-repeat -96px -152px;
 	display: block;
 }
 /*-- banner --*/
 .banner{
-	background:url(../assests/images/posts/banner.jpg) no-repeat 0px 0px;
+	background:url('../images/posts/banner.jpg') no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -228,7 +228,7 @@ a.navbar-brand:hover {
 	font-size:15px;
 	color:#fff;
 	text-decoration:none;
-	background:url(../assests/images/posts/img-sp.png) no-repeat 20px -201px;
+	background:url(../images/posts/img-sp.png) no-repeat 20px -201px;
 	display: block;
 	width: 90px;
 	height: 25px;
@@ -337,14 +337,14 @@ a.navbar-brand:hover {
 	text-decoration: none;
 	height: 72px;
 	width: 38px;
-	background: transparent url("../assests/images/posts/sp.png") no-repeat -19px -7px;
+	background: transparent url("../images/posts/sp.png") no-repeat -19px -7px;
 }
 .callbacks_nav:active {
 	opacity: 1.0;
 }
 .callbacks_nav.next {
 	left: auto;
-	background: transparent url("../assests/images/posts/sp.png") no-repeat -77px -7px;
+	background: transparent url("../images/posts/sp.png") no-repeat -77px -7px;
 	right:-5.59%;
 }
 #slider3-pager a ,#slider2-pager a,#slider4-pager a{
@@ -434,7 +434,7 @@ a.navbar-brand:hover {
 ul.social-slide li i{
 	width:70px;
 	height:74px;
-	background:url(../images/backward.png)no-repeat;
+	background:url(../images/posts/backward.png)no-repeat;
 	display: inline-block;
 	margin:0px 15px;
 }
@@ -529,12 +529,12 @@ position:relative;
 .nbs-flexisel-nav-left {
 left: -4%;
 top: 15% !important;
-background: url(../images/3.png) no-repeat 0px 0px;
+/*background: url(../images/posts/Fat_Cabbage_Farm.jpg) no-repeat 0px 0px;*/
 }
 .nbs-flexisel-nav-right {
 right: -4%;
 top: 15% !important;
-background: url(../images/3.png) no-repeat -66px 0px;
+/*background: url(../images/posts/Fat_Cabbage_Farm.jpg) no-repeat -66px 0px;*/
 }
 /*--//flexisel--*/
 /*-- banner-bottom --*/
@@ -554,7 +554,7 @@ background: url(../images/3.png) no-repeat -66px 0px;
 .more a{
 	padding: 18px 46px 21px 20px;
 	color: #fff;
-	background: url(../assests/images/posts/img-sp.png) no-repeat 71px -194px #c34c21;
+	background: url(../images/posts/img-sp.png) no-repeat 71px -194px #c34c21;
 	display: block;
 	width: 150px;
 	height: 25px;
@@ -564,7 +564,7 @@ background: url(../images/3.png) no-repeat -66px 0px;
 	font-family: LobsterTwo-Regular;
 }
 a.sint:before{
-	background: url(../assests/images/posts/img-sp.png) no-repeat 71px -194px #F04709;
+	background: url(../images/posts/img-sp.png) no-repeat 71px -194px #F04709;
 	display: block;
 }
 .more a:hover{
@@ -640,7 +640,7 @@ p.para{
 .rd-mre a{
 	padding: 10px 30px;
 	color: #fff;
-	background: url(../assests/images/posts/img-sp.png) no-repeat 61px -191px #c34c21;
+	background: url(../images/posts/img-sp.png) no-repeat 61px -191px #c34c21;
 	display: block;
 	width: 130px;
 	text-decoration: none;
@@ -648,7 +648,7 @@ p.para{
 	font-family: LobsterTwo-Regular;
 }
 a.quod:before{
-	background: url(../assests/images/posts/img-sp.png) no-repeat 61px -191px #F04709;
+	background: url(../images/posts/img-sp.png) no-repeat 61px -191px #F04709;
 	display: block;
 }
 .blog-left-grid:nth-child(2){
@@ -852,7 +852,7 @@ ul.tab_list{
 }
 .pgs ul li{
 	margin: 15px 0;
-	background:url(../assests/images/posts/img-sp.png) no-repeat -37px -235px;
+	background:url(../images/posts/img-sp.png) no-repeat -37px -235px;
 	display: block;
 	list-style-type: none;
 	border-bottom: 1px dotted;
@@ -903,7 +903,7 @@ ul.tab_list{
 	margin:15px 0;
 	list-style-type:none;
 	border-bottom: 1px dotted;
-	background:url(../assests/images/posts/img-sp.png) no-repeat -36px -202px;
+	background:url(../images/posts/img-sp.png) no-repeat -36px -202px;
 	display: block;
 	color:#736A6A;
 	padding: 0 0 17px 24px;
@@ -1308,41 +1308,41 @@ p.lom{
 	margin:0 5px;
 	}
 .contact-right1 ul li a.g1:hover{
-	background: url(../images/img-sp.png) no-repeat -26px -12px;
+	background: url(../images/posts/img-sp.png) no-repeat -26px -12px;
 	display: block;
 }
 .contact-right1 ul li a.g1{
-	background: url(../images/img-sp.png) no-repeat -97px -12px;
+	background: url(../images/posts/img-sp.png) no-repeat -97px -12px;
 	display: block;
 	height: 34px;
 	width: 34px;
 }
 .contact-right1 ul li a.p1:hover{
-	background: url(../assests/images/posts/img-sp.png) no-repeat -26px -57px;
+	background: url(../images/posts/img-sp.png) no-repeat -26px -57px;
 	display: block;
 }
 .contact-right1 ul li a.p1{
-	background: url(../assests/images/posts/img-sp.png) no-repeat -96px -57px;
+	background: url(../images/posts/img-sp.png) no-repeat -96px -57px;
 	display: block;
 	height: 34px;
 	width: 34px;
 }
 .contact-right1 ul li a.facebook1:hover{
-	background: url(../assests/images/posts/img-sp.png) no-repeat -26px -103px;
+	background: url(../images/posts/img-sp.png) no-repeat -26px -103px;
 	display: block;
 }
 .contact-right1 ul li a.facebook1{
-	background: url(../assests/images/posts/img-sp.png) no-repeat -96px -103px;
+	background: url(../images/posts/img-sp.png) no-repeat -96px -103px;
 	display: block;
 	height: 34px;
 	width: 34px;
 }
 .contact-right1 ul li a.twitter1:hover{
-	background: url(../assests/images/posts/img-sp.png) no-repeat -26px -152px;
+	background: url(../images/posts/img-sp.png) no-repeat -26px -152px;
 	display: block;
 }
 .contact-right1 ul li a.twitter1{
-	background: url(../assests/images/posts/img-sp.png) no-repeat -96px -152px;
+	background: url(../images/posts/img-sp.png) no-repeat -96px -152px;
 	display: block;
 	height: 34px;
 	width: 34px;
@@ -1456,22 +1456,22 @@ p.lom{
   margin: 0em 0em 4em 0em;
 }
 .advan-cup {
-  background: url(../images/7.jpg) no-repeat 0px 0px;
+  background: url(../images/posts/7.jpg) no-repeat 0px 0px;
   width: 100px;
   height: 90px;
 }
 .advan-ser{
-  background: url(../images/8.jpg) no-repeat 0px 0px;
+  background: url(../images/posts/8.jpg) no-repeat 0px 0px;
   width: 100px;
   height: 90px;
 }
 .advan-mach {
-  background: url(../images/9.jpg) no-repeat 0px 0px;
+  background: url(../images/posts/9.jpg) no-repeat 0px 0px;
   width: 100px;
   height: 90px;
 }
 .advan-tin{
-  background: url(../images/10.jpg) no-repeat 0px 0px;
+  background: url(../images/posts/10.jpg) no-repeat 0px 0px;
   width: 100px;
   height: 90px;
 }
@@ -1531,7 +1531,7 @@ p.lom{
 	vertical-align:top;
 }
 .artical-links ul li small{
-	background:url(../images/img-sprite.png)no-repeat -18px -90px;
+	background:url(../images/posts/img-sprite.png)no-repeat -18px -90px;
 	width: 20px;
 	height: 20px;
 	display: inline-block;
@@ -2061,7 +2061,7 @@ p.lom{
 	  background-size: 285%;
 	}
 	.callbacks_nav.next {
-		background: transparent url("../assests/images/posts/img-sp.png") no-repeat -48px -7px;
+		background: transparent url("../images/posts/img-sp.png") no-repeat -48px -7px;
 	}
 	.callbacks_nav.next {
 	  right: -6%;
@@ -2390,7 +2390,7 @@ p.lom{
 	  background-size:266%;
 	}
 	.callbacks_nav.next {
-	  background: transparent url("../assests/images/posts/img-sp.png") no-repeat -41px -7px;
+	  background: transparent url("../images/posts/img-sp.png") no-repeat -41px -7px;
 	}
 	.callbacks_nav.next {
 	  right: -11%;
@@ -2420,7 +2420,7 @@ p.lom{
 	}
 	.more a {
 	  padding: 16px 50px 18px 15px;
-	  background: url(../assests/images/posts/img-sp.png) no-repeat 48px -196px #c34c21;
+	  background: url(../assets/images/posts/img-sp.png) no-repeat 48px -196px #c34c21;
 	  width: 125px;
 	  font-size: 14px;
 	}
@@ -2435,7 +2435,7 @@ p.lom{
 	  margin: 2em 0 0;
 	}
 	a.sint:before {
-	  background: url(../assests/images/posts/img-sp.png) no-repeat 48px -196px #F04709;
+	  background: url(../images/posts/img-sp.png) no-repeat 48px -196px #F04709;
 	}
 	.blog-left-grid-right a {
 	  padding: 7px 19px;
@@ -2443,10 +2443,10 @@ p.lom{
 	}
 	.rd-mre a {
 	  padding: 7px 30px;
-	  background: url(../assests/images/posts/img-sp.png) no-repeat 55px -195px #c34c21;
+	  background: url(../images/posts/img-sp.png) no-repeat 55px -195px #c34c21;
 	}
 	a.quod:before {
-	  background: url(../assests/images/posts/img-sp.png) no-repeat 55px -195px #F04709;
+	  background: url(../images/posts/img-sp.png) no-repeat 55px -195px #F04709;
 	}
 	h2.resp-accordion {
 	  font-size: 14px;
