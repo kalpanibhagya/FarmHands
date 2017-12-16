@@ -75,20 +75,19 @@
 
 
     //edit admin
-    function edit_person(admin_id)
+    function edit_person(id)
     {
         save_method = 'update';
         $('#form')[0].reset(); // reset form on modals
 
         //Ajax Load data from ajax
         $.ajax({
-            url : "<?php echo site_url('Admin_dashboard/ajax_edit/')?>/" + admin_id,
+            url : "<?php echo site_url('Admin/ajax_edit/')?>/" + id,
             type: "GET",
             dataType: "JSON",
             success: function(data)
             {
-
-                $('[name="admin_id"]').val(data.admin_id);
+                $('[name="id"]').val(data.id);
                 $('[name="username"]').val(data.username);
                 $('[name="email"]').val(data.email);
                 $('[name="password"]').val(data.password);
@@ -115,11 +114,11 @@
         var url;
         if(save_method == 'add')
         {
-            url = "<?php echo site_url('Admin_dashboard/ajax_add')?>";
+            url = "<?php echo site_url('Admin/ajax_add')?>";
         }
         else
         {
-            url = "<?php echo site_url('Admin_dashboard/ajax_update')?>";
+            url = "<?php echo site_url('Admin/ajax_update')?>";
         }
 
         // ajax adding data to database
@@ -148,7 +147,7 @@
 
 
     //delete admin
-    function delete_person(admin_id)
+    function delete_person(id)
     {
 
         swal({
@@ -165,7 +164,7 @@
 
                 // ajax delete data to database
                 $.ajax({
-                    url : "<?php echo site_url('Admin/ajax_delete')?>/"+admin_id,
+                    url : "<?php echo site_url('Admin/ajax_delete')?>/"+id,
                     type: "POST",
                     dataType: "JSON",
                     success: function(data)
@@ -193,10 +192,10 @@
 
 
     //view person
-    function view_person(admin_id)
+    function view_person(id)
     {
         $.ajax({
-            url : "<?php echo site_url('Admin/list_by_id')?>/" + admin_id,
+            url : "<?php echo site_url('Admin/list_by_id')?>/" + id,
             type: "GET",
             success: function(result)
             {
@@ -233,7 +232,7 @@
             </div>
             <div class="modal-body form">
                 <form action="#" id="form" class="form-horizontal">
-                    <input type="hidden" value="" name="admin_id"/>
+                    <input type="hidden" value="" name="id"/>
                     <div class="form-body">
                         <div class="form-group">
                             <label class="control-label col-md-3">Username</label>

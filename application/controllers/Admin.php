@@ -3,6 +3,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Admin extends CI_Controller {
 
+    public function __construct()
+    {
+        parent::__construct();
+        $this->load->model('Admin_model');
+    }
+
     public function index()
     {
         $this->load->view('admin/login');
@@ -17,7 +23,7 @@ class Admin extends CI_Controller {
             //true
 
             $email = $this->input->post('email');
-            $password = $this->input->post('password');
+            $password = base64_encode(strrev(md5($this->input->post('password'))));
 
             $this->load->model('Admin_model');
             if ($this->Admin_model->can_login($email, $password)){
@@ -54,12 +60,12 @@ class Admin extends CI_Controller {
     }
 
     function addAdmin(){
-        $this->load->view('administrator/addAdmin');
+        $this->load->view('admin/addAdmin');
     }
 
     public function ajax_list()
     {
-        $list = $this->person->get_datatables();
+        $list = $this->Admin_model->get_datatables();
         $data = array();
         $no = $_POST['start'];
         foreach ($list as $person) {
@@ -70,26 +76,26 @@ class Admin extends CI_Controller {
             $row[] = $person->password;
 
             //add html for action
-            $row[] = '<a class="btn btn-sm btn-primary" href="javascript:void(0)" title="Edit" onclick="edit_person('."'".$person->admin_id."'".')"><i class="glyphicon glyphicon-pencil"></i> Edit</a>
-            <a class="btn btn-sm btn-danger" href="javascript:void(0)" title="Delete" onclick="delete_person('."'".$person->admin_id."'".')"><i class="glyphicon glyphicon-trash"></i> Delete</a>
-            <a class="btn btn-sm btn-default" href="javascript:void(0)" title="View" onclick="view_person('."'".$person->admin_id."'".')"><i class="glyphicon glyphicon-file"></i> View</a>';
+            $row[] = '<a class="btn btn-sm btn-primary" href="javascript:void(0)" title="Edit" onclick="edit_person('."'".$person->id."'".')"><i class="glyphicon glyphicon-pencil"></i> Edit</a>
+            <a class="btn btn-sm btn-danger" href="javascript:void(0)" title="Delete" onclick="delete_person('."'".$person->id."'".')"><i class="glyphicon glyphicon-trash"></i> Delete</a>
+            <a class="btn btn-sm btn-default" href="javascript:void(0)" title="View" onclick="view_person('."'".$person->id."'".')"><i class="glyphicon glyphicon-file"></i> View</a>';
 
             $data[] = $row;
         }
 
         $output = array(
             "draw" => $_POST['draw'],
-            "recordsTotal" => $this->person->count_all(),
-            "recordsFiltered" => $this->person->count_filtered(),
+            "recordsTotal" => $this->Admin_model->count_all(),
+            "recordsFiltered" => $this->Admin_model->count_filtered(),
             "data" => $data,
         );
         //output to json format
         echo json_encode($output);
     }
 
-    public function ajax_edit($admin_id)
+    public function ajax_edit($id)
     {
-        $data = $this->person->get_by_id($admin_id);
+        $data = $this->Admin_model->get_by_id($id);
         echo json_encode($data);
     }
 
@@ -100,7 +106,7 @@ class Admin extends CI_Controller {
             'email' => $this->input->post('email'),
             'password' => base64_encode(strrev(md5($this->input->post('password')))),
         );
-        $insert = $this->person->save($data);
+        $insert = $this->Admin_model->save($data);
         echo json_encode(array("status" => TRUE));
     }
 
@@ -111,20 +117,20 @@ class Admin extends CI_Controller {
             'email' => $this->input->post('email'),
             'password' => base64_encode(strrev(md5($this->input->post('password')))),
         );
-        $this->person->update(array('admin_id' => $this->input->post('admin_id')), $data);
+        $this->Admin_model->update(array('id' => $this->input->post('id')), $data);
         echo json_encode(array("status" => TRUE));
     }
 
-    public function ajax_delete($admin_id)
+    public function ajax_delete($id)
     {
-        $this->person->delete_by_id($admin_id);
+        $this->Admin_model->delete_by_id($id);
         echo json_encode(array("status" => TRUE));
     }
 
-    public function list_by_id($admin_id){
+    public function list_by_id($id){
 
-        $data['output'] = $this->person->get_by_id_view($admin_id);
-        $this->load->view('Pages/Admin/view_addAdmin', $data);
+        $data['output'] = $this->Admin_model->get_by_id_view($id);
+        $this->load->view('admin/view_addAdmin', $data);
     }
 }
 ?>
