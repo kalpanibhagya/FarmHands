@@ -8,7 +8,7 @@
                 <img src="<?php echo base_url(); ?>assets/images/farmer.png" class="img-circle" alt="User Image">
             </div>
             <div class="pull-left info">
-                <p style="font-weight: 100"><?php echo $this->session->userdata('username');?></p>
+                <p style="font-weight: 100"><?php echo $username;?></p>
                 <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
             </div>
         </div>
@@ -26,7 +26,7 @@
                 </a>
             </li>
             <li>
-                <a class="ayam" href="<?php echo base_url(); ?>Farmer/farms">
+                <a class="ayam" href="<?php echo base_url(); ?>Farmer/myfarms">
                     <i class="fa fa-map-marker"></i> <span>My Farms</span>
                 </a>
             </li>
@@ -36,8 +36,8 @@
                 </a>
             </li>
             <li>
-                <a class="ayam" href="<?php echo base_url(); ?>Farmer/farmers">
-                    <i class="fa fa-users"></i> <span>Other Farmers</span>
+                <a class="ayam" href="<?php echo base_url(); ?>Farmer/otherfarms">
+                    <i class="fa fa-tree"></i> <span>Other Farms</span>
                 </a>
             </li>
             <li>

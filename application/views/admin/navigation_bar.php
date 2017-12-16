@@ -41,12 +41,7 @@
                 </a>
             </li>
             <li>
-                <a class = "ayam" href="<?php echo base_url(); ?>Admin/edit_contacts">
-                    <i class="fa fa-phone"></i> <span>Edit Contacts</span>
-                </a>
-            </li>
-            <li>
-                <a class = "ayam" href="<?php echo base_url(); ?>Admin_dashboard/notifications">
+                <a class = "ayam" href="<?php echo base_url(); ?>Admin/notifications">
                     <i class="fa fa-bell"></i> <span>Notifications</span>
                 </a>
             </li>

@@ -63,6 +63,14 @@ class Admin extends CI_Controller {
         $this->load->view('admin/addAdmin');
     }
 
+    function farmers(){
+        $this->load->view('admin/farmers');
+    }
+
+    function volunteers(){
+        $this->load->view('admin/volunteers');
+    }
+
     public function ajax_list()
     {
         $list = $this->Admin_model->get_datatables();

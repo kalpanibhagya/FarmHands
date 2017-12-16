@@ -17,27 +17,27 @@
     <h3 align="center" style="font-weight: bold">Profile</h3>
     <div class="form-group">
         <label>Username</label>
-        <input type="text" name="username" class="form-control" placeholder="Username" />
+        <input type="text" name="username" class="form-control" placeholder="Username" value="<?php echo $username; ?>"/>
     </div>
     <div class="form-group">
         <label>First Name</label>
-        <input type="text" name="fname" class="form-control" placeholder="First Name" />
+        <input type="text" name="fname" class="form-control" placeholder="First Name" value="<?php echo $fname; ?>"/>
     </div>
     <div class="form-group">
         <label>Last Name</label>
-        <input type="text" name="lname" class="form-control" placeholder="Last Name" />
+        <input type="text" name="lname" class="form-control" placeholder="Last Name" value="<?php echo $lname; ?>"/>
     </div>
     <div class="form-group">
         <label>Email</label>
-        <input type="email" name="email" class="form-control" placeholder="E-mail" />
+        <input type="email" name="email" class="form-control" placeholder="E-mail" value="<?php echo $email; ?>" readonly/>
     </div>
     <div class="form-group">
         <label>Address</label>
-        <input type="text" name="address" class="form-control" placeholder="Colombo, Sri Lanka" />
+        <input type="text" name="address" class="form-control" placeholder="Colombo, Sri Lanka" value="<?php echo $address; ?>"/>
     </div>
     <div class="form-group">
         <label>Contact Number</label>
-        <input type="tel" name="telephone" class="form-control" placeholder="**********" />
+        <input type="tel" name="telephone" class="form-control" placeholder="**********" value="<?php echo $telephone; ?>"/>
     </div>
 
 

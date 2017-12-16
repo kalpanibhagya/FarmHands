@@ -8,47 +8,42 @@
 <script src="<?php echo base_url('assets/crud-assets/datatables/js/dataTables.bootstrap.js')?>"></script>
 <script src="<?php echo base_url('assets/crud-assets/bootstrap-datepicker/js/bootstrap-datepicker.min.js')?>"></script>
 
+
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/sweetalert2/1.3.3/sweetalert2.min.css">
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/sweetalert2/0.4.5/sweetalert2.css">
 <script type="text/javascript" src="https://cdn.jsdelivr.net/sweetalert2/1.3.3/sweetalert2.min.js"></script>
 
-<div class="row" style="margin-left: 20px;margin-right: 20px">
-                <a class="glyphicon glyphicon-pencil" role="button" href="javascript:void(0)" onclick="edit()"></a>
-                <h3 align="center" style="font-weight: bold">Profile</h3>
-                <div class="form-group">
-                    <label>Username</label>
-                    <input type="text" name="username" class="form-control" placeholder="Username" value="<?php echo $username; ?>"/>
-                </div>
-                <div class="form-group">
-                    <label>First Name</label>
-                    <input type="text" name="fname" class="form-control" placeholder="First Name" value="<?php echo $fname; ?>"/>
-                </div>
-                <div class="form-group">
-                    <label>Last Name</label>
-                    <input type="text" name="lname" class="form-control" placeholder="Last Name" value="<?php echo $lname; ?>"/>
-                </div>
-                <div class="form-group">
-                    <label>Email</label>
-                    <input type="email" name="email" class="form-control" placeholder="E-mail" value="<?php echo $email; ?>" readonly/>
-                </div>
-                <div class="form-group">
-                    <label>Address</label>
-                    <input type="text" name="address" class="form-control" placeholder="Colombo, Sri Lanka" value="<?php echo $address; ?>"/>
-                </div>
-                <div class="form-group">
-                    <label>Contact Number</label>
-                    <input type="tel" name="telephone" class="form-control" placeholder="**********" value="<?php echo $telephone; ?>"/>
-                </div>
+<div class = "row">
+    <button class="btn btn-success" onclick="add_person()" title="Add new Volunteer"><i class="glyphicon glyphicon-plus"></i> Add New Volunteer</button>
+    <br />
+    <br />
+    <table id="table" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <thead>
+        <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Address</th>
+            <th>Contact Number</th>
+            <th style="width:189px;">Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
 
+
+    </table>
+</div>
 
 
 </div>
+
 
 <script type="text/javascript">
 
     var save_method; //for save method string
     var table;
-    var save_type;
     $(document).ready(function() {
         table = $('#table').DataTable({
 
@@ -57,7 +52,7 @@
 
             // Load data for the table's content from an Ajax source
             "ajax": {
-                "url": "<?php echo site_url('Company/ajax_list')?>",
+                "url": "<?php echo site_url('Volunteer/ajax_list')?>",
                 "type": "POST"
             },
 
@@ -72,30 +67,39 @@
         });
     });
 
-    function edit()
+    //add Volunteer
+    function add_person()
+    {
+        save_method = 'add';
+        $('#form')[0].reset(); // reset form on modals
+        $('#modal_form').modal('show'); // show bootstrap modal
+        $('.modal-title').text('Add New Volunteer'); // Set Title to Bootstrap modal title
+    }
+
+
+    //edit Volunteer
+    function edit_person(id)
     {
         save_method = 'update';
-        save_type = 'farmer';
         $('#form')[0].reset(); // reset form on modals
 
         //Ajax Load data from ajax
         $.ajax({
-            url : "<?php echo site_url('Farmer/ajax_edit_profile/')?>/" ,
+            url : "<?php echo site_url('Volunteer/ajax_edit/')?>/" + id,
             type: "GET",
             dataType: "JSON",
             success: function(data)
             {
-
+                $('[name="id"]').val(data.id);
                 $('[name="username"]').val(data.username);
+                $('[name="email"]').val(data.email);
                 $('[name="fname"]').val(data.fname);
                 $('[name="lname"]').val(data.lname);
                 $('[name="address"]').val(data.address);
                 $('[name="telephone"]').val(data.telephone);
 
-                //$('[name="logo"]').val(data.logo);
-
                 $('#modal_form').modal('show'); // show bootstrap modal when complete loaded
-                $('.modal-title').text('Edit Username'); // Set title to Bootstrap modal title
+                $('.modal-title').text('Edit Volunteer'); // Set title to Bootstrap modal title
 
             },
             error: function (jqXHR, textStatus, errorThrown)
@@ -105,26 +109,35 @@
         });
     }
 
+    function reload_table()
+    {
+        table.ajax.reload(null,false); //reload datatable ajax
+    }
+
+
     function save()
     {
         var url;
-        if (save_type == 'farmer')
+        if(save_method == 'add')
         {
-            url = "<?php echo site_url('Farmer/ajax_update')?>";
+            url = "<?php echo site_url('Volunteer/ajax_add')?>";
         }
-
+        else
+        {
+            url = "<?php echo site_url('Volunteer/ajax_update')?>";
+        }
 
         // ajax adding data to database
         $.ajax({
             url : url,
             type: "POST",
-            data: $('#form_'.concat(save_type)).serialize(),
+            data: $('#form').serialize(),
             dataType: "JSON",
             success: function(data)
             {
                 //if success close modal and reload ajax table
-                $('#modal_form_'.concat(save_type)).modal('hide');
-                //reload_table();
+                $('#modal_form').modal('hide');
+                reload_table();
                 swal(
                     'Good job!',
                     'Data has been save!',
@@ -139,48 +152,134 @@
     }
 
 
+    //delete Volunteer
+    function delete_person(id)
+    {
+
+        swal({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            type: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+            confirmButtonText: 'Yes, delete it!',
+            closeOnConfirm: false
+        }).then(function(isConfirm) {
+            if (isConfirm) {
+
+                // ajax delete data to database
+                $.ajax({
+                    url : "<?php echo site_url('Volunteer/ajax_delete')?>/"+id,
+                    type: "POST",
+                    dataType: "JSON",
+                    success: function(data)
+                    {
+                        //if success reload ajax table
+                        $('#modal_form').modal('hide');
+                        reload_table();
+                        swal(
+                            'Deleted!',
+                            'Your file has been deleted.',
+                            'success'
+                        );
+                    },
+                    error: function (jqXHR, textStatus, errorThrown)
+                    {
+                        alert('Error adding / update data');
+                    }
+                });
+
+
+            }
+        })
+
+    }
+
+
+    //view person
+    function view_person(id)
+    {
+        $.ajax({
+            url : "<?php echo site_url('Volunteer/list_by_id')?>/" + id,
+            type: "GET",
+            success: function(result)
+            {
+                $('#dynamicPart').empty().html(result).fadeIn('slow');
+            },
+            error: function (jqXHR, textStatus, errorThrown)
+            {
+
+            }
+        });
+    }
+
+
+    //datepicker
+    $('.datepicker').datepicker({
+        autoclose: true,
+        format: "yyyy-mm-dd",
+        todayHighlight: true,
+        orientation: "top auto",
+        todayBtn: true,
+        todayHighlight: true,
+    });
 
 
 </script>
+
+<!-- Bootstrap modal -->
 <div class="modal fade" id="modal_form" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h3 class="modal-title">Company Details Form</h3>
+                <h3 class="modal-title">Edit Volunteer</h3>
             </div>
             <div class="modal-body form">
-                <form action="#" id="form_details" class="form-horizontal">
-                    <input type="hidden" value="" name="company_id"/>
+                <form action="#" id="form" class="form-horizontal">
+                    <input type="hidden" value="" name="id"/>
                     <div class="form-body">
                         <div class="form-group">
                             <label class="control-label col-md-3">Username</label>
                             <div class="col-md-9">
-                                <input name="company_name" class="form-control" type="text">
+                                <input name="username" placeholder="Username" class="form-control" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3">Email</label>
+                            <div class="col-md-9">
+                                <input name="email" placeholder="Email" class="form-control" type="email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3">Password</label>
+                            <div class="col-md-9">
+                                <input type="password" name="password" placeholder="Password" class="form-control">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="control-label col-md-3">First Name</label>
                             <div class="col-md-9">
-                                <input name="register_no" class="form-control" type="text">
+                                <input type="text" name="fname" placeholder="First Name" class="form-control">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="control-label col-md-3">Last Name</label>
                             <div class="col-md-9">
-                                <input name="country" class="form-control" type="text">
+                                <input type="text" name="lname" placeholder="Last Name" class="form-control">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="control-label col-md-3">Address</label>
                             <div class="col-md-9">
-                                <input name="type" class="form-control" type="text">
+                                <input type="text" name="address" placeholder="Address" class="form-control">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="control-label col-md-3">Contact Number</label>
                             <div class="col-md-9">
-                                <input name="size" class="form-control" type="text">
+                                <input type="tel" name="telephone" placeholder="**********" class="form-control">
                             </div>
                         </div>
                     </div>
@@ -194,8 +293,5 @@
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 <!-- End Bootstrap modal -->
-
 </body>
 </html>
-
-
