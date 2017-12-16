@@ -12,15 +12,15 @@
             </a>
 
 
-            <img id="image1" src="<?php echo base_url('assets/images/3.jpg'); ?>" alt="Your own Evaluation Criteria"/>
-            <img id="image2" src="<?php echo base_url('assets/images/3.jpg'); ?>" alt="Automated CV selection"/>
+            <img id="image1" src="<?php echo base_url('assets/images/3.jpg'); ?>" alt="Get help from volunteers"/>
+            <img id="image2" src="<?php echo base_url('assets/images/3.jpg'); ?>" alt="Share your knowledge"/>
             <img id="image3" src="<?php echo base_url('assets/images/3.jpg'); ?>" />
-            <img id="image4" src="<?php echo base_url('assets/images/3.jpg'); ?>" alt="Send Interview Requests"/>
-            <img id="image4" src="<?php echo base_url('assets/images/3.jpg'); ?>" alt="Reduce your paper works"/>
+            <img id="image4" src="<?php echo base_url('assets/images/3.jpg'); ?>" alt="Make friends & Enjoy Farming"/>
+            <img id="image4" src="<?php echo base_url('assets/images/3.jpg'); ?>" alt="Promote healthy foods around the country"/>
         </div>
         <div style="display: none;">
             <div id="cap1">
-                Welcome to <a href="http://www.google.com/">M-ploy</a>.
+                Welcome to <a href="http://www.google.com/">FarmHands</a>.
             </div>
         </div>
     </div>

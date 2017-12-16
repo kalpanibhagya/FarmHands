@@ -87,10 +87,10 @@
                 <ul class="nav navbar-nav navbar-left">
                     <li><a href="#about">About</a></li>
                     <li><a href="#getstarted">Getting Started</a></li>
-                    <li><a href="http://localhost/Farms/">Farms</a></li>
+                    <li><a href="<?php echo base_url(); ?>Farms">Farms</a></li>
                     <li><a href="http://localhost/products/Farmer/view_products">Products</a></li>
                 </ul>
-                <form class="navbar-form navbar-right" action="<?php echo base_url()?>main/login_validation" method="post">
+                <form class="navbar-form navbar-right" action="#" method="post">
                     <a class="btn btn-primary" href="<?php echo base_url(); ?>Volunteer" role="button">For Volunteers</a>
                     <a class="btn btn-primary" href="<?php echo base_url(); ?>Farmer" role="button">For Farmers</a>
                 </form>

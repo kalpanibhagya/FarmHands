@@ -73,8 +73,8 @@
                     <li><a href="<?php echo base_url();?>about">About us</a></li>
                 </ul>
                 <form class="navbar-form navbar-right" action="<?php echo base_url()?>main/login_validation" method="post">
-                    <a class="btn btn-primary" href="<?php echo base_url(); ?>main" role="button">Sign Up</a>
-                    <a class="btn btn-primary" href="<?php echo base_url(); ?>main/login" role="button">Login</a>
+                    <a class="btn btn-primary" href="<?php echo base_url(); ?>Volunteer" role="button">Sign Up</a>
+                    <a class="btn btn-primary" href="<?php echo base_url(); ?>Volunteer/login2" role="button">Login</a>
                 </form>
             </div>
         </div>
@@ -96,7 +96,7 @@
                             <div class="block" align="center" style="margin-top: 10px">
                                 <div class="form-group">
                                     <label>Username</label>
-                                    <input type="email" class="form-control" name="email">
+                                    <input type="email" class="form-control" name="email" autofocus="autofocus">
                                     <span class="text-danger"><?php echo form_error('email')?></span>
                                 </div>
                                 <div class="form-group">

@@ -14,34 +14,30 @@
 
 <div class="row" style="margin-left: 20px;margin-right: 20px">
     <a class="glyphicon glyphicon-pencil" role="button" href="javascript:void(0)" onclick="edit_company_details()"></a>
-    <h3 align="center" style="font-weight: bold">Company details</h3>
+    <h3 align="center" style="font-weight: bold">Profile</h3>
     <div class="form-group">
-        <label>Company Name</label>
-        <input type="text" name="company_name" class="form-control" placeholder="Company Name" />
+        <label>Username</label>
+        <input type="text" name="username" class="form-control" placeholder="Username" />
     </div>
     <div class="form-group">
-        <label>Company Registration Number</label>
-        <input type="text" name="reg_number" class="form-control" placeholder="2 letters followed by 6 numbers" />
+        <label>First Name</label>
+        <input type="text" name="fname" class="form-control" placeholder="First Name" />
     </div>
     <div class="form-group">
-        <label>Country</label>
-        <input type="text" name="country" class="form-control" placeholder="country" />
+        <label>Last Name</label>
+        <input type="text" name="lname" class="form-control" placeholder="Last Name" />
     </div>
     <div class="form-group">
-        <label>Company Type</label>
-        <input type="text" name="company_type" class="form-control" placeholder="eg: Public Organization" />
+        <label>Email</label>
+        <input type="email" name="email" class="form-control" placeholder="E-mail" />
     </div>
     <div class="form-group">
-        <label>Company Size</label>
-        <input type="text" name="company_size" class="form-control" placeholder="100-500" />
+        <label>Address</label>
+        <input type="text" name="address" class="form-control" placeholder="Colombo, Sri Lanka" />
     </div>
     <div class="form-group">
-        <label>Currently Hiring ?</label>
-        <input type="text" name="hiring_status" class="form-control" placeholder="eg: yes" />
-    </div>
-    <div class="form-group">
-        <label>Description</label>
-        <textarea name="description" rows="5" class="form-control" placeholder="About your company"></textarea>
+        <label>Contact Number</label>
+        <input type="tel" name="telephone" class="form-control" placeholder="**********" />
     </div>
 
 

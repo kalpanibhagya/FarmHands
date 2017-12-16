@@ -8,7 +8,7 @@
                 <img src="<?php echo base_url(); ?>assets/images/a.png" class="img-circle" alt="User Image">
             </div>
             <div class="pull-left info">
-                <p style="font-weight: 100"><?php echo $username;?></p>
+                <p style="font-weight: 100"><?php echo $this->session->userdata('username'); ?></p>
                 <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
             </div>
         </div>
@@ -22,35 +22,32 @@
             </li>
             <li>
                 <a class = "ayam" href="<?php echo base_url(); ?>Admin/addAdmin">
-                    <i class="fa fa-user-plus"></i> <span>Add Administrator</span>
+                    <i class="fa fa-user-plus"></i> <span>Administrators</span>
                 </a>
-            </li>
-            <li class="treeview">
-                <a href="#">
-                    <i class="fa fa-check-square-o"></i> <span>Selections</span><i class="fa fa-angle-left pull-right"></i>
-                </a>
-                <ul class="treeview-menu">
-                    <li><a class = "ayam" href="<?php echo base_url(); ?>Admin_dashboard/selection_interns"><i class="fa fa-circle-o"></i> Interns Selection</a></li>
-                    <li><a class = "ayam" href="<?php echo base_url(); ?>Admin_dashboard/selection_jobapplicants"><i class="fa fa-circle-o"></i> Job Applicants Selection</a></li>
-                </ul>
-            </li>
-            <li class="treeview">
-                <a href="#">
-                    <i class="fa fa-users"></i> <span>Applicants</span><i class="fa fa-angle-left pull-right"></i>
-                </a>
-                <ul class="treeview-menu">
-                    <li><a class = "ayam" href="<?php echo base_url(); ?>Admin_dashboard/interns"><i class="fa fa-circle-o"></i> Interns</a></li>
-                    <li><a class = "ayam" href="<?php echo base_url(); ?>Admin_dashboard/jobapplicants"><i class="fa fa-circle-o"></i> Job Applicants</a></li>
-                </ul>
             </li>
             <li>
-                <a class = "ayam" href="<?php echo base_url(); ?>Admin_dashboard/employers">
-                    <i class="fa fa-building"></i> <span>Companies</span>
+                <a class = "ayam" href="<?php echo base_url(); ?>Admin/farmers">
+                    <i class="fa fa-users"></i> <span>Farmers</span>
+                </a>
+            </li>
+            <li>
+                <a class = "ayam" href="<?php echo base_url(); ?>Admin/farms">
+                    <i class="fa fa-leaf"></i> <span>Farms</span>
+                </a>
+            </li>
+            <li>
+                <a class = "ayam" href="<?php echo base_url(); ?>Admin/volunteers">
+                    <i class="fa fa-users"></i> <span>Volunteers</span>
+                </a>
+            </li>
+            <li>
+                <a class = "ayam" href="<?php echo base_url(); ?>Admin/edit_contacts">
+                    <i class="fa fa-phone"></i> <span>Edit Contacts</span>
                 </a>
             </li>
             <li>
                 <a class = "ayam" href="<?php echo base_url(); ?>Admin_dashboard/notifications">
-                    <i class="fa fa-bell-o"></i> <span>Notifications</span>
+                    <i class="fa fa-bell"></i> <span>Notifications</span>
                 </a>
             </li>
         </ul>

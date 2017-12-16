@@ -97,6 +97,6 @@ class Volunteer extends CI_Controller {
     }
 
     function profile(){
-        $this->load->view('farmer/profile');
+        $this->load->view('volunteer/profile');
     }
 }

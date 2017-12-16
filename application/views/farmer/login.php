@@ -95,7 +95,7 @@
                             <div class="block" align="center" style="margin-top: 10px">
                                 <div class="form-group">
                                     <label>E-mail</label>
-                                    <input type="email" class="form-control" name="email">
+                                    <input type="email" class="form-control" name="email" autofocus="autofocus">
                                     <span class="text-danger"><?php echo form_error('email')?></span>
                                 </div>
                                 <div class="form-group">

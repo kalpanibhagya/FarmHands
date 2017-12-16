@@ -8,15 +8,15 @@
     <div id="sliderFrame" style="margin-bottom: 20px">
         <div id="slider">
             <a href="" target="_blank">
-                <img src="<?php echo base_url('assets/images/3.jpg'); ?>" alt="#cap1" />
+                <img src="<?php echo base_url('assets/images/3.jpg'); ?>"/>
             </a>
 
 
-            <img id="image1" src="<?php echo base_url('assets/images/3.jpg'); ?>" alt="Your own Evaluation Criteria"/>
-            <img id="image2" src="<?php echo base_url('assets/images/3.jpg'); ?>" alt="Automated CV selection"/>
+            <img id="image1" src="<?php echo base_url('assets/images/3.jpg'); ?>" />
+            <img id="image2" src="<?php echo base_url('assets/images/3.jpg'); ?>" />
             <img id="image3" src="<?php echo base_url('assets/images/3.jpg'); ?>" />
-            <img id="image4" src="<?php echo base_url('assets/images/3.jpg'); ?>" alt="Send Interview Requests"/>
-            <img id="image4" src="<?php echo base_url('assets/images/3.jpg'); ?>" alt="Reduce your paper works"/>
+            <img id="image4" src="<?php echo base_url('assets/images/3.jpg'); ?>" />
+            <img id="image4" src="<?php echo base_url('assets/images/3.jpg'); ?>" />
         </div>
         <div style="display: none;">
             <div id="cap1">
@@ -26,7 +26,7 @@
     </div>
 
     <div align="center">
-        <a class="btn btn-success btn-lg btn-blockbtn-lg btn-block" href="<?php echo base_url(); ?>Forum"> Posts</a>
+        <a class="btn btn-success btn-lg btn-blockbtn-lg btn-block" href="<?php echo base_url(); ?>Forum"> Main Forum</a>
     </div>
 
 </div>

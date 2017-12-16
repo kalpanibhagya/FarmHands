@@ -97,7 +97,7 @@
                             <div class="block" align="center" style="margin-top: 10px">
                                 <div class="form-group">
                                     <label>Username</label>
-                                    <input type="text" class="form-control" name="username">
+                                    <input type="text" class="form-control" name="username" autofocus="autofocus">
                                     <span class="text-danger"><?php echo form_error('username')?></span>
                                 </div>
                                 <div class="form-group">

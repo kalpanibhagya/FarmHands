@@ -4,7 +4,7 @@ class Admin_model extends CI_Model{
 
     var $table = 'administrator';
     var $column = array('username','email','password');
-    var $order = array('admin_id' => 'desc');
+    var $order = array('id' => 'desc');
 
     public function __construct()
     {
