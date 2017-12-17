@@ -34,7 +34,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 </head>
 
-<body>
+<body style="background-color: lightgrey">
 
 <header>
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -75,9 +75,9 @@
                         <form method="post" action="<?php echo base_url()?>Admin/login_validation">
                             <div class="block" align="center" style="margin-top: 10px">
                                 <div class="form-group">
-                                    <label>Username</label>
-                                    <input type="text" class="form-control" name="username">
-                                    <span class="text-danger"><?php echo form_error('username')?></span>
+                                    <label>E-mail</label>
+                                    <input type="email" class="form-control" name="email" autofocus="autofocus">
+                                    <span class="text-danger"><?php echo form_error('email')?></span>
                                 </div>
                                 <div class="form-group">
                                     <label>Password</label>
