@@ -3,7 +3,7 @@
 class Farmer_model extends CI_Model{
 
     var $table = 'farmer';
-    var $column = array('username','email','password','fname','lname','address','telephone');
+    var $column = array('username','email','password','fname','lname','address');
     var $order = array('id' => 'desc');
 
     public function __construct()

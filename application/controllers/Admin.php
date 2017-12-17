@@ -67,6 +67,10 @@ class Admin extends CI_Controller {
         $this->load->view('admin/farmers');
     }
 
+    function farms(){
+        $this->load->view('admin/farms');
+    }
+
     function volunteers(){
         $this->load->view('admin/volunteers');
     }

@@ -26,7 +26,7 @@
                 </a>
             </li>
             <li>
-                <a class="ayam" href="<?php echo base_url(); ?>Farmer/myfarms">
+                <a class="ayam" href="<?php echo base_url(); ?>Farms/posted_farms">
                     <i class="fa fa-map-marker"></i> <span>My Farms</span>
                 </a>
             </li>

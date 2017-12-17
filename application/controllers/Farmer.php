@@ -102,8 +102,8 @@ class Farmer extends CI_Controller {
         redirect(base_url().'Farmer/login');
     }
 
-    function post_an_event(){
-        $this->load->view('farmer/postEvent');
+    function addFarm(){
+        $this->load->view('farmer/addFarm');
     }
 
     function profile(){
@@ -119,7 +119,7 @@ class Farmer extends CI_Controller {
     }
 
     function contacts(){
-        $this->load->view('farmer/contacts');
+        $this->load->view('farmer/contact');
     }
 
 
