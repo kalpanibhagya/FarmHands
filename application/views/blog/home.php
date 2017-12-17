@@ -85,7 +85,7 @@
 					</li>
 					<li>
 						<div class="banner-bottom-grid">
-							<img src="assets/images/posts/Is-Organic-Farming-the-Future-2.jpg" alt=" " class="img-responsive" />
+							<img src="assets/images/posts/fresh-produce-406.jpg" alt=" " class="img-responsive" />
 							<p>At vero eos et accusamus et iusto odio dignissimos ducimus 
 								qui blanditiis praesentium voluptatum deleniti atque corrupti 
 								quos dolores et quas molestias excepturi sint occaecati
@@ -192,7 +192,7 @@
 						  <ul class="resp-tabs-list">
 							  <li class="resp-tab-item grid1" aria-controls="tab_item-0" role="tab"><span>Popular</span></li>
 							  <li class="resp-tab-item grid2" aria-controls="tab_item-1" role="tab"><span>Recent</span></li>
-							  <li class="resp-tab-item grid3" aria-controls="tab_item-2" role="tab"><span>Comments</span></li>
+							  
 							  <div class="clear"></div>
 						  </ul>				  	 
 							<div class="resp-tabs-container">
@@ -200,7 +200,7 @@
 									<div class="facts">
 									  <div class="tab_list">
 										<a href="images/7-.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
-											<img src="images/7.jpg" alt=" " class="img-responsive" />
+											<img src="assets/images/posts/1.jpg" alt=" " class="img-responsive" />
 										</a>
 									  </div>
 									  <div class="tab_list1">
@@ -212,7 +212,7 @@
 									<div class="facts">
 									   <div class="tab_list">
 										<a href="images/8-.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
-											<img src="images/8.jpg" alt=" " class="img-responsive" />
+											<img src="assets/images/posts/2.jpg" alt=" " class="img-responsive" />
 										</a>
 									  </div>
 									  <div class="tab_list1">
@@ -224,7 +224,7 @@
 									<div class="facts">
 									   <div class="tab_list">
 										<a href="images/9-.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
-											<img src="images/9.jpg" alt=" " class="img-responsive" />
+											<img src="assets/images/posts/3.jpg" alt=" " class="img-responsive" />
 										</a>
 									  </div>
 									  <div class="tab_list1">
@@ -236,7 +236,7 @@
 									<div class="facts">
 									   <div class="tab_list">
 										<a href="images/10-.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
-											<img src="images/10.jpg" alt=" " class="img-responsive" />
+											<img src="assets/images/posts/4.jpg" alt=" " class="img-responsive" />
 										</a>
 									  </div>
 									  <div class="tab_list1">
@@ -250,7 +250,7 @@
 									<div class="facts">
 									  <div class="tab_list">
 										<a href="images/8-.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
-											<img src="images/8.jpg" alt=" " class="img-responsive" />
+											<img src="assets/images/posts/5.jpg" alt=" " class="img-responsive" />
 										</a>
 									  </div>
 									  <div class="tab_list1">
@@ -262,7 +262,7 @@
 									<div class="facts">
 									   <div class="tab_list">
 										<a href="images/9-.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
-											<img src="images/9.jpg" alt=" " class="img-responsive" />
+											<img src="assets/images/posts/6.jpg" alt=" " class="img-responsive" />
 										</a>
 									  </div>
 									  <div class="tab_list1">
@@ -274,7 +274,7 @@
 									<div class="facts">
 									   <div class="tab_list">
 										<a href="images/10-.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
-											<img src="images/10.jpg" alt=" " class="img-responsive" />
+											<img src="assets/images/posts/7.jpg" alt=" " class="img-responsive" />
 										</a>
 									  </div>
 									  <div class="tab_list1">
@@ -286,7 +286,7 @@
 									<div class="facts">
 									   <div class="tab_list">
 										<a href="images/7-.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
-											<img src="images/7.jpg" alt=" " class="img-responsive" />
+											<img src="assets/images/posts/8.jpg" alt=" " class="img-responsive" />
 										</a>
 									  </div>
 									  <div class="tab_list1">
@@ -296,56 +296,7 @@
 									  <div class="clearfix"> </div>
 									</div>
 								</div>
-								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
-									<div class="facts">
-									  <div class="tab_list">
-										<a href="images/9-.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
-											<img src="images/9.jpg" alt=" " class="img-responsive" />
-										</a>
-									  </div>
-									  <div class="tab_list1">
-										<a href="#">excepturi sint occaecati</a>
-										<p>June 30,2015<span>Nam libero tempore, cum soluta nobis.</span></p>
-									  </div>
-									  <div class="clearfix"> </div>
-									</div>
-									<div class="facts">
-									   <div class="tab_list">
-										<a href="images/10-.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
-											<img src="images/10.jpg" alt=" " class="img-responsive" />
-										</a>
-									  </div>
-									  <div class="tab_list1">
-										<a href="#">excepturi sint occaecati</a>
-										<p>June 30,2015<span>Nam libero tempore, cum soluta nobis.</span></p>
-									  </div>
-									  <div class="clearfix"> </div>
-									</div>
-									<div class="facts">
-									   <div class="tab_list">
-										<a href="images/7-.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
-											<img src="images/7.jpg" alt=" " class="img-responsive" />
-										</a>
-									  </div>
-									  <div class="tab_list1">
-										<a href="#">excepturi sint occaecati</a>
-										<p>June 30,2015<span>Nam libero tempore, cum soluta nobis.</span></p>
-									  </div>
-									  <div class="clearfix"> </div>
-									</div>
-									<div class="facts">
-									   <div class="tab_list">
-										<a href="images/8-.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
-											<img src="images/8.jpg" alt=" " class="img-responsive" />
-										</a>
-									  </div>
-									  <div class="tab_list1">
-										<a href="#">excepturi sint occaecati</a>
-										<p>June 30,2015<span>Nam libero tempore, cum soluta nobis.</span></p>
-									  </div>
-									  <div class="clearfix"> </div>
-									</div>
-								</div>
+								
 							</div>
 						 <script src="assets/js/easyResponsiveTabs.js" type="text/javascript"></script>
 							<script type="text/javascript">
@@ -376,22 +327,22 @@
 					<div class="four-fig">
 						<div class="four-fig1">
 							<a href="images/11-.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
-								<img src="images/11.jpg" class="img-responsive" alt=" " />
+								<img src="assets/images/posts/9.jpg" class="img-responsive" alt=" " />
 							</a>
 						</div>
 						<div class="four-fig1">
 							<a href="images/14-.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
-								<img src="images/14.jpg" class="img-responsive" alt=" " />
+								<img src="assets/images/posts/10.jpg" class="img-responsive" alt=" " />
 							</a>
 						</div>
 						<div class="four-fig1">
 							<a href="images/10-.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
-								<img src="images/21.jpg" class="img-responsive" alt=" " />
+								<img src="assets/images/posts/11.jpg" class="img-responsive" alt=" " />
 							</a>
 						</div>
 						<div class="four-fig1">
 							<a href="images/8-.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
-								<img src="images/22.jpg" class="img-responsive" alt=" " />
+								<img src="assets/images/posts/12.jpg" class="img-responsive" alt=" " />
 							</a>
 						</div>
 						<div class="clearfix"> </div>

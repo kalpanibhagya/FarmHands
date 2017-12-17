@@ -551,6 +551,11 @@ top: 15% !important;
 	line-height: 1.8em;
 	text-align: left;
 }
+
+.banner-bottom-grid img{
+	width:460px ;
+	height:250px ;
+}
 .more a{
 	padding: 18px 46px 21px 20px;
 	color: #fff;
@@ -627,6 +632,11 @@ a.sint:before{
 .blog-left-grid-right a:hover{
 	color:#fff;
 	text-decoration:none;
+}
+
+.blog-left-grid img{
+	width:640px ;
+	height:425px;
 }
 a.non:before{
 	background:#F04709;
@@ -765,10 +775,15 @@ ul.tab_list{
 }
 /******** //SAP ************/
 .tab_list{
-	float:left;
+	float:right;
+}
+
+.tab_list img{
+	width:75px ;
+	height:75px ;
 }
 .tab_list1{
-	float:right;
+	float:left;
 	width: 57%;
 }
 .tab_list1 a,.tab_list1 p{
@@ -1456,22 +1471,22 @@ p.lom{
   margin: 0em 0em 4em 0em;
 }
 .advan-cup {
-  background: url(../images/posts/7.jpg) no-repeat 0px 0px;
+  background: url(../images/posts/1.jpg) no-repeat 0px 0px;
   width: 100px;
   height: 90px;
 }
 .advan-ser{
-  background: url(../images/posts/8.jpg) no-repeat 0px 0px;
+  background: url(../images/posts/2.jpg) no-repeat 0px 0px;
   width: 100px;
   height: 90px;
 }
 .advan-mach {
-  background: url(../images/posts/9.jpg) no-repeat 0px 0px;
+  background: url(../images/posts/3.jpg) no-repeat 0px 0px;
   width: 100px;
   height: 90px;
 }
 .advan-tin{
-  background: url(../images/posts/10.jpg) no-repeat 0px 0px;
+  background: url(../images/posts/4.jpg) no-repeat 0px 0px;
   width: 100px;
   height: 90px;
 }
