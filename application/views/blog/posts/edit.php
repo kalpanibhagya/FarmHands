@@ -2,7 +2,7 @@
 
 <?php echo validation_errors(); ?>
 
-<?php echo form_open('/index.php/blog/update'); ?>
+<?php echo form_open('/Blog/update'); ?>
 <input type="hidden" name="id" value="<?php echo $post['id']; ?>">
   <div class="form-group">
     <label>Title</label>
@@ -23,3 +23,6 @@
   
   <button type="submit" class="btn btn-default">Submit</button>
 </form>
+<script>
+      CKEDITOR.replace('editor1');
+    </script>

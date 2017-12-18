@@ -6,7 +6,7 @@
       <div class="col-sm-12 col-md-12">
         <div class="thumbnail">
             <div class="col-md-6">
-          <img src="<?php echo site_url(); ?>assets/images/posts/<?php echo $post['post_image']; ?>" alt="" class="img-responsive" style="width: 100%">
+          <img src="<?php echo site_url(); ?>assets/images/posts/<?php echo $post['post_image']; ?>" alt="" class="img-responsive" style="width: 100%;">
           </div>
 
           <div class="caption">
@@ -14,7 +14,7 @@
              <small class="post-date">Created at<?php echo$post['created'];?> in <strong><?php echo $post['name']; ?></strong></small>
             <p><?php echo word_limiter($post['body'],70); ?></p>
             <div class="btn-toolbar text-center" >
-             <a href="<?php echo site_url('index.php/blog/'.$post['slug']); ?>" class="btn btn-primary">Read More &rarr;</a>
+             <a href="<?php echo site_url('Blog/'.$post['slug']); ?>" class="btn btn-primary">Read More &rarr;</a>
             </div>
           </div>
         </div>

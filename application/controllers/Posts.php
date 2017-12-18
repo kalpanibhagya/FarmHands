@@ -51,7 +51,7 @@ class Posts extends  CI_Controller{
 			$config['allowed_types']='gif|jpg|png';
 			$config['max_size']='2048';
 			//$config['max_width']='500';
-			//$config['max_height']='500';
+			//$config['max_height']='300';
 			$this->load->library('upload',$config);
 
 			if(!$this->upload->do_upload()){
@@ -73,7 +73,7 @@ class Posts extends  CI_Controller{
 	public function delete($id){
 
 		$this->post_model->delete_post($id);
-		redirect('index.php/blog');
+		redirect('/Blog/recent');
 	}
 
     public function edit($slug){
@@ -96,6 +96,6 @@ class Posts extends  CI_Controller{
 
     public function update(){
     	$this->post_model->update_post();
-    	redirect('index.php/blog');
+    	redirect('/Blog/recent');
     }
 }
