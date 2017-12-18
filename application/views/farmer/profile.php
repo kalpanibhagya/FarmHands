@@ -57,7 +57,7 @@
 
             // Load data for the table's content from an Ajax source
             "ajax": {
-                "url": "<?php echo site_url('Company/ajax_list')?>",
+                "url": "<?php echo site_url('Farmer/ajax_list')?>",
                 "type": "POST"
             },
 
@@ -76,7 +76,7 @@
     {
         save_method = 'update';
         save_type = 'farmer';
-        $('#form')[0].reset(); // reset form on modals
+        $('#form_profile')[0].reset(); // reset form on modals
 
         //Ajax Load data from ajax
         $.ajax({
@@ -94,8 +94,8 @@
 
                 //$('[name="logo"]').val(data.logo);
 
-                $('#modal_form').modal('show'); // show bootstrap modal when complete loaded
-                $('.modal-title').text('Edit Username'); // Set title to Bootstrap modal title
+                $('#modal_form_profile').modal('show'); // show bootstrap modal when complete loaded
+                $('.modal-title').text('Edit Profile'); // Set title to Bootstrap modal title
 
             },
             error: function (jqXHR, textStatus, errorThrown)
@@ -142,7 +142,7 @@
 
 
 </script>
-<div class="modal fade" id="modal_form" role="dialog">
+<div class="modal fade" id="modal_form_profile" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -150,37 +150,37 @@
                 <h3 class="modal-title">Company Details Form</h3>
             </div>
             <div class="modal-body form">
-                <form action="#" id="form_details" class="form-horizontal">
+                <form action="#" id="form_profile" class="form-horizontal">
                     <input type="hidden" value="" name="company_id"/>
                     <div class="form-body">
                         <div class="form-group">
                             <label class="control-label col-md-3">Username</label>
                             <div class="col-md-9">
-                                <input name="company_name" class="form-control" type="text">
+                                <input name="username" class="form-control" type="text">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="control-label col-md-3">First Name</label>
                             <div class="col-md-9">
-                                <input name="register_no" class="form-control" type="text">
+                                <input name="fname" class="form-control" type="text">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="control-label col-md-3">Last Name</label>
                             <div class="col-md-9">
-                                <input name="country" class="form-control" type="text">
+                                <input name="lname" class="form-control" type="text">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="control-label col-md-3">Address</label>
                             <div class="col-md-9">
-                                <input name="type" class="form-control" type="text">
+                                <input name="address" class="form-control" type="text">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="control-label col-md-3">Contact Number</label>
                             <div class="col-md-9">
-                                <input name="size" class="form-control" type="text">
+                                <input name="telephone" class="form-control" type="text">
                             </div>
                         </div>
                     </div>

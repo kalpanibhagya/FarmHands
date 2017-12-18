@@ -92,6 +92,35 @@ class Farms extends CI_Controller
         echo json_encode($output);
     }
 
+    public function ajax_list_view_all()
+    {
+        $farms = $this->Farm_model->get_datatables();
+        $data = array();
+        $no = $_POST['start'];
+        foreach ($farms as $farm) {
+            $no++;
+            $row = array();
+            $row[] = $farm->farm_name;
+            $row[] = $farm->location;
+            $row[] = $farm->description;
+            $row[] = $farm->farmer_id;
+
+            //add html for action
+            $row[] = '<a class="btn btn-sm btn-default" href="javascript:void(0)" title="View" onclick="view_person('."'".$farm->id."'".')"><i class="glyphicon glyphicon-file"></i> View</a>';
+
+            $data[] = $row;
+        }
+
+        $output = array(
+            "draw" => $_POST['draw'],
+            "recordsTotal" => $this->Farm_model->count_all(),
+            "recordsFiltered" => $this->Farm_model->count_filtered(),
+            "data" => $data,
+        );
+        //output to json format
+        echo json_encode($output);
+    }
+
     public function ajax_edit($id)
     {
         $data = $this->Farm_model->get_by_id($id);

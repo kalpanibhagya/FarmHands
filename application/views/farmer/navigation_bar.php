@@ -31,7 +31,7 @@
                 </a>
             </li>
             <li>
-                <a class="ayam" href="<?php echo base_url(); ?>Farmers/products">
+                <a class="ayam" href="<?php echo base_url(); ?>Farmer/products">
                     <i class="fa fa-leaf"></i> <span>My Products</span>
                 </a>
             </li>

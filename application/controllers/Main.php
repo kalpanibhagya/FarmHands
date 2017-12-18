@@ -7,4 +7,8 @@ class Main extends CI_Controller {
     {
         $this->load->view('Home');
     }
+
+    public function view_products(){
+        $this->load->view('products');
+    }
 }

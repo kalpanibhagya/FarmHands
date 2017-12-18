@@ -36,15 +36,16 @@
                 </a>
             </li>
             <li>
+                <a class = "ayam" href="<?php echo base_url(); ?>Admin/products">
+                    <i class="fa fa-suitcase"></i> <span>Products</span>
+                </a>
+            </li>
+            <li>
                 <a class = "ayam" href="<?php echo base_url(); ?>Admin/volunteers">
                     <i class="fa fa-users"></i> <span>Volunteers</span>
                 </a>
             </li>
-            <li>
-                <a class = "ayam" href="<?php echo base_url(); ?>Admin/notifications">
-                    <i class="fa fa-bell"></i> <span>Notifications</span>
-                </a>
-            </li>
+
         </ul>
     </section>
     <!-- /.sidebar -->

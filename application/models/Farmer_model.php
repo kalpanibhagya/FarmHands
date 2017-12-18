@@ -101,6 +101,15 @@ class Farmer_model extends CI_Model{
         return $query->row();
     }
 
+    function get_by_email($email)
+    {
+        $this->db->from($this->table);
+        $this->db->where('email',$email);
+        $query = $this->db->get();
+
+        return $query->row();
+    }
+
     public function save($data)
     {
         $this->db->insert($this->table, $data);
