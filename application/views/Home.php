@@ -88,7 +88,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#getstarted">Getting Started</a></li>
                     <li><a href="<?php echo base_url(); ?>Farms">Farms</a></li>
-                    <li><a href="http://localhost/products/Farmer/view_products">Products</a></li>
+                    <li><a href="<?php echo base_url(); ?>Main/view_products">Products</a></li>
                 </ul>
                 <form class="navbar-form navbar-right" action="#" method="post">
                     <a class="btn btn-primary" href="<?php echo base_url(); ?>Volunteer" role="button">For Volunteers</a>

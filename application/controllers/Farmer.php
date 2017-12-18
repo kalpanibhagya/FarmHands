@@ -118,6 +118,14 @@ class Farmer extends CI_Controller {
         $this->load->view('farmer/volunteers');
     }
 
+    function otherfarms(){
+        $this->load->view('farmer/otherfarms');
+    }
+
+    function products(){
+        $this->load->view('farmer/myproducts');
+    }
+
     function contacts(){
         $this->load->view('farmer/contact');
     }
