@@ -1,23 +1,24 @@
-
 <div class="container">
-	<div class="single-page-artical">
-	<h2><?=$title ?></h2>
+  
+  <h2><?=$title ?></h2>
 <?php foreach($posts as $post) : ?>
-	<h3><?php echo $post['title']; ?></h3>
-	<div class="row">
-		<div class="col-md-3">
-			<img class="post-thumb thumbnail" src="<?php echo site_url(); ?>assets/images/posts/<?php echo $post['post_image']; ?>">
-			
-		</div>
-		<div class="col-md-9">
-			<small class="post-date">Created at<?php echo$post['created'];?> in <strong><?php echo $post['name']; ?></strong></small>
-	        <br>
-	        <p><?php echo word_limiter($post['body'],60); ?></p>
-	        <br>
-	        <p><a class="btn btn-default" href="<?php echo site_url('index.php/blog/'.$post['slug']); ?>">Read more</a></p>
-		</div>
-		
-	</div>
-<?php endforeach; ?>
-</div>
+<div class="container thumbs">
+      <div class="col-sm-12 col-md-12">
+        <div class="thumbnail">
+            <div class="col-md-6">
+          <img src="<?php echo site_url(); ?>assets/images/posts/<?php echo $post['post_image']; ?>" alt="" class="img-responsive" style="width: 100%">
+          </div>
+
+          <div class="caption">
+            <h3><?php echo $post['title']; ?></h3>
+             <small class="post-date">Created at<?php echo$post['created'];?> in <strong><?php echo $post['name']; ?></strong></small>
+            <p><?php echo word_limiter($post['body'],70); ?></p>
+            <div class="btn-toolbar text-center" >
+             <a href="<?php echo site_url('index.php/blog/'.$post['slug']); ?>" class="btn btn-primary">Read More &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <?php endforeach; ?>
 </div>

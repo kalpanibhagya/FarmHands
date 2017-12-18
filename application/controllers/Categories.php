@@ -29,7 +29,7 @@ class Categories extends CI_Controller
 		}else{
 			//$this->load->view('include/bloghead',$data);
 			$this->Category_model->create_category();
-			redirect('FarmHands/Blog');
+			redirect('/Blog');
 
 			
 		}

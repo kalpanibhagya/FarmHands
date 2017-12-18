@@ -4,7 +4,7 @@
   
   
 </head>
-
+<body>
 <div class="container">
   <div class="single-page-artical">
 <h2><?=$title; ?></h2>
@@ -38,4 +38,8 @@
 </form>
 </div>
 </div>
+<script>
+      CKEDITOR.replace('editor1');
+    </script>
+</body>
 </html>

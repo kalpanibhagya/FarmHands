@@ -12,7 +12,7 @@ class Posts extends  CI_Controller{
 		$this->load->view('blog/include/bloghead');
 		
 		$this->load->view('blog/posts/index',$data);
-		$this->load->view('blog/include/blogfoot');
+		//$this->load->view('blog/include/blogfoot');
 	}
 
 	public function view($slug=NULL){
@@ -28,7 +28,7 @@ class Posts extends  CI_Controller{
 		$this->load->view('blog/include/bloghead');
 		
 		$this->load->view('blog/posts/view',$data);
-		$this->load->view('blog/include/blogfoot');
+		//$this->load->view('blog/include/blogfoot');
 	}
 
 	public function create(){
@@ -47,11 +47,11 @@ class Posts extends  CI_Controller{
 		}else{
 			//upload image]
 
-			$config['upload_path']='./assests/images/posts';
+			$config['upload_path']='./assets/images/posts';
 			$config['allowed_types']='gif|jpg|png';
-			$config['max_size']='./assests/images/posts';
-			$config['max_width']='2048';
-			$config['max_height']='500';
+			$config['max_size']='2048';
+			//$config['max_width']='500';
+			//$config['max_height']='500';
 			$this->load->library('upload',$config);
 
 			if(!$this->upload->do_upload()){
@@ -90,7 +90,7 @@ class Posts extends  CI_Controller{
 
 		$this->load->view('blog/include/bloghead');
 		$this->load->view('blog/posts/edit',$data);
-		$this->load->view('blog/include/blogfoot');
+		//$this->load->view('blog/include/blogfoot');
 
     }
 

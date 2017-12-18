@@ -2699,4 +2699,8 @@ p.lom{
 	.login-grids {
 	  padding: 1.5em 0 0;
 	}
+	.card-img-top{
+		max-width: 100%;
+		height:auto;
+	}
 }	
