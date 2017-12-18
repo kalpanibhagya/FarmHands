@@ -22,11 +22,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
    <script src="http://cdn.ckeditor.com/4.7.3/standard/ckeditor.js"></script>
 
- <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="assets/css/style1.css" rel="stylesheet" type="text/css" media="all" />
-<link href="assets/css/style5.css" rel="stylesheet" type="text/css" media="all" />
+ <link href="<?=base_url()?>assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="<?=base_url()?>assets/css/style1.css" rel="stylesheet" type="text/css" media="all" />
+<link href="<?=base_url()?>assets/css/style5.css" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
-<script src="assets/js/jquery-1.11.1.min.js"></script>
+<script src="<?=base_url()?>assets/js/jquery-1.11.1.min.js"></script>
 <!-- //js -->
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="assets/js/move-top.js"></script>
@@ -68,9 +68,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 						 <ul class="nav navbar-nav">
 							<li class="hvr-bounce-to-bottom active"><a href="<?php echo base_url();?>Blog">Blog</a></li>
-							<li class="hvr-bounce-to-bottom"><a href="about.html">About</a></li>
+							<li class="hvr-bounce-to-bottom"><a href="<?php echo base_url();?>Blog/about">About</a></li>
 							<li class="hvr-bounce-to-bottom"><a href="<?php echo base_url();?>Blog/posts/create">Create Post</a></li>
-							<li class="hvr-bounce-to-bottom"><a href="<?php echo base_url(); ?>Blog/categories/create">Create Category</a></li>
+							<li class="hvr-bounce-to-bottom"><a href="<?php echo base_url();?>Blog/categories/create">Create Category</a></li>
 							<li class="hvr-bounce-to-bottom"><a href="<?php echo base_url(); ?>Blog/recent">Recent Posts</a></li>
 						  </ul>
 						  <div class="sign-in">

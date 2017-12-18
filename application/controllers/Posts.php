@@ -64,7 +64,7 @@ class Posts extends  CI_Controller{
 
 			}
 			$this->post_model->create_post($post_image);
-			redirect('index.php/blog');
+			redirect('/blog');
 		}
 
 		
