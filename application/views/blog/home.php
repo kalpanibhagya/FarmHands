@@ -1,4 +1,4 @@
-<h2>This is <?=$content ?> page</h2>
+
 
 
 <!-- //header -->
@@ -42,25 +42,22 @@
 					<ul class="rslides" id="slider3">
 						<li>
 							<div class="banner-inf">
-								<h3>soluta nobis est eligendi cumque</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lobortis, ante interdum vehicula pretium, dui enim porta
-								lectus, non euismod tortor ante eu libero</p>
+								<h3>Volunteer On Organic Farms</h3>
+								<p>FarmHands is a group of young volunteers who are interested and working in organic agriculture in Sri Lanka.</p>
 								<a href="<?php echo base_url();?>Blog/single">See More</a>
 							</div>
 						</li>
 						<li>
 							<div class="banner-inf">
-								<h3>euismod nobis est eligendi cumque</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lobortis, ante interdum vehicula pretium, dui enim porta
-								lectus, non euismod tortor ante eu libero</p>
-								<a href="<?php echo base_url();?>Blog/about">See More</a>
+								<h3>Volunteer On Organic Farms</h3>
+								<p>FarmHands is a group of young volunteers who are interested and working in organic agriculture in Sri Lanka.</p>
+								<a href="<?php echo base_url();?>Blog/single">See More</a>
 							</div>
 						</li>
 						<li>
 							<div class="banner-inf">
-								<h3>tortor nobis est eligendi cumque</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lobortis, ante interdum vehicula pretium, dui enim porta
-								lectus, non euismod tortor ante eu libero</p>
+								<h3>Volunteer On Organic Farms</h3>
+								<p>FarmHands is a group of young volunteers who are interested and working in organic agriculture in Sri Lanka.</p>
 								<a href="<?php echo base_url();?>Blog/single">See More</a>
 							</div>
 						</li>

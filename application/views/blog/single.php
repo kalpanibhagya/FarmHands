@@ -46,11 +46,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- single -->
 	<div class="single-page-artical">
 		<div class="artical-content">
-			<h3>Lorem Ipsum is simply dummy text</h3>
+			<h3 style="text-align: center;">Volunteer On Organic Farms</h3>
 			<img class="img-responsive" src="<?php echo base_url(); ?>assets/images/posts/Is-Organic-Farming-the-Future-2.jpg" alt="hh " />
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>FarmHands is a group of young volunteers who are interested and working in organic agriculture in Sri Lanka. We wish to provide opportunities for volunteers all around the world to learn about organic farming, food and ways of life in Sri Lanka. In doing so we hope to bring people together in sharing common human values and thinking.
+			FarmHands also seek to provide helping hands to farmers in Sri Lanka who engage themselves in and promote organic agriculture within the country.WWOOFLK is an exchange programme to volunteer help in exchange for food, accommodation and learning.
+			</p>
+			<p>
+				Sri Lanka is a country with a very rich history in agriculture which runs more than 2500 years back. Therefore, many local farmers still hold a great deal of knowledge on sustainable agricultural practices which were both tradition and culture. Until the late 1960s the agriculture of the country was completely based on organic mechanisms.
+				Although the Green Revolution enforced towards the late 1960s sought to convert the agriculture of the country in to the chemical based model of agribusiness there still exist a large number of organizations and farmers who are practicing and promoting organic agriculture successfully. WWOOFLK has close linkages with 05 national level organizations and farmer movements who promote organic agriculture island wide. We also have individual farmer members who engage themselves in organic agriculture too. The experiences can be varied from large scale organic farming to small scale home gardening. From vegetable cultivations to paddy cultivation and mixed cropping too.
+				We will offer a unique opportunity for volunteers to experience these farming methods and the culture and living styles of the rural farmers in Sri Lanka.
+			</p>
 		</div>
 		<div class="artical-links">
 			<ul>
@@ -61,37 +66,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<li><a href="#"><small class="link"> </small><span>permalink</span></a></li>
 			</ul>
 		</div>
-		<div class="comment-grid-top">
-			<h3>Responses</h3>
-			<div class="comments-top-top">
-				<div class="top-comment-left">
-					<a href="#"><img class="img-responsive" src="images/co.png" alt=""></a>
-				</div>
-				<div class="top-comment-right">
-					<ul>
-						<li><span class="left-at"><a href="#">Admin</a></span></li>
-						<li><span class="right-at">June 30, 2015 at 10.30am</span></li>
-						<li><a class="reply" href="#">REPLY</a></li>
-					</ul>
-				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less </p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="comments-top-top top-grid-comment">
-				<div class="top-comment-left">
-					<a href="#"><img class="img-responsive" src="images/co.png" alt=""></a>
-				</div>
-				<div class="top-comment-right">
-					<ul>
-						<li><span class="left-at"><a href="#">Admin</a></li>
-						<li><span class="right-at">June 30, 2015 at 10.30am</span></li>
-						<li><a class="reply" href="#">REPLY</a></li>
-					</ul>
-				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less </p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>			
+		
+				
 		<div class="artical-commentbox">
 			<h3>leave a comment</h3>
 			<div class="table-form">

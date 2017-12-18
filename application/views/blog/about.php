@@ -44,85 +44,39 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <h3>About Us</h3>
             </div>  
             <div class="about-info">
-                <h4>Lorem Ipsum is not simply random text. It has roots in a piece of classical</h4>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised 
-                    words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+                <h4>Volunteer On Organic Farms</h4>
+                <p><b>Want to live and learn on organic farms? Want to share your life with other like-minded people? 
+
+Farm_Hands is a island wide community linking volunteers with organic farmers and growers to promote cultural and educational experiences based on trust and non-monetary exchange, thereby helping to build a sustainable community. 
+
+As a volunteer, you will live alongside a farmer helping with daily tasks and experiencing life as a farmer. As a farmer you will receive visitors from your own district or another who want to connect with the land and support the organic movement. As a volunteer house you can share your house with volunteers from all around the country.</b> </p>
                 <div class="col-md-5 about-info-left">
-                    <img src="images/10-.jpg" alt=""/>
+                    <img src="<?php echo base_url(); ?>assets/images/posts/Fat_Cabbage_Farm.jpg" alt=""/>
                 </div>
                 <div class="col-md-7 about-info-right">
-                    <h4>piece of classical Lorem Ipsum </h4>
-                    <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'
-                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <span>by injected humour,  to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, 
-                    or randomised words which don't look even slightly believable.Lorem Ipsum available, but the majority</span> have suffered alteration in some form, by injected humour.</p>
+                    <h4>How It Works</h4>
+                    <p><b>Farm Hands enables people to live and learn by volunteering on a variety of organic properties. Volunteers stay and help on the land and home for 4-6 hours a day either and home or away and hosts provide the food and accommodation. If you want to have hands on experience, learn and share organic and sustainable ways of living then Farm Hands might be for you.</b></p>
                 </div>
                 <div class="clearfix"> </div>
                 
             </div>
             <div class="about-grid">
-                <div class="col-md-4 about-text-info">
-                    <h4>Development</h4>
-                    <h5>nobis est eligendi optio cumque nihil</h5>
-                    <p class="about-pgh">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,  to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum </p>
+                <div class="col-md-6 about-text-info">
+                    <h4>Volunterrs</h4>
+                    <h5>Willing To Volunteer?</h5>
+                    <p class="about-pgh"><b>Usually you live with your host and are expected to join in and cooperate with the day to day activities. In most countries the exchange is based on 4-6 hours help-fair exchange for a full day’s food and accommodation.</b></p>
                 </div>
-                <div class="col-md-4 about-text-info">
-                    <h4>Our Skills</h4>
-                    <h5>repudiandae sint et molestiae</h5>
-                    <p class="about-pgh">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, to generate Lorem Ipsum which looks reasonable or randomised.</p>
+                <div class="col-md-6 about-text-info">
+                    <h4>Hosts</h4>
+                    <h5>Looking For Volunteers?</h5>
+                    <p class="about-pgh"><b>If you have a farm, smallholding, garden, allotment, vineyard or woodland and follow organic or sustainability principles, you might consider opening your home to FarmHands.</b></p>
                 </div>
-                <div class="col-md-4 about-text-info">
-                    <h4>Careers</h4>
-                    <h5>consequatur aut perferendis doloribus</h5>
-                    <p class="about-pgh">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some to generate Lorem Ipsum which looks reasonable.</p>
-                </div>
+                
                 <div class="clearfix"> </div>
             </div>
-            <div class="about-team">
-                <div class="about-text">
-                    <h3 class="ind">Our Professionals</h3>
-                </div>  
-                <div class="row">
-                    <div class="col-sm-6 col-md-3 about-team-grids">
-                        <div class="thumbnail">
-                            <img src="images/15.jpg" alt="" class="img-responsive" />
-                            <div class="caption">
-                                <h4><a href="#">Eligendieos</a></h4>
-                                <p>vero eos et accusamus et iusto odio dignissimos ducimus</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3 about-team-grids">
-                        <div class="thumbnail">
-                            <img src="images/16.jpg" alt="" class="img-responsive" />
-                            <div class="caption">
-                                <h4><a href="#">Dignissimos</a></h4>
-                                <p>vero eos et accusamus et iusto odio dignissimos ducimus</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3 about-team-grids">
-                        <div class="thumbnail">
-                            <img src="images/17.jpg" alt="" class="img-responsive" />
-                            <div class="caption">
-                                <h4><a href="#">Accusamus Et Iusto</a></h4>
-                                <p>vero eos et accusamus et iusto odio dignissimos ducimus</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3 about-team-grids">
-                        <div class="thumbnail">
-                            <img src="images/18.jpg" alt=""class="img-responsive" />
-                            <div class="caption">
-                                <h4><a href="#">Dignissimos Ducimus</a></h4>
-                                <p>vero eos et accusamus et iusto odio dignissimos ducimus</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clearfix"> </div>
-                </div>
-            </div>
+            
             <div class="advantages">
-                <h3>Our Advantages</h3>
+                <h3>Our Goals</h3>
                 <div class="advantag-main">
                     <div class="advan-top">
                         <div class="col-md-6 advantage-left">
@@ -130,8 +84,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 
                             </div>
                              <div class="col-md-8 advan-text">
-                                    <h4><a href="single.html">There are variations passage</a></h4>
-                                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete</p>
+                                    <h4><a href="single.html">Increase the number of organic farms in Sri Lanka</a></h4>
+                                    <p>100 Organic Farms Campaign to activate, promote and support farmers in their transition and education to become certified organic.</p>
                              </div> 
                           <div class="clearfix"> </div>
                         </div>
@@ -140,8 +94,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 
                             </div>
                              <div class="col-md-8 advan-text">
-                                    <h4><a href="single.html">There are variations passage</a></h4>
-                                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete</p>
+                                    <h4><a href="single.html">Increase income from organic farms</a></h4>
+                                    <p>Support and/or invest in two food infrastructure businesses that will help farmers thrive.</p>
                              </div> 
                           <div class="clearfix"> </div>
                         </div>
@@ -153,8 +107,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 
                             </div>
                              <div class="col-md-8 advan-text">
-                                    <h4><a href="single.html">There are variations passage</a></h4>
-                                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete</p>
+                                    <h4><a href="single.html">Increase the percent of organic foods</a></h4>
+                                    <p>Develop three formal partnerships with public and medical health agencies.</p>
                              </div> 
                           <div class="clearfix"> </div>
                         </div>
@@ -163,8 +117,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 
                             </div>
                              <div class="col-md-8 advan-text">
-                                    <h4><a href="single.html">There are variations passage</a></h4>
-                                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete</p>
+                                    <h4><a href="single.html">Motivate young generation on organic farming</a></h4>
+                                    <p>Provide training and education programs to school nutrition staff to increase local food procurement by schools and school districts.</p>
                              </div> 
                           <div class="clearfix"> </div>
                         </div>

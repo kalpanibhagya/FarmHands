@@ -1,16 +1,16 @@
 <div class="container">
   <div class="single-page-artical">
     <div class="artical-content">
-  <h2><?php echo $post['title']; ?></h2>
-  <small class="post-date">Posted at:<?php echo$post['created'];?></small><br>
+  <h3 style="text-align: center;"><?php echo $post['title']; ?></h3>
+  <!--<small class="post-date">Posted at:<?php echo$post['created'];?></small><br>-->
   <img class="img-responsive" src="<?php echo site_url(); ?>assets/images/posts/<?php echo $post['post_image']; ?>">
   <div class="post-body">
 	<?php echo $post['body']; ?>
   </div>
   
-  <a class="btn btn-default pull-left" href="<?=base_url()?>Blog/edit/<?php echo $post['slug']; ?>">Edit</a>
+  <a class="btn btn-danger pull-left" href="<?=base_url()?>Blog/edit/<?php echo $post['slug']; ?>">Edit</a>
   <?php echo form_open('/Blog/delete/'.$post['id']); ?>
-    <input type="submit" value="delete" class="btn btn-danger">
+    <input type="submit" value="delete" class="btn btn-danger" style="margin-left: 3%">
   </form>
 </div>
 <div class="artical-links">
