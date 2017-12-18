@@ -71,34 +71,25 @@
 					<li>
 						<div class="banner-bottom-grid">
 							<img src="assets/images/posts/people-organic-farming.jpg" alt=" " class="img-responsive" />
-							<p>At vero eos et accusamus et iusto odio dignissimos ducimus 
-								qui blanditiis praesentium voluptatum deleniti atque corrupti 
-								quos dolores et quas molestias excepturi sint occaecati
-								cupiditate non provident</p>
+							<p>A newly launched modern farming company, Bowery, is growing what they call the world’s first “post-organic” produce. Their concept breaks from traditional agricultural practices by growing plants indoors in</p>
 							<div class="more">
-								<a href="single.html" class="hvr-bounce-to-bottom sint">Read More</a>
+								<a href="<?php echo base_url();?>Blog/post1" class="hvr-bounce-to-bottom sint">Read More</a>
 							</div>
 						</div>
 					</li>
 					<li>
 						<div class="banner-bottom-grid">
 							<img src="assets/images/posts/fresh-produce-406.jpg" alt=" " class="img-responsive" />
-							<p>At vero eos et accusamus et iusto odio dignissimos ducimus 
-								qui blanditiis praesentium voluptatum deleniti atque corrupti 
-								quos dolores et quas molestias excepturi sint occaecati
-								cupiditate non provident</p>
+							<p>Organic farming system in India is not new and is being followed from ancient time. It is a method of farming system which primarily aimed at cultivating the land and raising crops in  </p>
 							<div class="more">
-								<a href="single.html" class="hvr-bounce-to-bottom sint">Read More</a>
+								<a href="<?php echo base_url();?>Blog/post2" class="hvr-bounce-to-bottom sint">Read More</a>
 							</div>
 						</div>
 					</li>
 					<li>
 						<div class="banner-bottom-grid">
 							<img src="assets/images/posts/Fat_Cabbage_Farm.jpg" alt=" " class="img-responsive" />
-							<p>At vero eos et accusamus et iusto odio dignissimos ducimus 
-								qui blanditiis praesentium voluptatum deleniti atque corrupti 
-								quos dolores et quas molestias excepturi sint occaecati
-								cupiditate non provident</p>
+							<p>As per the definition of the United States Department of Agriculture (USDA) study team on organic farming “organic farming is a system which avoids or largely excludes in</p>
 							<div class="more">
 								<a href="single.html" class="hvr-bounce-to-bottom sint">Read More</a>
 							</div>
@@ -143,11 +134,9 @@
 							<h3><a href="single.html">voluptates repudiandae sint non recusandae</a></h3>
 							<p>by <span>Charlie</span> | June 29,2015 | <span>Sint</span></p>
 						</div>
-						<div class="blog-left-grid-right">
-							<a href="#" class="hvr-bounce-to-bottom non">20 Comments</a>
-						</div>
+						
 						<div class="clearfix"> </div>
-						<a href="single.html"><img src="assets/images/posts/Picture 011.jpg" alt=" " class="img-responsive" /></a>
+						<a href=""><img src="assets/images/posts/Picture 011.jpg" alt=" " class="img-responsive" /></a>
 						<p class="para"> Itaque earum rerum hic tenetur a sapiente delectus, 
 							ut aut reiciendis voluptatibus maiores alias consequatur aut 
 							perferendis doloribus asperiores repellat.Et harum quidem rerum 
@@ -157,7 +146,7 @@
 							est, omnis dolor repellendus. Temporibus autem quibusdam et 
 							aut officiis debitis.</p>
 						<div class="rd-mre">
-							<a href="single.html" class="hvr-bounce-to-bottom quod">Read More</a>
+							<a href="<?php echo base_url();?>Blog/post3" class="hvr-bounce-to-bottom quod">Read More</a>
 						</div>
 					</div>
 					<div class="blog-left-grid">
@@ -165,11 +154,9 @@
 							<h3><a href="single.html">voluptates repudiandae sint non recusandae</a></h3>
 							<p>by <span>Charlie</span> | June 29,2015 | <span>Sint</span></p>
 						</div>
-						<div class="blog-left-grid-right">
-							<a href="#" class="hvr-bounce-to-bottom non">40 Comments</a>
-						</div>
+						
 						<div class="clearfix"> </div>
-						<a href="single.html"><img src="assets/images/posts/organic_fruits_and_vegetables.jpg" alt=" " class="img-responsive" /></a>
+						<a href=""><img src="assets/images/posts/organic_fruits_and_vegetables.jpg" alt=" " class="img-responsive" /></a>
 						<p class="para"> Itaque earum rerum hic tenetur a sapiente delectus, 
 							ut aut reiciendis voluptatibus maiores alias consequatur aut 
 							perferendis doloribus asperiores repellat.Et harum quidem rerum 
@@ -179,7 +166,7 @@
 							est, omnis dolor repellendus. Temporibus autem quibusdam et 
 							aut officiis debitis.</p>
 						<div class="rd-mre">
-							<a href="single.html" class="hvr-bounce-to-bottom quod">Read More</a>
+							<a href="<?php echo base_url();?>Blog/post4" class="hvr-bounce-to-bottom quod">Read More</a>
 						</div>
 					</div>
 				</div>
@@ -196,13 +183,13 @@
 								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
 									<div class="facts">
 									  <div class="tab_list">
-										<a href="images/7-.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+										<a href="" class="b-link-stripe b-animate-go   swipebox"  title="">
 											<img src="assets/images/posts/1.jpg" alt=" " class="img-responsive" />
 										</a>
 									  </div>
 									  <div class="tab_list1">
-										<a href="#">excepturi sint occaecati</a>
-										<p>June 30,2015 <span>Nam libero tempore, cum soluta nobis.</span></p>
+										<a href="<?php echo base_url();?>Blog/post4">Organic Farming</a>
+										<p><b>June 30,2015 <span>Organic farming system in India</span></b></p>
 									  </div>
 									  <div class="clearfix"> </div>
 									</div>
@@ -213,8 +200,8 @@
 										</a>
 									  </div>
 									  <div class="tab_list1">
-										<a href="#">excepturi sint occaecati</a>
-										<p>June 30,2015<span>Nam libero tempore, cum soluta nobis.</span></p>
+										<a href="<?php echo base_url();?>Blog/post2">Volunteering</a>
+										<p><b>June 30,2015<span>As per the definition of the </span></b></p>
 									  </div>
 									  <div class="clearfix"> </div>
 									</div>
@@ -225,8 +212,8 @@
 										</a>
 									  </div>
 									  <div class="tab_list1">
-										<a href="#">excepturi sint occaecati</a>
-										<p>June 30,2015<span>Nam libero tempore, cum soluta nobis.</span></p>
+										<a href="<?php echo base_url();?>Blog/post3">Organic Products</a>
+										<p><b>June 30,2015<span>FAO suggested that “Organic agriculture</span></b></p>
 									  </div>
 									  <div class="clearfix"> </div>
 									</div>
@@ -237,8 +224,8 @@
 										</a>
 									  </div>
 									  <div class="tab_list1">
-										<a href="#">excepturi sint occaecati</a>
-										<p>June 30,2015<span>Nam libero tempore, cum soluta nobis.</span></p>
+										<a href="<?php echo base_url();?>Blog/post1">Organic Foods</a>
+										<p><b>June 30,2015<span>With the increase in population </span></b></p>
 									  </div>
 									  <div class="clearfix"> </div>
 									</div>
@@ -251,8 +238,8 @@
 										</a>
 									  </div>
 									  <div class="tab_list1">
-										<a href="#">excepturi sint oooooo</a>
-										<p>June 30,2015<span>Nam libero tempore, cum soluta nobis.</span></p>
+										<a href="<?php echo base_url();?>Blog/post4">Organic Farming</a>
+										<p><b>June 30,2015<span>FAO suggested that “Organic agriculture</span></b></p>
 									  </div>
 									  <div class="clearfix"> </div>
 									</div>
@@ -263,8 +250,8 @@
 										</a>
 									  </div>
 									  <div class="tab_list1">
-										<a href="#">excepturi sint occaecati</a>
-										<p>June 30,2015<span>Nam libero tempore, cum soluta nobis.</span></p>
+										<a href="<?php echo base_url();?>Blog/post2">Organic Foods</a>
+										<p><b>June 30,2015<span>With the increase in population </span></b></p>
 									  </div>
 									  <div class="clearfix"> </div>
 									</div>
@@ -275,8 +262,8 @@
 										</a>
 									  </div>
 									  <div class="tab_list1">
-										<a href="#">excepturi sint occaecati</a>
-										<p>June 30,2015<span>Nam libero tempore, cum soluta nobis.</span></p>
+										<a href="<?php echo base_url();?>Blog/post1">Organic Products</a>
+										<p><b>June 30,2015<span>>As per the definition of the </span></b></p>
 									  </div>
 									  <div class="clearfix"> </div>
 									</div>
@@ -287,8 +274,8 @@
 										</a>
 									  </div>
 									  <div class="tab_list1">
-										<a href="#">excepturi sint occaecati</a>
-										<p>June 30,2015<span>Nam libero tempore, cum soluta nobis.</span></p>
+										<a href="<?php echo base_url();?>Blog/post4">Volunteering</a>
+										<p><b>June 30,2015<span>Nam libero tempore, cum soluta nobiOrganic farming system in India.</span></b></p>
 									  </div>
 									  <div class="clearfix"> </div>
 									</div>
@@ -344,17 +331,7 @@
 						</div>
 						<div class="clearfix"> </div>
 					</div>
-					<div class="pgs">
-						<h3>Pages</h3>
-						<ul>
-							<li><a href="#">doloribus asperiores repellat</a></li>
-							<li><a href="#">Itaque earum rerum hic tenetur</a></li>
-							<li><a href="#">deserunt mollitia laborum et dolorum</a></li>
-							<li><a href="#">facilis est et expedita distinctio</a></li>
-							<li><a href="#">occaecati cupiditate non provident</a></li>
-							<li><a href="#">deserunt mollitia laborum et dolorum</a></li>
-						</ul>
-					</div>
+					
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -403,38 +380,12 @@
 						<li><a href="#">deserunt mollitia laborum</a></li>
 					</ul>
 				</div>
-				<div class="col-md-3 footer-grid">
-					<h3>Flckr Posts</h3>
-					<div class="footer-grd">
-						<img src="images/7.jpg" class="img-responsive" alt=" " />
-					</div>
-					<div class="footer-grd">
-						<img src="images/8.jpg" class="img-responsive" alt=" " />
-					</div>
-					<div class="footer-grd">
-						<img src="images/9.jpg" class="img-responsive" alt=" " />
-					</div>
-					<div class="clearfix"> </div>
-					<div class="footer-grd">
-						<img src="images/10.jpg" class="img-responsive" alt=" " />
-					</div>
-					<div class="footer-grd">
-						<img src="images/7.jpg" class="img-responsive" alt=" " />
-					</div>
-					<div class="footer-grd">
-						<img src="images/8.jpg" class="img-responsive" alt=" " />
-					</div>
-					<div class="clearfix"> </div>
-				</div>
+				
 				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
-	<div class="footer-bottom">
-		<div class="container">
-			<p>© 2015 Quickly. All rights reserved | Design by <a href="http://w3layouts.com/"> W3layouts</a></p>
-		</div>
-	</div>
+	
 <!-- //footer -->
 <!-- for bootstrap working -->
 		<script src="assets/js/bootstrap.js"> </script>
