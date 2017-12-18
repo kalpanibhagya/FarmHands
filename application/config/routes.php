@@ -16,3 +16,4 @@ $route['Blog/about']='blog/about';
 $route['Blog/(:any)']='posts/view/$1';
 $route['Blog/delete/(:any)']='posts/delete/$1';
 $route['Blog/edit/(:any)']='posts/edit/$1';
+//$route['comments/create/(:any)']='comments/create/$1';

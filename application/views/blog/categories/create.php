@@ -1,5 +1,5 @@
 <div class="container">
-	<div class="single-page-artical">
+	
 		<h2><?=$title;?></h2>
 		<?php echo validation_errors();?>
 		<?php echo form_open_multipart('index.php/categories/create'); ?>
@@ -9,6 +9,6 @@
 			</div>
 				<button type="submit" class="btn btn-default">Submit</button>
 		</form>
-	</div>			
+			
 </div>
 	

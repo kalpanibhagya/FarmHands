@@ -6,7 +6,7 @@
 </head>
 <body>
 <div class="container">
-  <div class="single-page-artical">
+  
 <h2><?=$title; ?></h2>
 
 
@@ -37,7 +37,7 @@
   <button type="submit" class="btn btn-default">Submit</button>
 </form>
 </div>
-</div>
+
 <script>
       CKEDITOR.replace('editor1');
     </script>

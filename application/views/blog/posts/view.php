@@ -8,7 +8,7 @@
 	<?php echo $post['body']; ?>
   </div>
   
-  <a class="btn btn-default pull-left" href="edit/<?php echo $post['slug']; ?>">Edit</a>
+  <a class="btn btn-default pull-left" href="<?=base_url()?>Blog/edit/<?php echo $post['slug']; ?>">Edit</a>
   <?php echo form_open('/Blog/delete/'.$post['id']); ?>
     <input type="submit" value="delete" class="btn btn-danger">
   </form>
@@ -24,45 +24,33 @@
     </div>
     <div class="comment-grid-top">
       <h3>Responses</h3>
-      <div class="comments-top-top">
-        <div class="top-comment-left">
-          <a href="#"><img class="img-responsive" src="images/co.png" alt=""></a>
+      <br>
+      <?php if ($comments): ?>
+        <?php foreach ($comments as $comment):?> 
+            <div class="well">
+          <h5><?php echo $comment['body'];?>[by  <strong><?php echo $comment['name'];?></strong>]</h5>
         </div>
-        <div class="top-comment-right">
-          <ul>
-            <li><span class="left-at"><a href="#">Admin</a></span></li>
-            <li><span class="right-at">June 30, 2015 at 10.30am</span></li>
-            <li><a class="reply" href="#">REPLY</a></li>
-          </ul>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less </p>
-        </div>
-        <div class="clearfix"> </div>
-      </div>
-      <div class="comments-top-top top-grid-comment">
-        <div class="top-comment-left">
-          <a href="#"><img class="img-responsive" src="images/co.png" alt=""></a>
-        </div>
-        <div class="top-comment-right">
-          <ul>
-            <li><span class="left-at"><a href="#">Admin</a></li>
-            <li><span class="right-at">June 30, 2015 at 10.30am</span></li>
-            <li><a class="reply" href="#">REPLY</a></li>
-          </ul>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less </p>
-        </div>
-        <div class="clearfix"> </div>
-      </div>
+        <?php endforeach; ?>
+      
+      <?php else: ?>
+        <p>No Comments to Display</p>
+      <?php endif; ?>
+      
+     
     </div>      
     <div class="artical-commentbox">
       <h3>leave a comment</h3>
+      <?php echo validation_errors(); ?>
       <div class="table-form">
-        <form>
-          <input type="text" class="textbox" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-          <input type="text" class="textbox" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
-          <input type="text" class="textbox" value="Phone number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone number';}">
-          <textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea> 
-          <input type="submit" value="Send">
+        <?php echo form_open('comments/create/'.$post['id']);?>
+        <div class="form-group">
+          <input type="text" class="textbox" name="Name" placeholder="Name">
+          <input type="text" class="textbox" name="Email" placeholder="email">
+          <textarea name="Message" placeholder="Message"></textarea> 
+          <input type="hidden" name="slug" value="<?php echo $post['slug'];?>">
+          <input class="btn btn-primary" type="submit" value="Send">
         </form>
+      </div>
       </div>
     </div>  
   </div>

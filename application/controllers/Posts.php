@@ -17,7 +17,8 @@ class Posts extends  CI_Controller{
 
 	public function view($slug=NULL){
 		$data['post']=$this->post_model->get_posts($slug);
-
+		$post_id=$data['post']['id'];
+		$data['comments']=$this->comment_model->get_comments($post_id);
 		if (empty($data['post'])) {
 			# code...
 			show_404();
@@ -64,7 +65,7 @@ class Posts extends  CI_Controller{
 
 			}
 			$this->post_model->create_post($post_image);
-			redirect('/blog');
+			redirect('/Blog/recent');
 		}
 
 		

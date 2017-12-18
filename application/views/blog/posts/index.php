@@ -12,7 +12,7 @@
           <div class="caption">
             <h3><?php echo $post['title']; ?></h3>
              <small class="post-date">Created at<?php echo$post['created'];?> in <strong><?php echo $post['name']; ?></strong></small>
-            <p><?php echo word_limiter($post['body'],70); ?></p>
+            <p><?php echo word_limiter($post['body'],50); ?></p>
             <div class="btn-toolbar text-center" >
              <a href="<?php echo site_url('Blog/'.$post['slug']); ?>" class="btn btn-primary">Read More &rarr;</a>
             </div>
