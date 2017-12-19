@@ -135,6 +135,23 @@
                                     <input type="text" class="form-control" name="telephone">
                                     <span class="text-danger"><?php echo form_error('telephone')?></span>
                                 </div>
+                                <div class="form-group">
+                                    <label>Description</label>
+                                    <textarea name="description" class="form-control" rows="5" placeholder="Description about your self"></textarea>
+                                    <span class="text-danger"><?php echo form_error('description')?></span>
+                                </div>
+                                <br/>
+                                <p>* Enter your available duration for volunteering. From adding this details, it will be easy for the farms to find volunteers. If you are not sure about the available duration please enter an estimated duration.</p>
+                                <div class="form-group">
+                                    <label>From</label>
+                                    <input type="date" class="form-control" name="available_from">
+                                    <span class="text-danger"><?php echo form_error('available_from')?></span>
+                                </div>
+                                <div class="form-group">
+                                    <label>To</label>
+                                    <input type="date" class="form-control" name="available_to">
+                                    <span class="text-danger"><?php echo form_error('available_to')?></span>
+                                </div>
                             </div>
                             <div class="form-group text-center">
                                 <input style="margin-bottom: 10px" type="submit" class="btn btn-primary" name="Join Now" value="Join now">
