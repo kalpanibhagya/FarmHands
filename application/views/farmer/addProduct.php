@@ -73,23 +73,23 @@
                 <div class="panel panel-default">
                     <div class="panel-body">
 
-                        <form method="post" action="<?php echo base_url() ?>Farms/farm_validation">
+                        <form method="post" action="<?php echo base_url() ?>Products/product_validation">
 
                             <div class="floating-box">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <label for="name">Farm Name</label>
-                                        <input type="text" class="form-control" id="name" name="farm_name"
-                                               placeholder="Farm Name" required="">
+                                        <label for="name">Product Name</label>
+                                        <input type="text" class="form-control" id="name" name="product_name"
+                                               placeholder="Product Name" required="">
                                     </div>
                                     <div class="form-group">
-                                        <label for="salary">Location</label>
-                                        <input type="text" class="form-control" id="location" name="location"
-                                               placeholder="Eg: Anuradhapura" required="">
+                                        <label for="salary">Quantity (kg)</label>
+                                        <input type="text" class="form-control" id="location" name="quantity"
+                                               placeholder="Quantity" required="">
                                     </div>
                                     <div class="form-group">
-                                        <label for="registerNo">Description</label>
-                                        <textarea class="form-control" id="location" name="description" rows="8"
+                                        <label for="registerNo">Price (Rs.)</label>
+                                        <textarea class="form-control" id="location" name="price" rows="8"
                                                   required=""></textarea>
                                     </div>
 

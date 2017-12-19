@@ -130,6 +130,10 @@ class Volunteer_model extends CI_Model{
         }
         return $results;
     }
+
+    public function volunteers_pdf(){
+        return $this->db->get('volunteer')->result();
+    }
 }
 
 ?>

@@ -138,6 +138,10 @@ class Farmer_model extends CI_Model{
         }
         return $results;
     }
+
+    public function farmers_pdf(){
+        return $this->db->get('farmer')->result();
+    }
 }
 
 ?>

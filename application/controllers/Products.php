@@ -13,13 +13,13 @@ class Products extends CI_Controller
         $this->load->model('Products_model');
     }
 
-    function posted_farms(){
-        $farmer_id = $this->session->userdata('id');
-        $result['farms'] = $this->Products_model->getPostedFarms($farmer_id);
-        $this->load->view('farmer/myfarms',$result);
+    function posted_products(){
+        $farmerID = $this->session->userdata('id');
+        $result['products'] = $this->Products_model->getPostedProducts(1);
+        $this->load->view('farmer/myproducts',$result);
     }
 
-    function deleteFarm($id){
+    function deleteProduct($id){
 
         $this->Products_model->deleteFarm($id);
         redirect('farmer/dashboard');
@@ -31,23 +31,20 @@ class Products extends CI_Controller
         $this->load->model('Products_model');
         $list = $this->Products_model->get_datatables();
         $data = array();
-
-        $email = $this->session->userdata['email'];
+        echo $data;
+        $email = $this->session->userdata('email');
 
         $this->load->model('Farmer_model');
         $data1 = $this->Farmer_model->get_data($email);
 
         $id = $data1['id'];
-
-
-        echo $data1['id'];
+        echo $data1;
         $no = $_POST['start'];
         foreach ($list as $product) {
             if ($id == $product->farmer_id)
             {
                 $no++;
                 $row = array();
-                //$row[] = $academic->id;
                 $row[] = $product->farm_name;
                 $row[] = $product->quantity;
                 $row[] = $product->price;
@@ -64,8 +61,8 @@ class Products extends CI_Controller
 
         $output = array(
             "draw" => $_POST['draw'],
-            "recordsTotal" => $this->Academic->count_all(),
-            "recordsFiltered" => $this->Academic->count_filtered(),
+            "recordsTotal" => $this->Products_model->count_all(),
+            "recordsFiltered" => $this->Products_model->count_filtered(),
             "data" => $data,
         );
         //output to json format
@@ -99,6 +96,37 @@ class Products extends CI_Controller
         //output to json format
         echo json_encode($output);
     }
+
+    public function ajax_list_admin()
+    {
+        $products = $this->Products_model->get_datatables();
+        $data = array();
+        $no = $_POST['start'];
+        foreach ($products as $product) {
+            $no++;
+            $row = array();
+            $row[] = $product->product_name;
+            $row[] = $product->quantity;
+            $row[] = $product->price;
+
+            //add html for action
+            $row[] = '<a class="btn btn-sm btn-primary" href="javascript:void(0)" title="Edit" onclick="edit_person('."'".$product->id."'".')"><i class="glyphicon glyphicon-pencil"></i> Edit</a>
+            <a class="btn btn-sm btn-danger" href="javascript:void(0)" title="Delete" onclick="delete_person('."'".$product->id."'".')"><i class="glyphicon glyphicon-trash"></i> Delete</a>
+            <a class="btn btn-sm btn-default" href="javascript:void(0)" title="View" onclick="view_person('."'".$product->id."'".')"><i class="glyphicon glyphicon-file"></i> View</a>';
+
+            $data[] = $row;
+        }
+
+        $output = array(
+            "draw" => $_POST['draw'],
+            "recordsTotal" => $this->Products_model->count_all(),
+            "recordsFiltered" => $this->Products_model->count_filtered(),
+            "data" => $data,
+        );
+        //output to json format
+        echo json_encode($output);
+    }
+
 
     public function ajax_list_view_all()
     {
@@ -138,9 +166,9 @@ class Products extends CI_Controller
     public function ajax_add()
     {
         $data = array(
-            'farm_name' => $this->input->post('produt_name'),
-            'location' => $this->input->post('quantity'),
-            'description' => $this->input->post('price'),
+            'product_name' => $this->input->post('product_name'),
+            'quantity' => $this->input->post('quantity'),
+            'price' => $this->input->post('price'),
             'farmer_id' => $this->input->post('farmer_id'),
         );
         $insert = $this->Products_model->save($data);
@@ -150,9 +178,9 @@ class Products extends CI_Controller
     public function ajax_update()
     {
         $data = array(
-            'farm_name' => $this->input->post('farm_name'),
-            'location' => $this->input->post('location'),
-            'description' => $this->input->post('description'),
+            'product_name' => $this->input->post('product_name'),
+            'quantity' => $this->input->post('quantity'),
+            'price' => $this->input->post('price'),
             'farmer_id' => $this->input->post('farmer_id'),
 
         );

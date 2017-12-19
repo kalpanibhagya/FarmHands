@@ -87,8 +87,8 @@
                 <ul class="nav navbar-nav navbar-left">
                     <li><a href="#about">About</a></li>
                     <li><a href="#getstarted">Getting Started</a></li>
-                    <li><a href="<?php echo base_url(); ?>Farms">Farms</a></li>
-                    <li><a href="<?php echo base_url(); ?>Main/view_products">Products</a></li>
+                    <li><a href="<?php echo base_url(); ?>Farms" target="_blank">Farms</a></li>
+                    <li><a href="<?php echo base_url(); ?>Main/view_products" target="_blank">Products</a></li>
                 </ul>
                 <form class="navbar-form navbar-right" action="#" method="post">
                     <a class="btn btn-primary" href="<?php echo base_url(); ?>Volunteer" role="button">For Volunteers</a>
@@ -111,7 +111,7 @@
         <div class="item active" style="background-image: url('<?php echo base_url(); ?>assets/images/farm.jpg')">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 style="font-size: xx-large">Web Portal to build an Organic Farming Volunteering Community Sri Lanka</h1>
+                    <h1 style="font-size: xx-large">Web Portal to build an Organic Farming & Volunteering Community Sri Lanka</h1>
                     <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>Volunteer" role="button">Sign up as a Volunteer</a></p>
                 </div>
             </div>
@@ -119,7 +119,7 @@
         <div class="item" style="background-image: url('<?php echo base_url(); ?>assets/images/4.jpg')">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 style="font-size: xx-large">Web Portal to build an Organic Farming Volunteering Community Sri Lanka</h1>
+                    <h1 style="font-size: xx-large">Web Portal to build an Organic Farming & Volunteering Community Sri Lanka</h1>
                     <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>Farmer" role="button">Sign up as a Farmer</a></p>
                 </div>
             </div>
@@ -127,7 +127,7 @@
         <div class="item" style="background-image: url('<?php echo base_url(); ?>assets/images/rice.jpg')">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 style="font-size: xx-large">Web Portal to build an Organic Farming Volunteering Community Sri Lanka</h1>
+                    <h1 style="font-size: xx-large">Web Portal to build an Organic Farming & Volunteering Community Sri Lanka</h1>
                     <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>Volunteer" role="button">Sign up as a Volunteer</a></p>
                 </div>
             </div>
@@ -135,8 +135,7 @@
         <div class="item" style="background-image: url('<?php echo base_url(); ?>assets/images/3.jpg')">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 style="font-size: xx-large">Farm_Hands</h1>
-                    <p style="font-size: large">Web Portal to make a Organic Farming Volunteering Community Sri Lanka</p>
+                    <h1 style="font-size: xx-large">Web Portal to build an Organic Farming & Volunteering Community Sri Lanka</h1>
                     <p><a class="btn btn-lg btn-primary" href="<?php echo base_url(); ?>Farmer" role="button">Sign up as a Farmer</a></p>
                 </div>
             </div>

@@ -3,7 +3,7 @@
 class Farm_model extends CI_Model
 {
     var $table = 'farms';
-    var $column = array('farm_name','location','description','farmer_id');
+    var $column = array('id','farm_name','location','description','farmer_id');
     var $order = array('id' => 'desc');
 
     public function __construct()
@@ -112,5 +112,9 @@ class Farm_model extends CI_Model
             $results = $query->result();
         }
         return $results;
+    }
+
+    public function farms_pdf(){
+        return $this->db->get('farms')->result();
     }
 }

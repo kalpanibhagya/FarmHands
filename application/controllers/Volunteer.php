@@ -240,4 +240,9 @@ class Volunteer extends CI_Controller {
         $this->load->view('farmer/view_volunteers', $data);
     }
 
+    public function farms()
+    {
+        $this->load->view('volunteer/farms');
+    }
+
 }

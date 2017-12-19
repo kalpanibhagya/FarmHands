@@ -15,6 +15,7 @@
 
 <div class = "row">
     <button class="btn btn-success" onclick="add_person()" title="Add new Farm"><i class="glyphicon glyphicon-plus"></i> Add New Farm</button>
+    <a class="btn btn-warning" href="<?php echo base_url();?>Pdf_Generator/farms" target="_blank" title="Generate Report"><i class="glyphicon glyphicon-book"></i> Generate Report</a>
     <br />
     <br />
     <table id="table" class="table table-striped table-bordered" cellspacing="0" width="100%">

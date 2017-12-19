@@ -7,14 +7,13 @@ class testing extends CI_Controller
     public function __construct()
     {
         parent::__construct();
-        $this->load->model('Admin_model');
+        $this->load->library('Pdf');
+        $this->load->model('Farmer_model');
     }
 
     public function index(){
-        $this->load->library('Pdf');
-        $email = $this->session->userdata('email');
-        $this->load->view('makepdf',$email);
-
+        $data['farmers'] = $this->Farmer_model->farmers_pdf();
+        $this->load->view('makepdf',$data);
 
     }
 
