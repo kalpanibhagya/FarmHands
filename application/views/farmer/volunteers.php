@@ -21,8 +21,8 @@
             <th>Email</th>
             <th>First Name</th>
             <th>Last Name</th>
-            <th>Address</th>
-            <th>Contact Number</th>
+            <th>Available From(Date)</th>
+            <th>Available To(Date)</th>
             <th style="width:189px;">Action</th>
         </tr>
         </thead>

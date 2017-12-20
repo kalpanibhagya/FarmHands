@@ -25,18 +25,26 @@ class Volunteer extends CI_Controller {
         $this->form_validation->set_rules('lname', 'First Name', 'required');
         $this->form_validation->set_rules('address', 'Address', 'required');
         $this->form_validation->set_rules('telephone', 'Telephone', 'required');
+        $this->form_validation->set_rules('description', 'Description', 'required');
+        $this->form_validation->set_rules('available_from', 'From', 'required');
+        $this->form_validation->set_rules('available_to', 'To', 'required');
+        //$this->form_validation->set_rules('telephone', 'Telephone', 'required');
+
 
 
         if($this->form_validation->run()){
             $this->load->model('Volunteer_model');
             $data = array(
                 'username' => $this->input->post('username'),
-                'password' => $this->input->post('password'),
+                'password' => base64_encode(strrev(md5($this->input->post('password')))),
                 'email' => $this->input->post('email'),
                 'fname' => $this->input->post('fname'),
                 'lname' => $this->input->post('lname'),
                 'address' => $this->input->post('address'),
-                'telephone' => $this->input->post('telephone')
+                'telephone' => $this->input->post('telephone'),
+                'description' => $this->input->post('description'),
+                'available_from' => $this->input->post('available_from'),
+                'available_to' => $this->input->post('available_to'),
             );
 
             $this->Volunteer_model->insert_data($data);
@@ -70,7 +78,7 @@ class Volunteer extends CI_Controller {
             //true
 
             $email = $this->input->post('email');
-            $password = $this->input->post('password');
+            $password = base64_encode(strrev(md5($this->input->post('password'))));
 
             $this->load->model('Volunteer_model');
             if ($this->Volunteer_model->can_login($email, $password)){
@@ -167,8 +175,8 @@ class Volunteer extends CI_Controller {
             $row[] = $person->email;
             $row[] = $person->fname;
             $row[] = $person->lname;
-            $row[] = $person->address;
-            $row[] = $person->telephone;
+            $row[] = $person->available_from;
+            $row[] = $person->available_to;
 
             //add html for action
             $row[] = '<a class="btn btn-sm btn-default" href="javascript:void(0)" title="View" onclick="view_person('."'".$person->id."'".')"><i class="glyphicon glyphicon-file"></i> View</a>';
@@ -238,6 +246,11 @@ class Volunteer extends CI_Controller {
 
         $data['output'] = $this->Volunteer_model->get_by_id_view($id);
         $this->load->view('farmer/view_volunteers', $data);
+    }
+
+    public function farms()
+    {
+        $this->load->view('volunteer/farms');
     }
 
 }

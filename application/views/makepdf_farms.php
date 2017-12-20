@@ -84,21 +84,17 @@ $pdf->Ln(8);
 
 $table = '<table style="border: 1px solid black">';
 $table .= '<tr style="background-color: lightgrey">
-            <th style="border: 1px solid black">Username</th>
-            <th style="border: 1px solid black">Email</th>
-            <th style="border: 1px solid black">First Name</th>
-            <th style="border: 1px solid black">Last Name</th>
-            <th style="border: 1px solid black">Address</th>
-            <th style="border: 1px solid black">Contact Number</th>
+            <th style="border: 1px solid black">Farm Name</th>
+            <th style="border: 1px solid black">Location</th>
+            <th style="border: 1px solid black">Description</th>
+            <th style="border: 1px solid black">Farmer ID</th>
             </tr>';
-foreach ($farmers as $record){
+foreach ($farms as $record){
     $table .= '<tr>
-                <td style="border: 1px solid black">'.$record->username.'</td>
-                <td style="border: 1px solid black">'.$record->email.'</td>
-                <td style="border: 1px solid black">'.$record->fname.'</td>
-                <td style="border: 1px solid black">'.$record->lname.'</td>
-                <td style="border: 1px solid black">'.$record->address.'</td>
-                <td style="border: 1px solid black">'.$record->telephone.'</td>
+                <td style="border: 1px solid black">'.$record->farm_name.'</td>
+                <td style="border: 1px solid black">'.$record->location.'</td>
+                <td style="border: 1px solid black">'.$record->description.'</td>
+                <td style="border: 1px solid black">'.$record->farmer_id.'</td>
                 </tr>';
 }
 $table .= '</table>';
@@ -108,7 +104,7 @@ $pdf->writeHTML($table, true, false, true, false, '');
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ob_clean();
-$pdf->Output('farmers_report.pdf', 'I');
+$pdf->Output('farms_report.pdf', 'I');
 //============================================================+
 // END OF FILE
 //============================================================+

@@ -52,6 +52,12 @@ class Products_model extends CI_Model
         return $query->result();
     }
 
+    public function getPostedProducts($farmer_id){
+        $query = $this->db->query("select id, product_name, quantity, price from products where farmer_id = '$farmer_id'");
+        $result = $query->result();
+        return $result;
+    }
+
     function count_filtered()
     {
         $this->_get_datatables_query();

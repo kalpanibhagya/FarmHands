@@ -22,7 +22,6 @@
         <tr>
             <th>Username</th>
             <th>Email</th>
-            <th>Password</th>
             <th style="width:189px;">Action</th>
         </tr>
         </thead>

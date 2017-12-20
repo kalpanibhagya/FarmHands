@@ -86,6 +86,13 @@ class Farmer extends CI_Controller {
         }
     }
 
+    function posted_farms(){
+        $farmer_id = $this->session->userdata('id');
+        $this->load->model('Farm_model');
+        $result['farms'] = $this->Farm_model->getPostedFarms($farmer_id);
+        $this->load->view('farmer/myfarms',$result);
+    }
+
     function enter(){
         if ($this->session->userdata('email') != ''){
             $email = $this->session->userdata('email');
@@ -106,6 +113,10 @@ class Farmer extends CI_Controller {
         $this->load->view('farmer/addFarm');
     }
 
+    function addProduct(){
+        $this->load->view('farmer/addProduct');
+    }
+
     function profile(){
         $email = $this->session->userdata('email');
         $this->load->model('Farmer_model');
@@ -120,10 +131,6 @@ class Farmer extends CI_Controller {
 
     function otherfarms(){
         $this->load->view('farmer/otherfarms');
-    }
-
-    function products(){
-        $this->load->view('farmer/myproducts');
     }
 
     function contacts(){

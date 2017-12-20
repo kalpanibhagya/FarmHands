@@ -12,7 +12,7 @@ class Farms extends CI_Controller
         $this->load->library('session');
         $this->load->model('Farm_model');
     }
-/*
+
     public function index()
     {
         $this->load->library('googlemaps');
@@ -20,17 +20,37 @@ class Farms extends CI_Controller
         $data['map'] = $this->googlemaps->create_map();
         $this->load->view('farms',$data);
     }
-*/
+
+
+    public function farm_validation()
+    {
+        $this->load->library('form_validation');
+        $this->form_validation->set_rules('farm_name', 'Farm Name', 'required');
+        $this->form_validation->set_rules('location', 'Location', 'require');
+        $this->form_validation->set_rules('description', 'Description', 'required');
+        if ($this->form_validation->run()) {
+            $this->load->model('Farm_model');
+            $data = array(
+                'farm_name' => $this->input->post('farm_name'),
+                'location' => $this->input->post('location'),
+                'description' => $this->input->post('description'),
+            );
+
+            $this->Farm_model->insert_farm_data($data);
+            redirect(base_url() . 'Farmer/addFarm');
+        }
+    }
+
     function posted_farms(){
         $farmer_id = $this->session->userdata('id');
-        $result['farms'] = $this->Farm_model->getPostedFarms($farmer_id);
+        $result['farms'] = $this->Farm_model->getPostedFarms(1);
         $this->load->view('farmer/myfarms',$result);
     }
 
     function deleteFarm($id){
 
         $this->Farm_model->deleteFarm($id);
-        redirect('farmer/dashboard');
+        redirect('farmer/enter');
 
     }
 

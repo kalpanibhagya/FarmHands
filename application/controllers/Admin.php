@@ -85,7 +85,6 @@ class Admin extends CI_Controller {
             $row = array();
             $row[] = $person->username;
             $row[] = $person->email;
-            $row[] = $person->password;
 
             //add html for action
             $row[] = '<a class="btn btn-sm btn-primary" href="javascript:void(0)" title="Edit" onclick="edit_person('."'".$person->id."'".')"><i class="glyphicon glyphicon-pencil"></i> Edit</a>
@@ -143,6 +142,10 @@ class Admin extends CI_Controller {
 
         $data['output'] = $this->Admin_model->get_by_id_view($id);
         $this->load->view('admin/view_addAdmin', $data);
+    }
+
+    function products(){
+        $this->load->view('admin/products');
     }
 }
 ?>

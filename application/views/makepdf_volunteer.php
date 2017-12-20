@@ -91,7 +91,7 @@ $table .= '<tr style="background-color: lightgrey">
             <th style="border: 1px solid black">Address</th>
             <th style="border: 1px solid black">Contact Number</th>
             </tr>';
-foreach ($farmers as $record){
+foreach ($volunteers as $record){
     $table .= '<tr>
                 <td style="border: 1px solid black">'.$record->username.'</td>
                 <td style="border: 1px solid black">'.$record->email.'</td>
@@ -108,7 +108,7 @@ $pdf->writeHTML($table, true, false, true, false, '');
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ob_clean();
-$pdf->Output('farmers_report.pdf', 'I');
+$pdf->Output('volunteers_report.pdf', 'I');
 //============================================================+
 // END OF FILE
 //============================================================+

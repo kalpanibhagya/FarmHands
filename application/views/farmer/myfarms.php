@@ -29,7 +29,6 @@
             <th>Location</th>
             <th>Description</th>
             <th style="width:189px;">Action</th>
-            <th style="width:189px;">Action</th>
         </tr>
         </thead>
         <tbody>
@@ -57,14 +56,6 @@
                 <a href="<?php echo base_url() ?>Farms/deleteFarm/<?php echo $farm->id ?>" title="Delete"
                    data-confirm="Are you sure?" data-method="post">
                     <!--span class="glyphicon glyphicon-remove"></span--><button type="submit" class="btn btn-danger">DELETE</button></a>
-
-                <?php echo "</td>";
-
-                echo "<td>"; ?>
-
-                <a href="<?php echo base_url() ?>Farms/deleteFarm/<?php echo $farm->id ?>" title="Selection"
-                   data-confirm="Are you sure?" data-method="post">
-                    <button type="submit" class="btn btn-success">SELECTION</button></a>
 
                 <?php echo "</td>";
                 echo "</tr>";
