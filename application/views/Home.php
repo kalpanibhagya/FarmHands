@@ -87,7 +87,7 @@
                 <ul class="nav navbar-nav navbar-left">
                     <li><a href="#about">About</a></li>
                     <li><a href="#getstarted">Getting Started</a></li>
-                    <li><a href="<?php echo base_url(); ?>Farms" target="_blank">Farms</a></li>
+                    <li><a href="<?php echo base_url(); ?>Farm" target="_blank">Farms</a></li>
                     <li><a href="<?php echo base_url(); ?>Main/view_products" target="_blank">Products</a></li>
                 </ul>
                 <form class="navbar-form navbar-right" action="#" method="post">
